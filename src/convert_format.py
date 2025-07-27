@@ -8,6 +8,7 @@ def clean(arg):
     if arg.isdigit(): return int(arg)
     if arg == 'FALSE': return False
     if arg == 'TRUE': return True
+    if arg == 'None': return None
     return arg
 
 def main():

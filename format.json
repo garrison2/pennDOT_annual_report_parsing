@@ -10,47 +10,54 @@
    "Consolidated Agencies": ""
   },
   "categories": {
+   "Name": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
    "Square Miles": [
     "Square Miles",
-    100,
-    357,
-    220,
-    225
+    null,
+    null,
+    null,
+    null
    ],
    "Population": [
     "Population",
-    100,
-    357,
-    230,
-    235
+    null,
+    null,
+    null,
+    null
    ],
    "Total Passengers": [
     "Total Passengers",
-    100,
-    357,
-    420,
-    425
+    null,
+    null,
+    null,
+    null
    ],
    "Senior Passengers": [
     "Senior Passengers",
-    100,
-    357,
-    435,
-    440
+    null,
+    null,
+    null,
+    null
    ],
    "Revenue Vehicle Miles": [
     "Revenue Vehicle Miles",
-    100,
-    377,
-    455,
-    456
+    null,
+    null,
+    null,
+    null
    ],
    "Revenue Vehicle Hours": [
     "Revenue Vehicle Hours",
-    100,
-    377,
-    456,
-    460
+    null,
+    null,
+    null,
+    null
    ],
    "Section 1513 Allocation": [
     "",
@@ -68,10 +75,10 @@
    ],
    "Motor Bus": [
     "Fixed Route",
-    100,
-    250,
-    340,
-    350
+    null,
+    null,
+    null,
+    null
    ],
    "Commuter Rail Cars": [
     "",
@@ -103,38 +110,38 @@
    ],
    "Paratransit Vehicles": [
     "Paratransit",
-    100,
-    250,
-    355,
-    360
+    null,
+    null,
+    null,
+    null
    ],
    "System-wide": [
     "Systemwide",
-    100,
-    250,
-    365,
-    370
+    null,
+    null,
+    null,
+    null
    ],
    "Fixed Route Base": [
     "Fixed Route Base",
-    250,
-    600,
-    340,
-    350
+    null,
+    null,
+    null,
+    null
    ],
    "Fixed Route Avg": [
     "Fixed Route Avg",
-    250,
-    600,
-    355,
-    360
+    null,
+    null,
+    null,
+    null
    ],
    "Last Base Fare Increase": [
     "Last Base Fare Increase",
-    250,
-    600,
-    365,
-    370
+    null,
+    null,
+    null,
+    null
    ],
    "System-wide Increase": [
     "",
@@ -145,59 +152,59 @@
    ],
    "Fixed Route Full": [
     "Fixed Route Full",
-    350,
-    600,
-    410,
-    420
+    null,
+    null,
+    null,
+    null
    ],
    "Fixed Route Part Time": [
     "Fixed Route Part Time",
-    350,
-    600,
-    410,
-    420
+    null,
+    null,
+    null,
+    null
    ],
    "Paratransit Full": [
     "Paratransit Full",
-    350,
-    600,
-    425,
-    430
+    null,
+    null,
+    null,
+    null
    ],
    "Paratransit Part Time": [
     "Paratransit Part Time",
-    350,
-    600,
-    425,
-    430
+    null,
+    null,
+    null,
+    null
    ],
    "Systemwide Full": [
     "Systemwide Full",
-    350,
-    600,
-    435,
-    445
+    null,
+    null,
+    null,
+    null
    ],
    "Systemwide Part Time": [
     "Systemwide Part Time",
-    350,
-    600,
-    435,
-    445
+    null,
+    null,
+    null,
+    null
    ],
    "Operating Expense": [
     "TOTAL OPERATING EXPENSE",
-    100,
-    357,
-    500,
-    520
+    null,
+    null,
+    null,
+    null
    ],
    "Operating Funds": [
     "TOTAL OPERATING FUNDS",
-    350,
-    600,
-    500,
-    520
+    null,
+    null,
+    null,
+    null
    ]
   }
  },
@@ -212,68 +219,75 @@
    "Consolidated Agencies": ""
   },
   "categories": {
+   "Name": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
    "Square Miles": [
     "Square Miles",
-    100,
-    357,
-    200,
-    205
+    null,
+    null,
+    null,
+    null
    ],
    "Population": [
     "Population",
-    100,
-    357,
-    220,
-    225
+    null,
+    null,
+    null,
+    null
    ],
    "Total Passengers": [
     "Total Passengers",
-    100,
-    320,
-    265,
-    270
+    null,
+    null,
+    null,
+    null
    ],
    "Senior Passengers": [
     "Senior Passengers",
-    100,
-    320,
-    275,
-    280
+    null,
+    null,
+    null,
+    null
    ],
    "Revenue Vehicle Miles": [
     "Revenue Vehicle Miles",
-    100,
-    320,
-    285,
-    295
+    null,
+    null,
+    null,
+    null
    ],
    "Revenue Vehicle Hours": [
     "Revenue Vehicle Hours",
-    100,
-    320,
-    300,
-    305
+    null,
+    null,
+    null,
+    null
    ],
    "Section 1513 Allocation": [
     "Operating Assistance",
-    100,
-    300,
-    360,
-    365
+    null,
+    null,
+    null,
+    null
    ],
    "Required Local Match": [
     "Required Local Match",
-    100,
-    300,
-    370,
-    380
+    null,
+    null,
+    null,
+    null
    ],
    "Motor Bus": [
     "Fixed Route",
-    100,
-    300,
-    425,
-    430
+    null,
+    null,
+    null,
+    null
    ],
    "Commuter Rail Cars": [
     "",
@@ -305,38 +319,38 @@
    ],
    "Paratransit Vehicles": [
     "Paratransit",
-    100,
-    300,
-    435,
-    440
+    null,
+    null,
+    null,
+    null
    ],
    "System-wide": [
     "System-wide",
-    100,
-    300,
-    445,
-    450
+    null,
+    null,
+    null,
+    null
    ],
    "Fixed Route Base": [
     "Fixed Route Base",
-    360,
-    600,
-    360,
-    365
+    null,
+    null,
+    null,
+    null
    ],
    "Fixed Route Avg": [
     "Fixed Route Avg",
-    355,
-    600,
-    370,
-    375
+    null,
+    null,
+    null,
+    null
    ],
    "Last Base Fare Increase": [
     "Last Base Fare Increase",
-    355,
-    600,
-    380,
-    390
+    null,
+    null,
+    null,
+    null
    ],
    "System-wide Increase": [
     "",
@@ -347,59 +361,59 @@
    ],
    "Fixed Route Full": [
     "Fixed Route Full",
-    350,
-    600,
-    430,
-    432
+    null,
+    null,
+    null,
+    null
    ],
    "Fixed Route Part Time": [
     "Fixed Route Part Time",
-    350,
-    600,
-    430,
-    432
+    null,
+    null,
+    null,
+    null
    ],
    "Paratransit Full": [
     "Paratransit Full",
-    350,
-    600,
-    435,
-    440
+    null,
+    null,
+    null,
+    null
    ],
    "Paratransit Part Time": [
     "Paratransit Part Time",
-    350,
-    600,
-    435,
-    440
+    null,
+    null,
+    null,
+    null
    ],
    "Systemwide Full": [
     "Systemwide Full",
-    350,
-    600,
-    443,
-    445
+    null,
+    null,
+    null,
+    null
    ],
    "Systemwide Part Time": [
     "Systemwide Part Time",
-    350,
-    600,
-    443,
-    445
+    null,
+    null,
+    null,
+    null
    ],
    "Operating Expense": [
     "OPERATING EXPENSE",
-    50,
-    407,
-    525,
-    559
+    null,
+    null,
+    null,
+    null
    ],
    "Operating Funds": [
     "OPERATING FUNDS",
-    300,
-    600,
-    525,
-    559
+    null,
+    null,
+    null,
+    null
    ]
   }
  },
@@ -414,68 +428,75 @@
    "Consolidated Agencies": ""
   },
   "categories": {
+   "Name": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
    "Square Miles": [
     "Square Miles",
-    100,
-    357,
-    200,
-    205
+    null,
+    null,
+    null,
+    null
    ],
    "Population": [
     "Population",
-    100,
-    357,
-    220,
-    225
+    null,
+    null,
+    null,
+    null
    ],
    "Total Passengers": [
     "Total Passengers",
-    100,
-    320,
-    265,
-    270
+    null,
+    null,
+    null,
+    null
    ],
    "Senior Passengers": [
     "Senior Passengers",
-    100,
-    320,
-    275,
-    280
+    null,
+    null,
+    null,
+    null
    ],
    "Revenue Vehicle Miles": [
     "Revenue Vehicle Miles",
-    100,
-    320,
-    285,
-    295
+    null,
+    null,
+    null,
+    null
    ],
    "Revenue Vehicle Hours": [
     "Revenue Vehicle Hours",
-    100,
-    320,
-    300,
-    305
+    null,
+    null,
+    null,
+    null
    ],
    "Section 1513 Allocation": [
     "Operating Assistance",
-    100,
-    300,
-    360,
-    365
+    null,
+    null,
+    null,
+    null
    ],
    "Required Local Match": [
     "Required Local Match",
-    100,
-    300,
-    370,
-    380
+    null,
+    null,
+    null,
+    null
    ],
    "Motor Bus": [
     "Fixed Route",
-    100,
-    300,
-    425,
-    430
+    null,
+    null,
+    null,
+    null
    ],
    "Commuter Rail Cars": [
     "",
@@ -507,38 +528,38 @@
    ],
    "Paratransit Vehicles": [
     "Paratransit",
-    100,
-    300,
-    435,
-    440
+    null,
+    null,
+    null,
+    null
    ],
    "System-wide": [
     "System-wide",
-    100,
-    300,
-    445,
-    450
+    null,
+    null,
+    null,
+    null
    ],
    "Fixed Route Base": [
     "Fixed Route Base",
-    360,
-    600,
-    360,
-    365
+    null,
+    null,
+    null,
+    null
    ],
    "Fixed Route Avg": [
     "Fixed Route Avg",
-    355,
-    600,
-    370,
-    375
+    null,
+    null,
+    null,
+    null
    ],
    "Last Base Fare Increase": [
     "Last Base Fare Increase",
-    355,
-    600,
-    380,
-    390
+    null,
+    null,
+    null,
+    null
    ],
    "System-wide Increase": [
     "",
@@ -549,59 +570,59 @@
    ],
    "Fixed Route Full": [
     "Fixed Route Full",
-    350,
-    600,
-    430,
-    432
+    null,
+    null,
+    null,
+    null
    ],
    "Fixed Route Part Time": [
     "Fixed Route Part Time",
-    350,
-    600,
-    430,
-    432
+    null,
+    null,
+    null,
+    null
    ],
    "Paratransit Full": [
     "Paratransit Full",
-    350,
-    600,
-    435,
-    440
+    null,
+    null,
+    null,
+    null
    ],
    "Paratransit Part Time": [
     "Paratransit Part Time",
-    350,
-    600,
-    435,
-    440
+    null,
+    null,
+    null,
+    null
    ],
    "Systemwide Full": [
     "Systemwide Full",
-    350,
-    600,
-    443,
-    445
+    null,
+    null,
+    null,
+    null
    ],
    "Systemwide Part Time": [
     "Systemwide Part Time",
-    350,
-    600,
-    443,
-    445
+    null,
+    null,
+    null,
+    null
    ],
    "Operating Expense": [
     "OPERATING EXPENSE",
-    100,
-    392,
-    525,
-    556
+    null,
+    null,
+    null,
+    null
    ],
    "Operating Funds": [
     "OPERATING FUNDS",
-    250,
-    600,
-    525,
-    559
+    null,
+    null,
+    null,
+    null
    ]
   }
  },
@@ -616,68 +637,75 @@
    "Consolidated Agencies": ""
   },
   "categories": {
+   "Name": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
    "Square Miles": [
     "Square Miles",
-    100,
-    357,
-    200,
-    205
+    null,
+    null,
+    null,
+    null
    ],
    "Population": [
     "Population",
-    100,
-    357,
-    220,
-    225
+    null,
+    null,
+    null,
+    null
    ],
    "Total Passengers": [
     "Total Passengers",
-    100,
-    320,
-    265,
-    270
+    null,
+    null,
+    null,
+    null
    ],
    "Senior Passengers": [
     "Senior Passengers",
-    100,
-    320,
-    275,
-    280
+    null,
+    null,
+    null,
+    null
    ],
    "Revenue Vehicle Miles": [
     "Revenue Vehicle Miles",
-    100,
-    320,
-    285,
-    295
+    null,
+    null,
+    null,
+    null
    ],
    "Revenue Vehicle Hours": [
     "Revenue Vehicle Hours",
-    100,
-    320,
-    300,
-    305
+    null,
+    null,
+    null,
+    null
    ],
    "Section 1513 Allocation": [
     "Operating Assistance",
-    100,
-    300,
-    360,
-    365
+    null,
+    null,
+    null,
+    null
    ],
    "Required Local Match": [
     "Required Local Match",
-    100,
-    300,
-    370,
-    380
+    null,
+    null,
+    null,
+    null
    ],
    "Motor Bus": [
     "Fixed Route",
-    100,
-    300,
-    425,
-    430
+    null,
+    null,
+    null,
+    null
    ],
    "Commuter Rail Cars": [
     "",
@@ -709,38 +737,38 @@
    ],
    "Paratransit Vehicles": [
     "Paratransit",
-    100,
-    300,
-    435,
-    440
+    null,
+    null,
+    null,
+    null
    ],
    "System-wide": [
     "System-wide",
-    100,
-    300,
-    445,
-    450
+    null,
+    null,
+    null,
+    null
    ],
    "Fixed Route Base": [
     "Fixed Route Base",
-    360,
-    600,
-    360,
-    365
+    null,
+    null,
+    null,
+    null
    ],
    "Fixed Route Avg": [
     "Fixed Route Avg",
-    355,
-    600,
-    370,
-    375
+    null,
+    null,
+    null,
+    null
    ],
    "Last Base Fare Increase": [
     "Last Base Fare Increase",
-    355,
-    600,
-    380,
-    390
+    null,
+    null,
+    null,
+    null
    ],
    "System-wide Increase": [
     "",
@@ -751,59 +779,59 @@
    ],
    "Fixed Route Full": [
     "Fixed Route Full",
-    350,
-    600,
-    430,
-    432
+    null,
+    null,
+    null,
+    null
    ],
    "Fixed Route Part Time": [
     "Fixed Route Part Time",
-    350,
-    600,
-    430,
-    432
+    null,
+    null,
+    null,
+    null
    ],
    "Paratransit Full": [
     "Paratransit Full",
-    350,
-    600,
-    435,
-    440
+    null,
+    null,
+    null,
+    null
    ],
    "Paratransit Part Time": [
     "Paratransit Part Time",
-    350,
-    600,
-    435,
-    440
+    null,
+    null,
+    null,
+    null
    ],
    "Systemwide Full": [
     "Systemwide Full",
-    350,
-    600,
-    443,
-    445
+    null,
+    null,
+    null,
+    null
    ],
    "Systemwide Part Time": [
     "Systemwide Part Time",
-    350,
-    600,
-    443,
-    445
+    null,
+    null,
+    null,
+    null
    ],
    "Operating Expense": [
     "OPERATING EXPENSE",
-    90,
-    392,
-    525,
-    536
+    null,
+    null,
+    null,
+    null
    ],
    "Operating Funds": [
     "OPERATING FUNDS",
-    250,
-    600,
-    525,
-    544
+    null,
+    null,
+    null,
+    null
    ]
   }
  },
@@ -818,6 +846,13 @@
    "Consolidated Agencies": ""
   },
   "categories": {
+   "Name": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
    "Square Miles": [
     "Square Miles",
     null,
@@ -1020,6 +1055,13 @@
    "Consolidated Agencies": ""
   },
   "categories": {
+   "Name": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
    "Square Miles": [
     "Square Miles",
     null,
@@ -1222,6 +1264,13 @@
    "Consolidated Agencies": ""
   },
   "categories": {
+   "Name": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
    "Square Miles": [
     "Square Miles",
     null,
@@ -1424,6 +1473,13 @@
    "Consolidated Agencies": ""
   },
   "categories": {
+   "Name": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
    "Square Miles": [
     "Square Miles",
     null,
@@ -1626,6 +1682,13 @@
    "Consolidated Agencies": ""
   },
   "categories": {
+   "Name": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
    "Square Miles": [
     "",
     null,
@@ -1828,6 +1891,13 @@
    "Consolidated Agencies": ""
   },
   "categories": {
+   "Name": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
    "Square Miles": [
     "",
     null,
@@ -2030,6 +2100,13 @@
    "Consolidated Agencies": "BARTA, RRTA -> SCTA\nWashington City, County -> WCTA\nCATO, VCTO -> CATA"
   },
   "categories": {
+   "Name": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
    "Square Miles": [
     "",
     null,
@@ -2232,6 +2309,13 @@
    "Consolidated Agencies": ""
   },
   "categories": {
+   "Name": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
    "Square Miles": [
     "",
     null,
@@ -2434,6 +2518,13 @@
    "Consolidated Agencies": ""
   },
   "categories": {
+   "Name": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
    "Square Miles": [
     "",
     null,
@@ -2636,6 +2727,13 @@
    "Consolidated Agencies": ""
   },
   "categories": {
+   "Name": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
    "Square Miles": [
     "",
     null,
@@ -2838,6 +2936,13 @@
    "Consolidated Agencies": ""
   },
   "categories": {
+   "Name": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
    "Square Miles": [
     "",
     null,
@@ -3040,6 +3145,13 @@
    "Consolidated Agencies": ""
   },
   "categories": {
+   "Name": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
    "Square Miles": [
     "",
     null,
@@ -3242,6 +3354,13 @@
    "Consolidated Agencies": ""
   },
   "categories": {
+   "Name": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
    "Square Miles": [
     "",
     null,
@@ -3444,6 +3563,13 @@
    "Consolidated Agencies": ""
   },
   "categories": {
+   "Name": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
    "Square Miles": [
     "",
     null,
