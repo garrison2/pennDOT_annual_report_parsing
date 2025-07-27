@@ -1,0 +1,3638 @@
+{
+ "2006-07": {
+  "meta": {
+   "Urban Systems (Start Page)": 16,
+   "Rural Systems (Start Page)": 52,
+   "Shared Ride (Start Page)": 98,
+   "Pages Per Agency": 2,
+   "Format Changed?": false,
+   "Has Distributional Factors": false,
+   "Consolidated Agencies": ""
+  },
+  "categories": {
+   "Square Miles": [
+    "Square Miles",
+    100,
+    357,
+    220,
+    225
+   ],
+   "Population": [
+    "Population",
+    100,
+    357,
+    230,
+    235
+   ],
+   "Total Passengers": [
+    "Total Passengers",
+    100,
+    357,
+    420,
+    425
+   ],
+   "Senior Passengers": [
+    "Senior Passengers",
+    100,
+    357,
+    435,
+    440
+   ],
+   "Revenue Vehicle Miles": [
+    "Revenue Vehicle Miles",
+    100,
+    377,
+    455,
+    456
+   ],
+   "Revenue Vehicle Hours": [
+    "Revenue Vehicle Hours",
+    100,
+    377,
+    456,
+    460
+   ],
+   "Section 1513 Allocation": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Required Local Match": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Motor Bus": [
+    "Fixed Route",
+    100,
+    250,
+    340,
+    350
+   ],
+   "Commuter Rail Cars": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Heavy Rail Cars": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Street Car Rail/Light Rail": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Trolley Bus": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Paratransit Vehicles": [
+    "Paratransit",
+    100,
+    250,
+    355,
+    360
+   ],
+   "System-wide": [
+    "Systemwide",
+    100,
+    250,
+    365,
+    370
+   ],
+   "Fixed Route Base": [
+    "Fixed Route Base",
+    250,
+    600,
+    340,
+    350
+   ],
+   "Fixed Route Avg": [
+    "Fixed Route Avg",
+    250,
+    600,
+    355,
+    360
+   ],
+   "Last Base Fare Increase": [
+    "Last Base Fare Increase",
+    250,
+    600,
+    365,
+    370
+   ],
+   "System-wide Increase": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fixed Route Full": [
+    "Fixed Route Full",
+    350,
+    600,
+    410,
+    420
+   ],
+   "Fixed Route Part Time": [
+    "Fixed Route Part Time",
+    350,
+    600,
+    410,
+    420
+   ],
+   "Paratransit Full": [
+    "Paratransit Full",
+    350,
+    600,
+    425,
+    430
+   ],
+   "Paratransit Part Time": [
+    "Paratransit Part Time",
+    350,
+    600,
+    425,
+    430
+   ],
+   "Systemwide Full": [
+    "Systemwide Full",
+    350,
+    600,
+    435,
+    445
+   ],
+   "Systemwide Part Time": [
+    "Systemwide Part Time",
+    350,
+    600,
+    435,
+    445
+   ],
+   "Operating Expense": [
+    "TOTAL OPERATING EXPENSE",
+    100,
+    357,
+    500,
+    520
+   ],
+   "Operating Funds": [
+    "TOTAL OPERATING FUNDS",
+    350,
+    600,
+    500,
+    520
+   ]
+  }
+ },
+ "2007-08": {
+  "meta": {
+   "Urban Systems (Start Page)": 22,
+   "Rural Systems (Start Page)": 72,
+   "Shared Ride (Start Page)": 102,
+   "Pages Per Agency": 2,
+   "Format Changed?": true,
+   "Has Distributional Factors": false,
+   "Consolidated Agencies": ""
+  },
+  "categories": {
+   "Square Miles": [
+    "Square Miles",
+    100,
+    357,
+    200,
+    205
+   ],
+   "Population": [
+    "Population",
+    100,
+    357,
+    220,
+    225
+   ],
+   "Total Passengers": [
+    "Total Passengers",
+    100,
+    320,
+    265,
+    270
+   ],
+   "Senior Passengers": [
+    "Senior Passengers",
+    100,
+    320,
+    275,
+    280
+   ],
+   "Revenue Vehicle Miles": [
+    "Revenue Vehicle Miles",
+    100,
+    320,
+    285,
+    295
+   ],
+   "Revenue Vehicle Hours": [
+    "Revenue Vehicle Hours",
+    100,
+    320,
+    300,
+    305
+   ],
+   "Section 1513 Allocation": [
+    "Operating Assistance",
+    100,
+    300,
+    360,
+    365
+   ],
+   "Required Local Match": [
+    "Required Local Match",
+    100,
+    300,
+    370,
+    380
+   ],
+   "Motor Bus": [
+    "Fixed Route",
+    100,
+    300,
+    425,
+    430
+   ],
+   "Commuter Rail Cars": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Heavy Rail Cars": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Street Car Rail/Light Rail": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Trolley Bus": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Paratransit Vehicles": [
+    "Paratransit",
+    100,
+    300,
+    435,
+    440
+   ],
+   "System-wide": [
+    "System-wide",
+    100,
+    300,
+    445,
+    450
+   ],
+   "Fixed Route Base": [
+    "Fixed Route Base",
+    360,
+    600,
+    360,
+    365
+   ],
+   "Fixed Route Avg": [
+    "Fixed Route Avg",
+    355,
+    600,
+    370,
+    375
+   ],
+   "Last Base Fare Increase": [
+    "Last Base Fare Increase",
+    355,
+    600,
+    380,
+    390
+   ],
+   "System-wide Increase": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fixed Route Full": [
+    "Fixed Route Full",
+    350,
+    600,
+    430,
+    432
+   ],
+   "Fixed Route Part Time": [
+    "Fixed Route Part Time",
+    350,
+    600,
+    430,
+    432
+   ],
+   "Paratransit Full": [
+    "Paratransit Full",
+    350,
+    600,
+    435,
+    440
+   ],
+   "Paratransit Part Time": [
+    "Paratransit Part Time",
+    350,
+    600,
+    435,
+    440
+   ],
+   "Systemwide Full": [
+    "Systemwide Full",
+    350,
+    600,
+    443,
+    445
+   ],
+   "Systemwide Part Time": [
+    "Systemwide Part Time",
+    350,
+    600,
+    443,
+    445
+   ],
+   "Operating Expense": [
+    "OPERATING EXPENSE",
+    50,
+    407,
+    525,
+    559
+   ],
+   "Operating Funds": [
+    "OPERATING FUNDS",
+    300,
+    600,
+    525,
+    559
+   ]
+  }
+ },
+ "2008-09": {
+  "meta": {
+   "Urban Systems (Start Page)": 23,
+   "Rural Systems (Start Page)": 73,
+   "Shared Ride (Start Page)": 103,
+   "Pages Per Agency": 2,
+   "Format Changed?": false,
+   "Has Distributional Factors": false,
+   "Consolidated Agencies": ""
+  },
+  "categories": {
+   "Square Miles": [
+    "Square Miles",
+    100,
+    357,
+    200,
+    205
+   ],
+   "Population": [
+    "Population",
+    100,
+    357,
+    220,
+    225
+   ],
+   "Total Passengers": [
+    "Total Passengers",
+    100,
+    320,
+    265,
+    270
+   ],
+   "Senior Passengers": [
+    "Senior Passengers",
+    100,
+    320,
+    275,
+    280
+   ],
+   "Revenue Vehicle Miles": [
+    "Revenue Vehicle Miles",
+    100,
+    320,
+    285,
+    295
+   ],
+   "Revenue Vehicle Hours": [
+    "Revenue Vehicle Hours",
+    100,
+    320,
+    300,
+    305
+   ],
+   "Section 1513 Allocation": [
+    "Operating Assistance",
+    100,
+    300,
+    360,
+    365
+   ],
+   "Required Local Match": [
+    "Required Local Match",
+    100,
+    300,
+    370,
+    380
+   ],
+   "Motor Bus": [
+    "Fixed Route",
+    100,
+    300,
+    425,
+    430
+   ],
+   "Commuter Rail Cars": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Heavy Rail Cars": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Street Car Rail/Light Rail": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Trolley Bus": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Paratransit Vehicles": [
+    "Paratransit",
+    100,
+    300,
+    435,
+    440
+   ],
+   "System-wide": [
+    "System-wide",
+    100,
+    300,
+    445,
+    450
+   ],
+   "Fixed Route Base": [
+    "Fixed Route Base",
+    360,
+    600,
+    360,
+    365
+   ],
+   "Fixed Route Avg": [
+    "Fixed Route Avg",
+    355,
+    600,
+    370,
+    375
+   ],
+   "Last Base Fare Increase": [
+    "Last Base Fare Increase",
+    355,
+    600,
+    380,
+    390
+   ],
+   "System-wide Increase": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fixed Route Full": [
+    "Fixed Route Full",
+    350,
+    600,
+    430,
+    432
+   ],
+   "Fixed Route Part Time": [
+    "Fixed Route Part Time",
+    350,
+    600,
+    430,
+    432
+   ],
+   "Paratransit Full": [
+    "Paratransit Full",
+    350,
+    600,
+    435,
+    440
+   ],
+   "Paratransit Part Time": [
+    "Paratransit Part Time",
+    350,
+    600,
+    435,
+    440
+   ],
+   "Systemwide Full": [
+    "Systemwide Full",
+    350,
+    600,
+    443,
+    445
+   ],
+   "Systemwide Part Time": [
+    "Systemwide Part Time",
+    350,
+    600,
+    443,
+    445
+   ],
+   "Operating Expense": [
+    "OPERATING EXPENSE",
+    100,
+    392,
+    525,
+    556
+   ],
+   "Operating Funds": [
+    "OPERATING FUNDS",
+    250,
+    600,
+    525,
+    559
+   ]
+  }
+ },
+ "2009-10": {
+  "meta": {
+   "Urban Systems (Start Page)": 26,
+   "Rural Systems (Start Page)": 120,
+   "Shared Ride (Start Page)": 178,
+   "Pages Per Agency": 4,
+   "Format Changed?": false,
+   "Has Distributional Factors": false,
+   "Consolidated Agencies": ""
+  },
+  "categories": {
+   "Square Miles": [
+    "Square Miles",
+    100,
+    357,
+    200,
+    205
+   ],
+   "Population": [
+    "Population",
+    100,
+    357,
+    220,
+    225
+   ],
+   "Total Passengers": [
+    "Total Passengers",
+    100,
+    320,
+    265,
+    270
+   ],
+   "Senior Passengers": [
+    "Senior Passengers",
+    100,
+    320,
+    275,
+    280
+   ],
+   "Revenue Vehicle Miles": [
+    "Revenue Vehicle Miles",
+    100,
+    320,
+    285,
+    295
+   ],
+   "Revenue Vehicle Hours": [
+    "Revenue Vehicle Hours",
+    100,
+    320,
+    300,
+    305
+   ],
+   "Section 1513 Allocation": [
+    "Operating Assistance",
+    100,
+    300,
+    360,
+    365
+   ],
+   "Required Local Match": [
+    "Required Local Match",
+    100,
+    300,
+    370,
+    380
+   ],
+   "Motor Bus": [
+    "Fixed Route",
+    100,
+    300,
+    425,
+    430
+   ],
+   "Commuter Rail Cars": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Heavy Rail Cars": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Street Car Rail/Light Rail": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Trolley Bus": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Paratransit Vehicles": [
+    "Paratransit",
+    100,
+    300,
+    435,
+    440
+   ],
+   "System-wide": [
+    "System-wide",
+    100,
+    300,
+    445,
+    450
+   ],
+   "Fixed Route Base": [
+    "Fixed Route Base",
+    360,
+    600,
+    360,
+    365
+   ],
+   "Fixed Route Avg": [
+    "Fixed Route Avg",
+    355,
+    600,
+    370,
+    375
+   ],
+   "Last Base Fare Increase": [
+    "Last Base Fare Increase",
+    355,
+    600,
+    380,
+    390
+   ],
+   "System-wide Increase": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fixed Route Full": [
+    "Fixed Route Full",
+    350,
+    600,
+    430,
+    432
+   ],
+   "Fixed Route Part Time": [
+    "Fixed Route Part Time",
+    350,
+    600,
+    430,
+    432
+   ],
+   "Paratransit Full": [
+    "Paratransit Full",
+    350,
+    600,
+    435,
+    440
+   ],
+   "Paratransit Part Time": [
+    "Paratransit Part Time",
+    350,
+    600,
+    435,
+    440
+   ],
+   "Systemwide Full": [
+    "Systemwide Full",
+    350,
+    600,
+    443,
+    445
+   ],
+   "Systemwide Part Time": [
+    "Systemwide Part Time",
+    350,
+    600,
+    443,
+    445
+   ],
+   "Operating Expense": [
+    "OPERATING EXPENSE",
+    90,
+    392,
+    525,
+    536
+   ],
+   "Operating Funds": [
+    "OPERATING FUNDS",
+    250,
+    600,
+    525,
+    544
+   ]
+  }
+ },
+ "2010-11": {
+  "meta": {
+   "Urban Systems (Start Page)": 28,
+   "Rural Systems (Start Page)": 122,
+   "Shared Ride (Start Page)": 180,
+   "Pages Per Agency": 4,
+   "Format Changed?": true,
+   "Has Distributional Factors": false,
+   "Consolidated Agencies": ""
+  },
+  "categories": {
+   "Square Miles": [
+    "Square Miles",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Population": [
+    "Population",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Total Passengers": [
+    "Total Passengers",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Senior Passengers": [
+    "Senior Passengers",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Revenue Vehicle Miles": [
+    "Revenue Vehicle Miles",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Revenue Vehicle Hours": [
+    "Revenue Vehicle Hours",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Section 1513 Allocation": [
+    "Operating Assistance",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Required Local Match": [
+    "Required Local Match",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Motor Bus": [
+    "Motor Bus",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Commuter Rail Cars": [
+    "Commuter Rail Cars",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Heavy Rail Cars": [
+    "Heavy Rail Cars",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Street Car Rail/Light Rail": [
+    "Street Car Rail/Light Rail",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Trolley Bus": [
+    "Trolley Bus",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Paratransit Vehicles": [
+    "Paratransit Vehicles",
+    null,
+    null,
+    null,
+    null
+   ],
+   "System-wide": [
+    "System-wide",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fixed Route Base": [
+    "Fixed Route Base",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fixed Route Avg": [
+    "Fixed Route Avg",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Last Base Fare Increase": [
+    "Last Base Fare Increase",
+    null,
+    null,
+    null,
+    null
+   ],
+   "System-wide Increase": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fixed Route Full": [
+    "Fixed Route Full",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fixed Route Part Time": [
+    "Fixed Route Part Time",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Paratransit Full": [
+    "Paratransit Full",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Paratransit Part Time": [
+    "Paratransit Part Time",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Systemwide Full": [
+    "Systemwide Full",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Systemwide Part Time": [
+    "Systemwide Part Time",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Operating Expense": [
+    "Operating Expense",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Operating Funds": [
+    "Operating Funds",
+    null,
+    null,
+    null,
+    null
+   ]
+  }
+ },
+ "2011-12": {
+  "meta": {
+   "Urban Systems (Start Page)": 60,
+   "Rural Systems (Start Page)": 154,
+   "Shared Ride (Start Page)": 204,
+   "Pages Per Agency": 4,
+   "Format Changed?": false,
+   "Has Distributional Factors": false,
+   "Consolidated Agencies": ""
+  },
+  "categories": {
+   "Square Miles": [
+    "Square Miles",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Population": [
+    "Population",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Total Passengers": [
+    "Total Passengers",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Senior Passengers": [
+    "Senior Passengers",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Revenue Vehicle Miles": [
+    "Revenue Vehicle Miles",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Revenue Vehicle Hours": [
+    "Revenue Vehicle Hours",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Section 1513 Allocation": [
+    "Section 1513 Allocation",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Required Local Match": [
+    "Required Local Match",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Motor Bus": [
+    "Motor Bus",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Commuter Rail Cars": [
+    "Commuter Rail Cars",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Heavy Rail Cars": [
+    "Heavy Rail Cars",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Street Car Rail/Light Rail": [
+    "Street Car Rail/Light Rail",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Trolley Bus": [
+    "Trolley Bus",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Paratransit Vehicles": [
+    "Paratransit Vehicles",
+    null,
+    null,
+    null,
+    null
+   ],
+   "System-wide": [
+    "System-wide",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fixed Route Base": [
+    "Fixed Route Base",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fixed Route Avg": [
+    "Fixed Route Avg",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Last Base Fare Increase": [
+    "Last Base Fare Increase",
+    null,
+    null,
+    null,
+    null
+   ],
+   "System-wide Increase": [
+    "System-wide Increase",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fixed Route Full": [
+    "Fixed Route Full",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fixed Route Part Time": [
+    "Fixed Route Part Time",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Paratransit Full": [
+    "Paratransit Full",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Paratransit Part Time": [
+    "Paratransit Part Time",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Systemwide Full": [
+    "Systemwide Full",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Systemwide Part Time": [
+    "Systemwide Part Time",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Operating Expense": [
+    "Operating Expense",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Operating Funds": [
+    "Operating Funds",
+    null,
+    null,
+    null,
+    null
+   ]
+  }
+ },
+ "2012-13": {
+  "meta": {
+   "Urban Systems (Start Page)": 38,
+   "Rural Systems (Start Page)": 132,
+   "Shared Ride (Start Page)": 190,
+   "Pages Per Agency": 4,
+   "Format Changed?": false,
+   "Has Distributional Factors": false,
+   "Consolidated Agencies": ""
+  },
+  "categories": {
+   "Square Miles": [
+    "Square Miles",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Population": [
+    "Population",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Total Passengers": [
+    "Total Passengers",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Senior Passengers": [
+    "Senior Passengers",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Revenue Vehicle Miles": [
+    "Revenue Vehicle Miles",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Revenue Vehicle Hours": [
+    "Revenue Vehicle Hours",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Section 1513 Allocation": [
+    "Section 1513 Allocation",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Required Local Match": [
+    "Required Local Match",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Motor Bus": [
+    "Motor Bus",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Commuter Rail Cars": [
+    "Commuter Rail Cars",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Heavy Rail Cars": [
+    "Heavy Rail Cars",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Street Car Rail/Light Rail": [
+    "Street Car Rail/Light Rail",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Trolley Bus": [
+    "Trolley Bus",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Paratransit Vehicles": [
+    "Paratransit Vehicles",
+    null,
+    null,
+    null,
+    null
+   ],
+   "System-wide": [
+    "System-wide",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fixed Route Base": [
+    "Fixed Route Base",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fixed Route Avg": [
+    "Fixed Route Average",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Last Base Fare Increase": [
+    "Last Base Fare Increase",
+    null,
+    null,
+    null,
+    null
+   ],
+   "System-wide Increase": [
+    "System-wide Increase",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fixed Route Full": [
+    "Fixed Route Full",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fixed Route Part Time": [
+    "Fixed Route Part Time",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Paratransit Full": [
+    "Paratransit Full",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Paratransit Part Time": [
+    "Paratransit Part Time",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Systemwide Full": [
+    "Systemwide Full",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Systemwide Part Time": [
+    "Systemwide Part Time",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Operating Expense": [
+    "Operating Expense",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Operating Funds": [
+    "Operating Funds",
+    null,
+    null,
+    null,
+    null
+   ]
+  }
+ },
+ "2013-14": {
+  "meta": {
+   "Urban Systems (Start Page)": 62,
+   "Rural Systems (Start Page)": 144,
+   "Shared Ride (Start Page)": 194,
+   "Pages Per Agency": "",
+   "Format Changed?": false,
+   "Has Distributional Factors": true,
+   "Consolidated Agencies": ""
+  },
+  "categories": {
+   "Square Miles": [
+    "Square Miles",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Population": [
+    "Population",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Total Passengers": [
+    "Total Passengers",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Senior Passengers": [
+    "Senior Passengers",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Revenue Vehicle Miles": [
+    "Revenue Vehicle Miles",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Revenue Vehicle Hours": [
+    "Revenue Vehicle Hours",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Section 1513 Allocation": [
+    "Section 1513 Allocation",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Required Local Match": [
+    "Required Local Match",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Motor Bus": [
+    "Motor Bus",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Commuter Rail Cars": [
+    "Commuter Rail Cars",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Heavy Rail Cars": [
+    "Heavy Rail Cars",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Street Car Rail/Light Rail": [
+    "Street Car Rail/Light Rail",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Trolley Bus": [
+    "Trolley Bus",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Paratransit Vehicles": [
+    "Paratransit Vehicles",
+    null,
+    null,
+    null,
+    null
+   ],
+   "System-wide": [
+    "System-wide",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fixed Route Base": [
+    "Fixed Route Base",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fixed Route Avg": [
+    "Fixed Route Average",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Last Base Fare Increase": [
+    "Last Base Fare Increase",
+    null,
+    null,
+    null,
+    null
+   ],
+   "System-wide Increase": [
+    "System-wide Increase",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fixed Route Full": [
+    "Fixed Route Full",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fixed Route Part Time": [
+    "Fixed Route Part Time",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Paratransit Full": [
+    "Paratransit Full",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Paratransit Part Time": [
+    "Paratransit Part Time",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Systemwide Full": [
+    "Systemwide Full",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Systemwide Part Time": [
+    "Systemwide Part Time",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Operating Expense": [
+    "Operating Expense",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Operating Funds": [
+    "Operating Funds",
+    null,
+    null,
+    null,
+    null
+   ]
+  }
+ },
+ "2014-15": {
+  "meta": {
+   "Urban Systems (Start Page)": "",
+   "Rural Systems (Start Page)": "",
+   "Shared Ride (Start Page)": "",
+   "Pages Per Agency": "",
+   "Format Changed?": false,
+   "Has Distributional Factors": true,
+   "Consolidated Agencies": ""
+  },
+  "categories": {
+   "Square Miles": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Population": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Total Passengers": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Senior Passengers": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Revenue Vehicle Miles": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Revenue Vehicle Hours": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Section 1513 Allocation": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Required Local Match": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Motor Bus": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Commuter Rail Cars": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Heavy Rail Cars": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Street Car Rail/Light Rail": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Trolley Bus": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Paratransit Vehicles": [
+    " ",
+    null,
+    null,
+    null,
+    null
+   ],
+   "System-wide": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fixed Route Base": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fixed Route Avg": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Last Base Fare Increase": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "System-wide Increase": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fixed Route Full": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fixed Route Part Time": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Paratransit Full": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Paratransit Part Time": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Systemwide Full": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Systemwide Part Time": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Operating Expense": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Operating Funds": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ]
+  }
+ },
+ "2015-16": {
+  "meta": {
+   "Urban Systems (Start Page)": 74,
+   "Rural Systems (Start Page)": 154,
+   "Shared Ride (Start Page)": 204,
+   "Pages Per Agency": "",
+   "Format Changed?": false,
+   "Has Distributional Factors": true,
+   "Consolidated Agencies": ""
+  },
+  "categories": {
+   "Square Miles": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Population": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Total Passengers": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Senior Passengers": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Revenue Vehicle Miles": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Revenue Vehicle Hours": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Section 1513 Allocation": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Required Local Match": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Motor Bus": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Commuter Rail Cars": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Heavy Rail Cars": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Street Car Rail/Light Rail": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Trolley Bus": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Paratransit Vehicles": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "System-wide": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fixed Route Base": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fixed Route Avg": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Last Base Fare Increase": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "System-wide Increase": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fixed Route Full": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fixed Route Part Time": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Paratransit Full": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Paratransit Part Time": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Systemwide Full": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Systemwide Part Time": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Operating Expense": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Operating Funds": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ]
+  }
+ },
+ "2016-17": {
+  "meta": {
+   "Urban Systems (Start Page)": 64,
+   "Rural Systems (Start Page)": 148,
+   "Shared Ride (Start Page)": 190,
+   "Pages Per Agency": "",
+   "Format Changed?": false,
+   "Has Distributional Factors": true,
+   "Consolidated Agencies": "BARTA, RRTA -> SCTA\nWashington City, County -> WCTA\nCATO, VCTO -> CATA"
+  },
+  "categories": {
+   "Square Miles": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Population": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Total Passengers": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Senior Passengers": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Revenue Vehicle Miles": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Revenue Vehicle Hours": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Section 1513 Allocation": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Required Local Match": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Motor Bus": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Commuter Rail Cars": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Heavy Rail Cars": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Street Car Rail/Light Rail": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Trolley Bus": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Paratransit Vehicles": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "System-wide": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fixed Route Base": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fixed Route Avg": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Last Base Fare Increase": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "System-wide Increase": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fixed Route Full": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fixed Route Part Time": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Paratransit Full": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Paratransit Part Time": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Systemwide Full": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Systemwide Part Time": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Operating Expense": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Operating Funds": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ]
+  }
+ },
+ "2017-18": {
+  "meta": {
+   "Urban Systems (Start Page)": 46,
+   "Rural Systems (Start Page)": "",
+   "Shared Ride (Start Page)": "",
+   "Pages Per Agency": "",
+   "Format Changed?": false,
+   "Has Distributional Factors": true,
+   "Consolidated Agencies": ""
+  },
+  "categories": {
+   "Square Miles": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Population": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Total Passengers": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Senior Passengers": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Revenue Vehicle Miles": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Revenue Vehicle Hours": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Section 1513 Allocation": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Required Local Match": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Motor Bus": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Commuter Rail Cars": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Heavy Rail Cars": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Street Car Rail/Light Rail": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Trolley Bus": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Paratransit Vehicles": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "System-wide": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fixed Route Base": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fixed Route Avg": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Last Base Fare Increase": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "System-wide Increase": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fixed Route Full": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fixed Route Part Time": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Paratransit Full": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Paratransit Part Time": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Systemwide Full": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Systemwide Part Time": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Operating Expense": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Operating Funds": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ]
+  }
+ },
+ "2018-19": {
+  "meta": {
+   "Urban Systems (Start Page)": 36,
+   "Rural Systems (Start Page)": "",
+   "Shared Ride (Start Page)": "",
+   "Pages Per Agency": "",
+   "Format Changed?": false,
+   "Has Distributional Factors": true,
+   "Consolidated Agencies": ""
+  },
+  "categories": {
+   "Square Miles": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Population": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Total Passengers": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Senior Passengers": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Revenue Vehicle Miles": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Revenue Vehicle Hours": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Section 1513 Allocation": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Required Local Match": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Motor Bus": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Commuter Rail Cars": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Heavy Rail Cars": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Street Car Rail/Light Rail": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Trolley Bus": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Paratransit Vehicles": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "System-wide": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fixed Route Base": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fixed Route Avg": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Last Base Fare Increase": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "System-wide Increase": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fixed Route Full": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fixed Route Part Time": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Paratransit Full": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Paratransit Part Time": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Systemwide Full": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Systemwide Part Time": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Operating Expense": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Operating Funds": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ]
+  }
+ },
+ "2019-20": {
+  "meta": {
+   "Urban Systems (Start Page)": 44,
+   "Rural Systems (Start Page)": "",
+   "Shared Ride (Start Page)": "",
+   "Pages Per Agency": "",
+   "Format Changed?": false,
+   "Has Distributional Factors": true,
+   "Consolidated Agencies": ""
+  },
+  "categories": {
+   "Square Miles": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Population": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Total Passengers": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Senior Passengers": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Revenue Vehicle Miles": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Revenue Vehicle Hours": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Section 1513 Allocation": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Required Local Match": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Motor Bus": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Commuter Rail Cars": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Heavy Rail Cars": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Street Car Rail/Light Rail": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Trolley Bus": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Paratransit Vehicles": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "System-wide": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fixed Route Base": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fixed Route Avg": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Last Base Fare Increase": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "System-wide Increase": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fixed Route Full": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fixed Route Part Time": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Paratransit Full": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Paratransit Part Time": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Systemwide Full": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Systemwide Part Time": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Operating Expense": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Operating Funds": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ]
+  }
+ },
+ "2020-21": {
+  "meta": {
+   "Urban Systems (Start Page)": 46,
+   "Rural Systems (Start Page)": "",
+   "Shared Ride (Start Page)": "",
+   "Pages Per Agency": "",
+   "Format Changed?": false,
+   "Has Distributional Factors": true,
+   "Consolidated Agencies": ""
+  },
+  "categories": {
+   "Square Miles": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Population": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Total Passengers": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Senior Passengers": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Revenue Vehicle Miles": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Revenue Vehicle Hours": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Section 1513 Allocation": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Required Local Match": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Motor Bus": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Commuter Rail Cars": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Heavy Rail Cars": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Street Car Rail/Light Rail": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Trolley Bus": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Paratransit Vehicles": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "System-wide": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fixed Route Base": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fixed Route Avg": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Last Base Fare Increase": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "System-wide Increase": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fixed Route Full": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fixed Route Part Time": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Paratransit Full": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Paratransit Part Time": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Systemwide Full": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Systemwide Part Time": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Operating Expense": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Operating Funds": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ]
+  }
+ },
+ "2021-22": {
+  "meta": {
+   "Urban Systems (Start Page)": 26,
+   "Rural Systems (Start Page)": "",
+   "Shared Ride (Start Page)": "",
+   "Pages Per Agency": "",
+   "Format Changed?": true,
+   "Has Distributional Factors": true,
+   "Consolidated Agencies": ""
+  },
+  "categories": {
+   "Square Miles": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Population": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Total Passengers": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Senior Passengers": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Revenue Vehicle Miles": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Revenue Vehicle Hours": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Section 1513 Allocation": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Required Local Match": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Motor Bus": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Commuter Rail Cars": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Heavy Rail Cars": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Street Car Rail/Light Rail": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Trolley Bus": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Paratransit Vehicles": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "System-wide": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fixed Route Base": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fixed Route Avg": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Last Base Fare Increase": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "System-wide Increase": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fixed Route Full": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fixed Route Part Time": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Paratransit Full": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Paratransit Part Time": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Systemwide Full": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Systemwide Part Time": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Operating Expense": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Operating Funds": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ]
+  }
+ },
+ "2022-23": {
+  "meta": {
+   "Urban Systems (Start Page)": 27,
+   "Rural Systems (Start Page)": "",
+   "Shared Ride (Start Page)": "",
+   "Pages Per Agency": "",
+   "Format Changed?": false,
+   "Has Distributional Factors": true,
+   "Consolidated Agencies": ""
+  },
+  "categories": {
+   "Square Miles": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Population": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Total Passengers": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Senior Passengers": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Revenue Vehicle Miles": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Revenue Vehicle Hours": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Section 1513 Allocation": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Required Local Match": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Motor Bus": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Commuter Rail Cars": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Heavy Rail Cars": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Street Car Rail/Light Rail": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Trolley Bus": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Paratransit Vehicles": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "System-wide": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fixed Route Base": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fixed Route Avg": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Last Base Fare Increase": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "System-wide Increase": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fixed Route Full": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fixed Route Part Time": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Paratransit Full": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Paratransit Part Time": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Systemwide Full": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Systemwide Part Time": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Operating Expense": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Operating Funds": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ]
+  }
+ },
+ "2023-24": {
+  "meta": {
+   "Urban Systems (Start Page)": 38,
+   "Rural Systems (Start Page)": "",
+   "Shared Ride (Start Page)": "",
+   "Pages Per Agency": "",
+   "Format Changed?": false,
+   "Has Distributional Factors": true,
+   "Consolidated Agencies": ""
+  },
+  "categories": {
+   "Square Miles": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Population": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Total Passengers": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Senior Passengers": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Revenue Vehicle Miles": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Revenue Vehicle Hours": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Section 1513 Allocation": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Required Local Match": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Motor Bus": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Commuter Rail Cars": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Heavy Rail Cars": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Street Car Rail/Light Rail": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Trolley Bus": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Paratransit Vehicles": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "System-wide": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fixed Route Base": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fixed Route Avg": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Last Base Fare Increase": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "System-wide Increase": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fixed Route Full": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fixed Route Part Time": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Paratransit Full": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Paratransit Part Time": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Systemwide Full": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Systemwide Part Time": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Operating Expense": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Operating Funds": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ]
+  }
+ }
+}
