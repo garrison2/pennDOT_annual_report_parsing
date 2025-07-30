@@ -1,0 +1,1400 @@
+{
+ "2006-07": {
+  "meta": {
+   "Urban Systems (Start Page)": 16,
+   "Rural Systems (Start Page)": 52,
+   "Shared Ride (Start Page)": 98,
+   "Pages Per Agency": 2,
+   "Format Changed?": false,
+   "Has Distributional Factors": false,
+   "Consolidated Agencies": "",
+   "lbox": [
+    107,
+    71,
+    295,
+    485
+   ],
+   "rbox": [
+    350,
+    71,
+    565,
+    485
+   ],
+   "tbox": [
+    0,
+    0,
+    612,
+    55
+   ],
+   "lchart": [
+    105,
+    496,
+    266,
+    537
+   ],
+   "rchat": [
+    356,
+    496,
+    502,
+    537
+   ]
+  },
+  "categories": {
+   "Name": [
+    null,
+    0,
+    612.0,
+    0,
+    67.0
+   ],
+   "Service Area Statistics": [
+    "Service Area Statistics",
+    23,
+    357.0,
+    171,
+    327.0
+   ],
+   "Act 44 Fixed Route Distribution Factors": [
+    "1513 Urban Fixed Route Distribution Factors",
+    23,
+    357,
+    376,
+    501
+   ],
+   "Act 44 Operating Assistance": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Total Fleet Size": [
+    "Total Fleet Size",
+    23,
+    357,
+    328,
+    376
+   ],
+   "Fare Information": [
+    "Fare Information",
+    357,
+    612.0,
+    311,
+    395
+   ],
+   "Employees": [
+    "Employees",
+    357,
+    612,
+    395,
+    501.0
+   ],
+   "Operating Expense": [
+    "TOTAL OPERATING EXPENSE",
+    100,
+    357,
+    500,
+    520
+   ],
+   "Operating Funds": [
+    "TOTAL OPERATING FUNDS",
+    350,
+    600,
+    500,
+    520
+   ]
+  }
+ },
+ "2007-08": {
+  "meta": {
+   "Urban Systems (Start Page)": 22,
+   "Rural Systems (Start Page)": 72,
+   "Shared Ride (Start Page)": 102,
+   "Pages Per Agency": 2,
+   "Format Changed?": true,
+   "Has Distributional Factors": false,
+   "Consolidated Agencies": ""
+  },
+  "categories": {
+   "Name": [
+    null,
+    0,
+    612.0,
+    0,
+    67.0
+   ],
+   "Service Area Statistics": [
+    "Service Area Statistics",
+    18,
+    362.0,
+    156,
+    251.0
+   ],
+   "Act 44 Fixed Route Distribution Factors": [
+    "Act 44 Fixed Route Distribution Factors",
+    0,
+    362,
+    222,
+    346
+   ],
+   "Act 44 Operating Assistance": [
+    "Act 44 Operating Assistance",
+    0,
+    362,
+    308,
+    409
+   ],
+   "Total Fleet Size": [
+    "Total Fleet Size",
+    0,
+    362,
+    410,
+    495
+   ],
+   "Fare Information": [
+    "Fare Information",
+    357,
+    612.0,
+    294,
+    409
+   ],
+   "Employees": [
+    "Employees",
+    357,
+    612,
+    395,
+    495.0
+   ],
+   "Operating Expense": [
+    "OPERATING EXPENSE",
+    0,
+    407,
+    500,
+    559
+   ],
+   "Operating Funds": [
+    "OPERATING FUNDS",
+    300,
+    600,
+    525,
+    559
+   ]
+  }
+ },
+ "2008-09": {
+  "meta": {
+   "Urban Systems (Start Page)": 23,
+   "Rural Systems (Start Page)": 73,
+   "Shared Ride (Start Page)": 103,
+   "Pages Per Agency": 2,
+   "Format Changed?": false,
+   "Has Distributional Factors": false,
+   "Consolidated Agencies": ""
+  },
+  "categories": {
+   "Name": [
+    null,
+    0,
+    612,
+    0,
+    67
+   ],
+   "Service Area Statistics": [
+    "Service Area Statistics",
+    18,
+    362,
+    167,
+    251
+   ],
+   "Act 44 Fixed Route Distribution Factors": [
+    "Act 44 Fixed Route Distribution Factors",
+    0,
+    362,
+    222,
+    346
+   ],
+   "Act 44 Operating Assistance": [
+    "Act 44 Operating Assistance",
+    0,
+    362,
+    308,
+    409
+   ],
+   "Total Fleet Size": [
+    "Total Fleet Size",
+    0,
+    362,
+    410,
+    485
+   ],
+   "Fare Information": [
+    "Fare Information",
+    357,
+    612,
+    294,
+    409
+   ],
+   "Employees": [
+    "Employees",
+    357,
+    612,
+    395,
+    485
+   ],
+   "Operating Expense": [
+    "OPERATING EXPENSE",
+    0,
+    397,
+    500,
+    544
+   ],
+   "Operating Funds": [
+    "OPERATING FUNDS",
+    300,
+    600,
+    525,
+    559
+   ]
+  }
+ },
+ "2009-10": {
+  "meta": {
+   "Urban Systems (Start Page)": 26,
+   "Rural Systems (Start Page)": 120,
+   "Shared Ride (Start Page)": 178,
+   "Pages Per Agency": 4,
+   "Format Changed?": false,
+   "Has Distributional Factors": false,
+   "Consolidated Agencies": ""
+  },
+  "categories": {
+   "Name": [
+    null,
+    0,
+    612,
+    0,
+    67
+   ],
+   "Service Area Statistics": [
+    "Service Area Statistics",
+    31,
+    362,
+    167,
+    251
+   ],
+   "Act 44 Fixed Route Distribution Factors": [
+    "Act 44 Fixed Route Distribution Factors",
+    32,
+    362,
+    222,
+    346
+   ],
+   "Act 44 Operating Assistance": [
+    "Act 44 Operating Assistance",
+    0,
+    362,
+    308,
+    409
+   ],
+   "Total Fleet Size": [
+    "Total Fleet Size",
+    0,
+    362,
+    410,
+    485
+   ],
+   "Fare Information": [
+    "Fare Information",
+    357,
+    612,
+    309,
+    409
+   ],
+   "Employees": [
+    "Employees",
+    357,
+    612,
+    395,
+    485
+   ],
+   "Operating Expense": [
+    "OPERATING EXPENSE",
+    100,
+    392,
+    495,
+    544
+   ],
+   "Operating Funds": [
+    "OPERATING FUNDS",
+    250,
+    600,
+    525,
+    544
+   ]
+  }
+ },
+ "2010-11": {
+  "meta": {
+   "Urban Systems (Start Page)": 28,
+   "Rural Systems (Start Page)": 122,
+   "Shared Ride (Start Page)": 180,
+   "Pages Per Agency": 4,
+   "Format Changed?": true,
+   "Has Distributional Factors": false,
+   "Consolidated Agencies": ""
+  },
+  "categories": {
+   "Name": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "Service Area Statistics": [
+    "Service Area Statistics",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Act 44 Fixed Route Distribution Factors": [
+    "Act 44 Fixed Route Distribution Factors",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Act 44 Operating Assistance": [
+    "Act 44 Operating Assistance",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Total Fleet Size": [
+    "Total Fleet Size",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fare Information": [
+    "Fare Information",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Employees": [
+    "Employees",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Operating Expense": [
+    "Operating Expense",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Operating Funds": [
+    "Operating Funds",
+    null,
+    null,
+    null,
+    null
+   ]
+  }
+ },
+ "2011-12": {
+  "meta": {
+   "Urban Systems (Start Page)": 60,
+   "Rural Systems (Start Page)": 154,
+   "Shared Ride (Start Page)": 204,
+   "Pages Per Agency": 4,
+   "Format Changed?": false,
+   "Has Distributional Factors": false,
+   "Consolidated Agencies": ""
+  },
+  "categories": {
+   "Name": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "Service Area Statistics": [
+    "Service Area Statistics",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Act 44 Fixed Route Distribution Factors": [
+    "Act 44 Fixed Route Distribution Factors",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Act 44 Operating Assistance": [
+    "Act 44 Operating Assistance",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Total Fleet Size": [
+    "Total Fleet Size",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fare Information": [
+    "Fare Information",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Employees": [
+    "Employees",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Operating Expense": [
+    "Operating Expense",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Operating Funds": [
+    "Operating Funds",
+    null,
+    null,
+    null,
+    null
+   ]
+  }
+ },
+ "2012-13": {
+  "meta": {
+   "Urban Systems (Start Page)": 38,
+   "Rural Systems (Start Page)": 132,
+   "Shared Ride (Start Page)": 190,
+   "Pages Per Agency": 4,
+   "Format Changed?": false,
+   "Has Distributional Factors": false,
+   "Consolidated Agencies": ""
+  },
+  "categories": {
+   "Name": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "Service Area Statistics": [
+    "Service Area Statistics",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Act 44 Fixed Route Distribution Factors": [
+    "Act 44 Fixed Route Distribution Factors",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Act 44 Operating Assistance": [
+    "Act 44 Operating Assistance",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Total Fleet Size": [
+    "Current Fleet Size",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fare Information": [
+    "Current Fare Information",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Employees": [
+    "Current Employees",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Operating Expense": [
+    "Operating Expense",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Operating Funds": [
+    "Operating Funds",
+    null,
+    null,
+    null,
+    null
+   ]
+  }
+ },
+ "2013-14": {
+  "meta": {
+   "Urban Systems (Start Page)": 62,
+   "Rural Systems (Start Page)": 144,
+   "Shared Ride (Start Page)": 194,
+   "Pages Per Agency": "",
+   "Format Changed?": false,
+   "Has Distributional Factors": true,
+   "Consolidated Agencies": ""
+  },
+  "categories": {
+   "Name": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "Service Area Statistics": [
+    "Service Area Statistics",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Act 44 Fixed Route Distribution Factors": [
+    "Act 44 Fixed Route Distribution Factors",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Act 44 Operating Assistance": [
+    "Act 44 Operating Assistance",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Total Fleet Size": [
+    "Current Fleet Size",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fare Information": [
+    "Current Fare Information",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Employees": [
+    "Current Employees",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Operating Expense": [
+    "Operating Expense",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Operating Funds": [
+    "Operating Funds",
+    null,
+    null,
+    null,
+    null
+   ]
+  }
+ },
+ "2014-15": {
+  "meta": {
+   "Urban Systems (Start Page)": "",
+   "Rural Systems (Start Page)": "",
+   "Shared Ride (Start Page)": "",
+   "Pages Per Agency": "",
+   "Format Changed?": false,
+   "Has Distributional Factors": true,
+   "Consolidated Agencies": ""
+  },
+  "categories": {
+   "Name": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "Service Area Statistics": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Act 44 Fixed Route Distribution Factors": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Act 44 Operating Assistance": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Total Fleet Size": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fare Information": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Employees": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Operating Expense": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Operating Funds": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ]
+  }
+ },
+ "2015-16": {
+  "meta": {
+   "Urban Systems (Start Page)": 74,
+   "Rural Systems (Start Page)": 154,
+   "Shared Ride (Start Page)": 204,
+   "Pages Per Agency": "",
+   "Format Changed?": false,
+   "Has Distributional Factors": true,
+   "Consolidated Agencies": ""
+  },
+  "categories": {
+   "Name": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "Service Area Statistics": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Act 44 Fixed Route Distribution Factors": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Act 44 Operating Assistance": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Total Fleet Size": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fare Information": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Employees": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Operating Expense": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Operating Funds": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ]
+  }
+ },
+ "2016-17": {
+  "meta": {
+   "Urban Systems (Start Page)": 64,
+   "Rural Systems (Start Page)": 148,
+   "Shared Ride (Start Page)": 190,
+   "Pages Per Agency": "",
+   "Format Changed?": false,
+   "Has Distributional Factors": true,
+   "Consolidated Agencies": "BARTA, RRTA -> SCTA\nWashington City, County -> WCTA\nCATO, VCTO -> CATA"
+  },
+  "categories": {
+   "Name": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "Service Area Statistics": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Act 44 Fixed Route Distribution Factors": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Act 44 Operating Assistance": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Total Fleet Size": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fare Information": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Employees": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Operating Expense": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Operating Funds": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ]
+  }
+ },
+ "2017-18": {
+  "meta": {
+   "Urban Systems (Start Page)": 46,
+   "Rural Systems (Start Page)": "",
+   "Shared Ride (Start Page)": "",
+   "Pages Per Agency": "",
+   "Format Changed?": false,
+   "Has Distributional Factors": true,
+   "Consolidated Agencies": ""
+  },
+  "categories": {
+   "Name": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "Service Area Statistics": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Act 44 Fixed Route Distribution Factors": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Act 44 Operating Assistance": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Total Fleet Size": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fare Information": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Employees": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Operating Expense": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Operating Funds": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ]
+  }
+ },
+ "2018-19": {
+  "meta": {
+   "Urban Systems (Start Page)": 36,
+   "Rural Systems (Start Page)": "",
+   "Shared Ride (Start Page)": "",
+   "Pages Per Agency": "",
+   "Format Changed?": false,
+   "Has Distributional Factors": true,
+   "Consolidated Agencies": ""
+  },
+  "categories": {
+   "Name": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "Service Area Statistics": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Act 44 Fixed Route Distribution Factors": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Act 44 Operating Assistance": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Total Fleet Size": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fare Information": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Employees": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Operating Expense": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Operating Funds": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ]
+  }
+ },
+ "2019-20": {
+  "meta": {
+   "Urban Systems (Start Page)": 44,
+   "Rural Systems (Start Page)": "",
+   "Shared Ride (Start Page)": "",
+   "Pages Per Agency": "",
+   "Format Changed?": false,
+   "Has Distributional Factors": true,
+   "Consolidated Agencies": ""
+  },
+  "categories": {
+   "Name": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "Service Area Statistics": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Act 44 Fixed Route Distribution Factors": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Act 44 Operating Assistance": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Total Fleet Size": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fare Information": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Employees": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Operating Expense": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Operating Funds": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ]
+  }
+ },
+ "2020-21": {
+  "meta": {
+   "Urban Systems (Start Page)": 46,
+   "Rural Systems (Start Page)": "",
+   "Shared Ride (Start Page)": "",
+   "Pages Per Agency": "",
+   "Format Changed?": false,
+   "Has Distributional Factors": true,
+   "Consolidated Agencies": ""
+  },
+  "categories": {
+   "Name": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "Service Area Statistics": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Act 44 Fixed Route Distribution Factors": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Act 44 Operating Assistance": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Total Fleet Size": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fare Information": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Employees": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Operating Expense": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Operating Funds": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ]
+  }
+ },
+ "2021-22": {
+  "meta": {
+   "Urban Systems (Start Page)": 26,
+   "Rural Systems (Start Page)": "",
+   "Shared Ride (Start Page)": "",
+   "Pages Per Agency": "",
+   "Format Changed?": true,
+   "Has Distributional Factors": true,
+   "Consolidated Agencies": ""
+  },
+  "categories": {
+   "Name": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "Service Area Statistics": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Act 44 Fixed Route Distribution Factors": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Act 44 Operating Assistance": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Total Fleet Size": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fare Information": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Employees": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Operating Expense": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Operating Funds": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ]
+  }
+ },
+ "2022-23": {
+  "meta": {
+   "Urban Systems (Start Page)": 27,
+   "Rural Systems (Start Page)": "",
+   "Shared Ride (Start Page)": "",
+   "Pages Per Agency": "",
+   "Format Changed?": false,
+   "Has Distributional Factors": true,
+   "Consolidated Agencies": ""
+  },
+  "categories": {
+   "Name": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "Service Area Statistics": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Act 44 Fixed Route Distribution Factors": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Act 44 Operating Assistance": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Total Fleet Size": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fare Information": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Employees": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Operating Expense": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Operating Funds": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ]
+  }
+ },
+ "2023-24": {
+  "meta": {
+   "Urban Systems (Start Page)": 38,
+   "Rural Systems (Start Page)": "",
+   "Shared Ride (Start Page)": "",
+   "Pages Per Agency": "",
+   "Format Changed?": false,
+   "Has Distributional Factors": true,
+   "Consolidated Agencies": ""
+  },
+  "categories": {
+   "Name": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "Service Area Statistics": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Act 44 Fixed Route Distribution Factors": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Act 44 Operating Assistance": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Total Fleet Size": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fare Information": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Employees": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Operating Expense": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Operating Funds": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ]
+  }
+ }
+}
