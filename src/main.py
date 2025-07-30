@@ -1,95 +1,89 @@
+#! /usr/bin/env python
+import json, re, os, io, subprocess, shutil, sys
 import pdfplumber
-import requests
-import io
 
-BUSLINES = ['1', '2', '4', '6', '7', '8', '11', '12', '13', '14', '15', '16', '17', '18', '20', '21', '22', '24', '26', '27', '29', '31', '36', '38',
-            '39', '40', '41', '43', '44', '48', '51', '53', '54', '55', '56', '57', '58', '59', '60', '64', '65', '67', '69', '71', '74', '75', '77',
-            '79', '81', '82', '83', '86', '87', '88', '89', '91', '93', '19L', '28X', '51L', '52L', '53L', '61A', '61B', '61C', '61D', '71A', '71B',
-            '71C', '71D', 'BLUE', 'G2', 'G3', 'G31', 'O1', 'O12', 'O5', 'P1', 'P10', 'P12', 'P13', 'P16', 'P17', 'P2', 'P3', 'P67', 'P68', 'P69', 'P7']
+import logging
+logging.getLogger("pdfminer").setLevel(logging.ERROR)
+
+REPORTS_DIR = os.getenv("REPORTS_DIR")
+FORMAT_JSON = os.getenv("FORMAT_JSON")
+REPORT_NAME_FORMAT = os.getenv("REPORT_NAME_FORMAT")
+YEAR_START = os.getenv("YEAR_START")
+YEAR_END = os.getenv("YEAR_END")
 
 def main():
-    errors_list = []
-    for i in range(len(BUSLINES)):
-        busline =BUSLINES[i]
-        response = requests.get(f"https://www.rideprt.org/pdfs/{busline}.pdf")
-        with io.BytesIO(response.content) as pdf:
-            try:
-                print(parse_pdf(pdf))
-            except Exception as e:
-                print(response.url)
-                errors_list += [e]
+    with open(FORMAT_JSON, 'r') as file:
+        format_dict = json.load(file)
 
-    print('\n\n')
-    for e in errors_list:
-        print(e)
+    csvs = dict()
 
-def parse_pdf(pdf_file):
-    with pdfplumber.open(pdf_file) as pdf:
-        cropped = cropped_page(pdf)
-        text = get_text(cropped)
-        cleaned = clean_text(text)
-        pdf.close()
-        
-    return cleaned
+    for y in range(int(YEAR_START), int(YEAR_END) + 1):
+        year = str(y) + "-" + str(y + 1)[-2:]
+        filepath = os.path.join(REPORTS_DIR, REPORT_NAME_FORMAT.format(year=year))
 
-def clean_text(text):
-    bus_dict = dict()
-    name = None
-    for line in text:
-        if line.split()[0] in BUSLINES:
-            name = line.split()[0]
-            bus_dict[name] = bus_dict.get(name, [])
-            continue
+        with open(filepath, 'rb') as file:
+            pdf = pdfplumber.open(file)
 
-        if name == None:
-            raise Exception(f'Name could not be identified.\n{text}')
-        neighborhoods = line.split(bytes(b'\xe2\x80\xa2').decode())
-        neighborhoods = [nb.strip() for nb in neighborhoods]
-        bus_dict[name] += neighborhoods
+            print(f'Year: {year}')
 
-    return bus_dict
+            startnum = int(format_dict[year]['meta']["Urban Systems (Start Page)"])
+            endnum = int(format_dict[year]['meta']["Rural Systems (Start Page)"])
+            pages_per_agency = int(format_dict[year]['meta']["Pages Per Agency"])
 
-def cropped_page(pdf):
-    page = pdf.pages[1]
-    chars = page.chars
+            for i in range(startnum, endnum, pages_per_agency):
+                page = pdf.pages[i - 1]
 
-    start_index = find_effective(page)
-    start_char = chars[start_index] # returns the char of E in EFFECTIVE
+                for category in format_dict[year]['categories']:
+                    name, x0, x1, y0, y1 = format_dict[year]['categories'][category]
+                    if name == '': continue
 
-    x0 = start_char['x1'] - 6 # finds text on left edge of box
-    x1 = page.width
-    top = start_char['bottom'] # finds bottom of E
-    bottom = page.height
-    cropped_page = page.within_bbox((x0, top, x1, bottom))
+                    direction = 'top'
+                    while True:
+                        try:
+                            cropped = page.crop((x0, y0, x1, y1))
+                        except ValueError as e:
+                            print("\nError! Bounding box larger than page dimensions.\n")
+                        else:
+                            text = "".join([c['text'] for c in cropped.chars])
 
-    return cropped_page
+                        if name and name not in text:
+                            if direction == 'top':
+                                if y0 - 50 < 0:
+                                    direction = 'bottom'
+                                    continue
+                                y0 -= 50 
+                                y1 -= 50
 
-def get_text(page):
-    text = ['']
-    last_y = None
-    index = 0
-    for c in page.chars:
-        if last_y and c['top'] != last_y:
-            index += 1
-            text.append('')
+                            else:
+                                if (y1 + 50 > page.height):
+                                    print("Could not find")
+                                    break
 
-        last_y = c['top']
-        text[index] += (c['text'])
+                                y0 += 50
+                                y1 += 50
+                        else:
+                            break
 
-    return text
 
-def find_effective(page):
-    chars = page.chars
-    for i in range(len(chars)):
-        j = 0
-        valid = True
-        for char_to_check in 'EFFECTIVE':
-            if chars[i + j]['text'] != char_to_check:
-                valid = False
-                break
-            j += 1
-        if valid:
-            return i
+
+                    if name == None: name = ''
+                    if category == "Act 44 Fixed Route Distribution Factors":
+                        category = "Act 44 Factors"
+
+
+                    terminal_width = shutil.get_terminal_size().columns
+                    yr_wdth = int(terminal_width * 0.1)
+                    cat_wdth = int(terminal_width * 0.2)
+                    name_wdth = int(terminal_width * 0.2)
+                    text_wdth = int(terminal_width * 0.5)
+
+
+                    print(f'{year}{" " * (yr_wdth - len(year))}'
+                          f'{category}{" " * (cat_wdth - len(category))}'
+                          f'{name}{" " * (name_wdth - len(name))}'
+                          f'{text}{" " * (text_wdth - len(text))}'
+                          )
+
 
 if __name__ == '__main__':
     main()
