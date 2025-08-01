@@ -6,38 +6,78 @@ import pdfplumber
 import logging
 logging.getLogger("pdfminer").setLevel(logging.ERROR)
 
-class ReturnType(Enum):
-    SHOW = 1
-    DRAW = 2
-    CROP = 3
-    RETURN = 4
-    ERROR = 5
-
-    LBOX = 6
-    RBOX = 7
-    TBOX = 8
-    LCHART= 9
-    RCHART = 10
-
 REPORTS_DIR = os.getenv("REPORTS_DIR")
 FORMAT_JSON = os.getenv("FORMAT_JSON")
 REPORT_NAME_FORMAT = os.getenv("REPORT_NAME_FORMAT")
 YEAR_START = os.getenv("YEAR_START")
 YEAR_END = os.getenv("YEAR_END")
 
+BOXES = { 'lbox', 'rbox', 'tbox', 'lchart', 'rchart' }
 remap = lambda x: [x[0], x[2], x[1], x[3]]
 
-boxes = { 'lbox', 'rbox', 'tbox', 'lchart', 'rchart' }
+class ReturnType(Enum):
+    SHOW = 1
+    DRAW = 2
+    CROP = 3
+    RETURN = 4
+    ERROR = 5
+    PAGE = 6
+
+    LBOX = 101
+    RBOX = 102
+    TBOX = 103
+    LCHART= 104
+    RCHART = 1105
+
+class Boxes:
+    def __init__(self, page, current, prior):
+        top = 0
+        bottom = int(page.height)
+        left = 0
+        right = int(page.width)
+        mid_x = int((right + left) / 2)
+        mid_y = int((top + bottom) / 2)
+
+        self.lbox = [left, top, mid_x, mid_y]
+        self.rbox = [mid_x, top, right, mid_y]
+        self.tbox = [left, top, right, mid_y]
+        self.lchart = [left, mid_y, mid_x, bottom]
+        self.rchart = [mid_x, mid_y, right, bottom]
+
+        if prior:
+            for box in BOXES:
+                for i in range(4):
+                    if prior['categories'][box][i] is not None:
+                        setattr(self, box, prior['categories'][box])
+
+        self.exists = True
+        for box in BOXES:
+            for i in range(4):
+                if current['categories'][box][i] is None:
+                    self.exists = False
+                else:
+                    getattr(self, box)[i] == current['categories'][box][i]
+
+    def print(self):
+        for box in BOXES:
+            val = getattr(self, box)
+            print(f'{box}: [ {" ".join(str(r) for r in remap(val))} ]')
 
 # -------------- HELPER --------------
 def print_help():
-    return
-    print("top:+/- [num] to move top line\n"
-          "bot:+/- [num] to move bottom line\n"
-          "mid:+/- [num] to move mid line\n"
-          "exit to exit\n"
-          "h for this help\n"
+    print(
+          "h, help\t\t\t\t to print this help\n"
+          "exit\t\t\t\t to exit\n"
+          "c, crop\t\t\t\t to output the cropped text\n"
+          "R, return\t\t\t to save the result to tmp and continue\n"
+          "P, page\t\t\t to view the next agency's page\n"
+          "<box> <dimension> [+/-] <num>\t to set/change one dimension\n"
+          "<box> [ x0 x1 y0 y1 ]\t\t to set all dimensions\n"
+          "\n"
+          "<box> can be lbox, rbox, tbox, lchart, rchart\n"
+          "<dimensions> can be x0, x1, y0, y1"
           )
+    return
 
 def write_to_tmp(dict_dump):
     with open('tmp.json', 'w') as file:
@@ -53,35 +93,39 @@ def verify_nums(vals):
     return True
 # ------------------------------------
 
-def process_input(usr_input, lbox, rbox, tbox, lchart, rchart):
-    if usr_input == 'h' :
+def process_input(usr_input, boxes): # lbox, rbox, tbox, lchart, rchart):
+    if usr_input == 'h' or usr_input == 'help':
         print_help()
         return { ReturnType.ERROR }
     if usr_input == 'exit':
         exit(0)
-    if usr_input == 'crop':
+    if usr_input == 'c' or usr_input == 'crop':
         return { ReturnType.CROP } 
-    if usr_input == 'return':
+    if usr_input == 'R'or usr_input == 'return':
         return { ReturnType.RETURN, ReturnType.SHOW }
+    if usr_input == 'P' or usr_input == 'page':
+        return { ReturnType.PAGE, ReturnType.DRAW }
 
     args = shlex.split(usr_input)
     if len(args) < 3:
-        print(f"Invalid number of arguments ({len(args)}).")
+        print(f"Invalid number of arguments Expected 3, given {len(args)}.")
         return { ReturnType.ERROR } 
 
     if args[0] == 'lbox' or args[0] == 'l':
-        dimensions = lbox
+        name = 'lbox'
     elif args[0] == 'rbox' or args[0] == 'r':
-        dimensions = rbox
+        name = 'rbox'
     elif args[0] == 'tbox' or args[0] == 't':
-        dimensions = tbox
+        name = 'tbox'
     elif args[0] == 'lchart' or args[0] == 'lc':
-        dimensions = lchart
+        name = 'lchart'
     elif args[0] == 'rchart' or args[0] == 'rc':
-        dimensions = rchart
+        name = 'rchart'
     else:
         print(f'Invalid selector "{args[0]}.". Must be lbox or rbox.')
         return { ReturnType.ERROR }
+
+    dimensions = getattr(boxes, name)
 
     if args[1] == '[' and args[-1] == ']':
         vals = args[2:-1]
@@ -91,8 +135,8 @@ def process_input(usr_input, lbox, rbox, tbox, lchart, rchart):
 
         vals = remap([int(v) for v in vals])
         if not verify_nums(vals): return { ReturnType.ERROR }
-        for i in range(4):
-            dimensions[i] = vals[i]
+        setattr(boxes, name, vals)
+
         return { ReturnType.DRAW, ReturnType.SHOW }
 
     else:
@@ -121,7 +165,8 @@ def process_input(usr_input, lbox, rbox, tbox, lchart, rchart):
             return { ReturnType.ERROR }
 
         if len(args) < 4:
-            print(f"Invalid number of arguments ({len(args)}). Expecting 4.")
+            print(f"Invalid number of arguments. "
+                   "Expected 4, given {len(args)}.")
             return { ReturnType.ERROR }
 
         if not args[3].isdigit():
@@ -137,78 +182,62 @@ def process_input(usr_input, lbox, rbox, tbox, lchart, rchart):
             dimensions[d_map[args[1]]] = tmp
             return { ReturnType.ERROR }
 
-
         return { ReturnType.DRAW, ReturnType.SHOW }
         
-def loop(page, current_dict, prior_dict):
-    if current_dict['meta']['lbox']:
-
-    if current_dict['meta']['lbox']:
-
-    # turn lbox, rbox, tbox, lchart, rchart into an object, 
-    # figure out how to get prior and current from the ojbect
-
-
-    top = 0
-    bottom = int(page.height)
-    left = 0
-    right = int(page.width)
-    mid_x = int((right + left) / 2)
-    mid_y = int((top + bottom) / 2)
-
-    lbox = [left, top, mid_x, mid_y]
-    rbox = [mid_x, top, right, mid_y]
-    tbox = [left, top, right, mid_y]
-    lchart = [left, mid_y, mid_x, bottom]
-    rchart = [mid_x, mid_y, right, bottom]
-
+def loop(pdf, pagenum, pages_per_agency, boxes):
+    print()
     print_help()
+    print()
+
+    pagenum -= 1
+    page = pdf.pages[pagenum]
 
     status = { ReturnType.DRAW, ReturnType.SHOW }
 
     while True:
+        if ReturnType.PAGE in status:
+            pagenum += pages_per_agency
+            page = pdf.pages[pagenum]
         if ReturnType.SHOW in status:
-            print()
-            print(f'lbox:   [ {" ".join(str(r) for r in remap(lbox))} ]\n'
-                  f'rbox:   [ {" ".join(str(r) for r in remap(rbox))} ]\n'
-                  f'tbox:   [ {" ".join(str(r) for r in remap(tbox))} ]\n'
-                  f'lchart: [ {" ".join(str(r) for r in remap(lchart))} ]\n'
-                  f'rchart: [ {" ".join(str(r) for r in remap(rchart))} ]')
-
+            boxes.print()
         if ReturnType.DRAW in status:
             try:
                 im = page.to_image(resolution=150)
-                im.draw_rect(tuple(lbox))
-                im.draw_rect(tuple(rbox))
-                im.draw_rect(tuple(tbox))
-                im.draw_rect(tuple(lchart))
-                im.draw_rect(tuple(rchart))
+                for box in BOXES:
+                    val = getattr(boxes, box)
+                    im.draw_rect(tuple(val))
                 im.show()
             except ValueError as e:
                 print("\nError! Bounding box violates page dimensions.")
 
         usr_input = input("\n>> ")
-        status = process_input(usr_input, lbox, rbox, tbox, lchart, rchart)
+        status = process_input(usr_input, boxes)
 
         if ReturnType.CROP in status:
             try:
-                lcrop = page.crop(lbox)
-                rcrop = page.crop(rbox)
-                tcrop = page.crop(tbox)
-                lccrop = page.crop(lchart)
-                rccrop = page.crop(rchart)
+                for box in BOXES:
+                    boxcrop = page.crop(getattr(boxes, box))
+                    print(boxcrop.extract_text())
+
+#                lcrop = page.crop(lbox)
+#                rcrop = page.crop(rbox)
+#                tcrop = page.crop(tbox)
+#                lccrop = page.crop(lchart)
+#                rccrop = page.crop(rchart)
             except ValueError as e:
                 print("\nError! Bounding box violates page dimensions.")
-            else:
-                print(lcrop.extract_text())
-                print(rcrop.extract_text())
-                print(tcrop.extract_text())
-                print(rccrop.extract_text())
-                print(lccrop.extract_text())
+#            else:
+#                print(lcrop.extract_text())
+#                print(rcrop.extract_text())
+#                print(tcrop.extract_text())
+#                print(rccrop.extract_text())
+#                print(lccrop.extract_text())
 
         if ReturnType.RETURN in status:
-            return {'lbox':lbox, 'rbox':rbox, 'tbox':tbox,
-                    'lchart':lchart, 'rchat':rchart}
+            result = dict()
+            for box in BOXES:
+                result |= {box:getattr(boxes, box)}
+            return result
 
 def main():
     with open(FORMAT_JSON, 'r') as file:
@@ -219,24 +248,20 @@ def main():
         prior = str(y - 1) + "-" + str(y)[-2:]
         filepath = os.path.join(REPORTS_DIR, REPORT_NAME_FORMAT.format(year=year))
 
-        if (format_dict[year]['meta']['lbox'] and 
-            format_dict[year]['meta']['rbox'] and 
-            format_dict[year]['meta']['tbox'] and 
-            format_dict[year]['meta']['lchart'] and 
-            format_dict[year]['meta']['rchart']):
-            continue
-
-        pagenum = format_dict[year]['meta']["Urban Systems (Start Page)"]
+        startpage = format_dict[year]['meta']["Urban Systems (Start Page)"]
+        pages_per_agency = format_dict[year]['meta']["Pages Per Agency"]
 
         with open(filepath, 'rb') as file:
             pdf = pdfplumber.open(file)
-            page = pdf.pages[pagenum - 1]
+            page = pdf.pages[startpage - 1]
+
+            boxes = Boxes(page, format_dict[year], format_dict.get(prior))
+            if boxes.exists: continue
 
             print(f'Year: {year}')
+            result = loop(pdf, startpage, pages_per_agency, boxes)
 
-            result = loop(page, format_dict[year], format_dict.get[prior])
-
-        format_dict[year]['meta'] |= result
+        format_dict[year]['categories'] |= result
         write_to_tmp(format_dict)
 
 

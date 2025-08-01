@@ -1,0 +1,866 @@
+{
+ "2006-07": {
+  "meta": {
+   "Urban Systems (Start Page)": 16,
+   "Rural Systems (Start Page)": 52,
+   "Shared Ride (Start Page)": 98,
+   "Pages Per Agency": 2,
+   "Format Changed?": false,
+   "Has Distributional Factors": false,
+   "Consolidated Agencies": ""
+  },
+  "categories": {
+   "lbox": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "rbox": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "tbox": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "lchart": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "rchart": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  }
+ },
+ "2007-08": {
+  "meta": {
+   "Urban Systems (Start Page)": 22,
+   "Rural Systems (Start Page)": 72,
+   "Shared Ride (Start Page)": 102,
+   "Pages Per Agency": 2,
+   "Format Changed?": true,
+   "Has Distributional Factors": false,
+   "Consolidated Agencies": ""
+  },
+  "categories": {
+   "lbox": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "rbox": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "tbox": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "lchart": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "rchart": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  }
+ },
+ "2008-09": {
+  "meta": {
+   "Urban Systems (Start Page)": 23,
+   "Rural Systems (Start Page)": 73,
+   "Shared Ride (Start Page)": 103,
+   "Pages Per Agency": 2,
+   "Format Changed?": false,
+   "Has Distributional Factors": false,
+   "Consolidated Agencies": ""
+  },
+  "categories": {
+   "lbox": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "rbox": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "tbox": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "lchart": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "rchart": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  }
+ },
+ "2009-10": {
+  "meta": {
+   "Urban Systems (Start Page)": 26,
+   "Rural Systems (Start Page)": 120,
+   "Shared Ride (Start Page)": 178,
+   "Pages Per Agency": 4,
+   "Format Changed?": false,
+   "Has Distributional Factors": false,
+   "Consolidated Agencies": ""
+  },
+  "categories": {
+   "lbox": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "rbox": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "tbox": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "lchart": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "rchart": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  }
+ },
+ "2010-11": {
+  "meta": {
+   "Urban Systems (Start Page)": 28,
+   "Rural Systems (Start Page)": 122,
+   "Shared Ride (Start Page)": 180,
+   "Pages Per Agency": 4,
+   "Format Changed?": true,
+   "Has Distributional Factors": false,
+   "Consolidated Agencies": ""
+  },
+  "categories": {
+   "lbox": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "rbox": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "tbox": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "lchart": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "rchart": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  }
+ },
+ "2011-12": {
+  "meta": {
+   "Urban Systems (Start Page)": 60,
+   "Rural Systems (Start Page)": 154,
+   "Shared Ride (Start Page)": 204,
+   "Pages Per Agency": 4,
+   "Format Changed?": false,
+   "Has Distributional Factors": false,
+   "Consolidated Agencies": ""
+  },
+  "categories": {
+   "lbox": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "rbox": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "tbox": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "lchart": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "rchart": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  }
+ },
+ "2012-13": {
+  "meta": {
+   "Urban Systems (Start Page)": 38,
+   "Rural Systems (Start Page)": 132,
+   "Shared Ride (Start Page)": 190,
+   "Pages Per Agency": 4,
+   "Format Changed?": false,
+   "Has Distributional Factors": false,
+   "Consolidated Agencies": ""
+  },
+  "categories": {
+   "lbox": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "rbox": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "tbox": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "lchart": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "rchart": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  }
+ },
+ "2013-14": {
+  "meta": {
+   "Urban Systems (Start Page)": 62,
+   "Rural Systems (Start Page)": 144,
+   "Shared Ride (Start Page)": 194,
+   "Pages Per Agency": "",
+   "Format Changed?": false,
+   "Has Distributional Factors": true,
+   "Consolidated Agencies": ""
+  },
+  "categories": {
+   "lbox": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "rbox": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "tbox": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "lchart": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "rchart": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  }
+ },
+ "2014-15": {
+  "meta": {
+   "Urban Systems (Start Page)": "",
+   "Rural Systems (Start Page)": "",
+   "Shared Ride (Start Page)": "",
+   "Pages Per Agency": "",
+   "Format Changed?": false,
+   "Has Distributional Factors": true,
+   "Consolidated Agencies": ""
+  },
+  "categories": {
+   "lbox": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "rbox": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "tbox": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "lchart": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "rchart": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  }
+ },
+ "2015-16": {
+  "meta": {
+   "Urban Systems (Start Page)": 74,
+   "Rural Systems (Start Page)": 154,
+   "Shared Ride (Start Page)": 204,
+   "Pages Per Agency": "",
+   "Format Changed?": false,
+   "Has Distributional Factors": true,
+   "Consolidated Agencies": ""
+  },
+  "categories": {
+   "lbox": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "rbox": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "tbox": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "lchart": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "rchart": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  }
+ },
+ "2016-17": {
+  "meta": {
+   "Urban Systems (Start Page)": 64,
+   "Rural Systems (Start Page)": 148,
+   "Shared Ride (Start Page)": 190,
+   "Pages Per Agency": "",
+   "Format Changed?": false,
+   "Has Distributional Factors": true,
+   "Consolidated Agencies": "BARTA, RRTA -> SCTA\nWashington City, County -> WCTA\nCATO, VCTO -> CATA"
+  },
+  "categories": {
+   "lbox": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "rbox": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "tbox": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "lchart": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "rchart": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  }
+ },
+ "2017-18": {
+  "meta": {
+   "Urban Systems (Start Page)": 46,
+   "Rural Systems (Start Page)": "",
+   "Shared Ride (Start Page)": "",
+   "Pages Per Agency": "",
+   "Format Changed?": false,
+   "Has Distributional Factors": true,
+   "Consolidated Agencies": ""
+  },
+  "categories": {
+   "lbox": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "rbox": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "tbox": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "lchart": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "rchart": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  }
+ },
+ "2018-19": {
+  "meta": {
+   "Urban Systems (Start Page)": 36,
+   "Rural Systems (Start Page)": "",
+   "Shared Ride (Start Page)": "",
+   "Pages Per Agency": "",
+   "Format Changed?": false,
+   "Has Distributional Factors": true,
+   "Consolidated Agencies": ""
+  },
+  "categories": {
+   "lbox": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "rbox": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "tbox": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "lchart": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "rchart": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  }
+ },
+ "2019-20": {
+  "meta": {
+   "Urban Systems (Start Page)": 44,
+   "Rural Systems (Start Page)": "",
+   "Shared Ride (Start Page)": "",
+   "Pages Per Agency": "",
+   "Format Changed?": false,
+   "Has Distributional Factors": true,
+   "Consolidated Agencies": ""
+  },
+  "categories": {
+   "lbox": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "rbox": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "tbox": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "lchart": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "rchart": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  }
+ },
+ "2020-21": {
+  "meta": {
+   "Urban Systems (Start Page)": 46,
+   "Rural Systems (Start Page)": "",
+   "Shared Ride (Start Page)": "",
+   "Pages Per Agency": "",
+   "Format Changed?": false,
+   "Has Distributional Factors": true,
+   "Consolidated Agencies": ""
+  },
+  "categories": {
+   "lbox": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "rbox": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "tbox": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "lchart": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "rchart": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  }
+ },
+ "2021-22": {
+  "meta": {
+   "Urban Systems (Start Page)": 26,
+   "Rural Systems (Start Page)": "",
+   "Shared Ride (Start Page)": "",
+   "Pages Per Agency": "",
+   "Format Changed?": true,
+   "Has Distributional Factors": true,
+   "Consolidated Agencies": ""
+  },
+  "categories": {
+   "lbox": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "rbox": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "tbox": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "lchart": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "rchart": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  }
+ },
+ "2022-23": {
+  "meta": {
+   "Urban Systems (Start Page)": 27,
+   "Rural Systems (Start Page)": "",
+   "Shared Ride (Start Page)": "",
+   "Pages Per Agency": "",
+   "Format Changed?": false,
+   "Has Distributional Factors": true,
+   "Consolidated Agencies": ""
+  },
+  "categories": {
+   "lbox": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "rbox": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "tbox": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "lchart": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "rchart": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  }
+ },
+ "2023-24": {
+  "meta": {
+   "Urban Systems (Start Page)": 38,
+   "Rural Systems (Start Page)": "",
+   "Shared Ride (Start Page)": "",
+   "Pages Per Agency": "",
+   "Format Changed?": false,
+   "Has Distributional Factors": true,
+   "Consolidated Agencies": ""
+  },
+  "categories": {
+   "lbox": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "rbox": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "tbox": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "lchart": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "rchart": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  }
+ }
+}
