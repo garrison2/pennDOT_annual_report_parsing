@@ -1,6 +1,6 @@
 #! /usr/bin/env python
 from enum import Enum
-import json, os, subprocess, shlex
+import json, os, subprocess, shlex, sys
 import pdfplumber
 
 import logging
@@ -12,7 +12,7 @@ REPORT_NAME_FORMAT = os.getenv("REPORT_NAME_FORMAT")
 YEAR_START = os.getenv("YEAR_START")
 YEAR_END = os.getenv("YEAR_END")
 
-BOXES = { 'lbox', 'rbox', 'tbox', 'lchart', 'rchart' }
+BOXES = [ 'lbox', 'rbox', 'tbox', 'lchart', 'rchart' ]
 remap = lambda x: [x[0], x[2], x[1], x[3]]
 
 class ReturnType(Enum):
@@ -64,13 +64,25 @@ class Boxes:
             print(f'{box}: [ {" ".join(str(r) for r in remap(val))} ]')
 
 # -------------- HELPER --------------
+
+def get_format_dict():
+    with open(FORMAT_JSON, "r") as file:
+        format_dict = json.load(file)
+
+    if os.path.exists("tmp.json"):
+        open_tmp = input("Open tmp format file? (y/n) ")
+        if open_tmp == 'y':
+            with open("tmp.json", "r") as file:
+                format_dict = json.load(file)
+    return format_dict
+
 def print_help():
     print(
           "h, help\t\t\t\t to print this help\n"
           "exit\t\t\t\t to exit\n"
           "c, crop\t\t\t\t to output the cropped text\n"
           "R, return\t\t\t to save the result to tmp and continue\n"
-          "P, page\t\t\t to view the next agency's page\n"
+          "P, page\t\t\t\t to view the next agency's page\n"
           "<box> <dimension> [+/-] <num>\t to set/change one dimension\n"
           "<box> [ x0 x1 y0 y1 ]\t\t to set all dimensions\n"
           "\n"
@@ -89,7 +101,6 @@ def verify_nums(vals):
         print("\nError! Bounding box violates page dimensions.")
         return False
 
-    print(y0, y1, y1 <= y0)
     return True
 # ------------------------------------
 
@@ -191,6 +202,8 @@ def loop(pdf, pagenum, pages_per_agency, boxes):
 
     pagenum -= 1
     page = pdf.pages[pagenum]
+    print(f"height: {page.height}, width: {page.width}, "
+          f"mid_x: {int(page.width/2)}\n")
 
     status = { ReturnType.DRAW, ReturnType.SHOW }
 
@@ -216,22 +229,13 @@ def loop(pdf, pagenum, pages_per_agency, boxes):
         if ReturnType.CROP in status:
             try:
                 for box in BOXES:
+                    print(f'{box}:')
                     boxcrop = page.crop(getattr(boxes, box))
                     print(boxcrop.extract_text())
+                    print()
 
-#                lcrop = page.crop(lbox)
-#                rcrop = page.crop(rbox)
-#                tcrop = page.crop(tbox)
-#                lccrop = page.crop(lchart)
-#                rccrop = page.crop(rchart)
             except ValueError as e:
                 print("\nError! Bounding box violates page dimensions.")
-#            else:
-#                print(lcrop.extract_text())
-#                print(rcrop.extract_text())
-#                print(tcrop.extract_text())
-#                print(rccrop.extract_text())
-#                print(lccrop.extract_text())
 
         if ReturnType.RETURN in status:
             result = dict()
@@ -239,10 +243,7 @@ def loop(pdf, pagenum, pages_per_agency, boxes):
                 result |= {box:getattr(boxes, box)}
             return result
 
-def main():
-    with open(FORMAT_JSON, 'r') as file:
-        format_dict = json.load(file)
-
+def main(format_dict):
     for y in range(int(YEAR_START), int(YEAR_END) + 1):
         year = str(y) + "-" + str(y + 1)[-2:]
         prior = str(y - 1) + "-" + str(y)[-2:]
@@ -266,4 +267,28 @@ def main():
 
 
 if __name__ == '__main__':
-    main()
+    format_dict = get_format_dict()
+
+    if len(sys.argv) == 3 and sys.argv[1] == "year":
+        y = int(sys.argv[2])
+        year = str(y) + "-" + str(y + 1)[-2:]
+        prior = str(y - 1) + "-" + str(y)[-2:]
+        filepath = os.path.join(REPORTS_DIR, REPORT_NAME_FORMAT.format(year=year))
+
+        startpage = format_dict[year]['meta']["Urban Systems (Start Page)"]
+        pages_per_agency = format_dict[year]['meta']["Pages Per Agency"]
+
+        with open(filepath, 'rb') as file:
+            pdf = pdfplumber.open(file)
+            page = pdf.pages[startpage - 1]
+
+            boxes = Boxes(page, format_dict[year], format_dict.get(prior))
+
+            print(f'Year: {year}')
+            result = loop(pdf, startpage, pages_per_agency, boxes)
+
+        format_dict[year]['categories'] |= result
+        write_to_tmp(format_dict)
+
+    else:
+        main(format_dict)
