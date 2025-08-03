@@ -11,6 +11,62 @@ REPORT_NAME_FORMAT = os.getenv("REPORT_NAME_FORMAT")
 YEAR_START = os.getenv("YEAR_START")
 YEAR_END = os.getenv("YEAR_END")
 
+BOXES = [ 'lbox', 'rbox', 'tbox', 'lchart', 'rchart' ]
+
+def get_agency_range(meta):
+    startnum = int(meta["Urban Systems (Start Page)"])
+    endnum = int(meta["Rural Systems (Start Page)"])
+    pages_per_agency = int(meta["Pages Per Agency"])
+
+    exception = meta.get('PPA_exception')
+    if exception:
+        exception = exception.split(' ')
+        exception[0] = int(exception[0])
+        exception[1] = int(exception[1])
+
+    return (startnum, endnum, pages_per_agency, exception)
+
+def get_box_text(page, meta) -> dict:
+    box_text = dict()
+    for box in meta['boxes']:
+        dimensions = meta['boxes'][box]
+        box_text[box] = page.crop(dimensions).extract_text()
+    return box_text
+
+def get_lrbox_index(box_text, categories) -> dict:
+    tmp_index = {'lbox':[], 'rbox':[]}
+               
+    for category in categories:
+        box = categories[category]['box']
+        if box != 'lbox' and box != 'rbox': continue
+
+        search_text = box_text[box]
+        pattern = categories[category]['name']
+        if pattern is None:
+            continue
+        search = re.search(pattern, search_text)
+        if search:
+            tmp_index[box].append((category, search.start()))
+        else:
+            print(f'Error {pattern}!')
+            print(search_text)
+
+    tmp_index['lbox'].sort(key=lambda x:x[1])
+    tmp_index['rbox'].sort(key=lambda x:x[1])
+
+    index = {'lbox':dict(), 'rbox':dict()}
+    for box in index:
+        tmp_box = tmp_index[box]
+        for i in range(len(tmp_box) - 1):
+            name, start = tmp_box[i]
+            end = tmp_box[i + 1][1]
+            index[box][name] = (start, end)
+        name, start = tmp_box[len(tmp_box) - 1]
+        end = len(box_text[box])
+        index[box][name] = (start, end)
+
+    return index
+
 def main():
     with open(FORMAT_JSON, 'r') as file:
         format_dict = json.load(file)
@@ -21,69 +77,64 @@ def main():
         year = str(y) + "-" + str(y + 1)[-2:]
         filepath = os.path.join(REPORTS_DIR, REPORT_NAME_FORMAT.format(year=year))
 
+        meta = format_dict[year]['meta']
+        categories = format_dict[year]['categories']
+
         with open(filepath, 'rb') as file:
             pdf = pdfplumber.open(file)
 
             print(f'Year: {year}')
 
-            startnum = int(format_dict[year]['meta']["Urban Systems (Start Page)"])
-            endnum = int(format_dict[year]['meta']["Rural Systems (Start Page)"])
-            pages_per_agency = int(format_dict[year]['meta']["Pages Per Agency"])
-
-            for i in range(startnum, endnum, pages_per_agency):
+            pagestart, pageend, per_agency, exception = get_agency_range(meta)
+            for i in range(pagestart, pageend, per_agency):
+                print('\nnew page')
                 page = pdf.pages[i - 1]
 
-                for category in format_dict[year]['categories']:
-                    name, x0, x1, y0, y1 = format_dict[year]['categories'][category]
-                    if name == '': continue
+                box_text = get_box_text(page, meta)
+                index = get_lrbox_index(box_text, categories)
+                print(index)
 
-                    direction = 'top'
-                    while True:
-                        try:
-                            cropped = page.crop((x0, y0, x1, y1))
-                        except ValueError as e:
-                            print("\nError! Bounding box larger than page dimensions.\n")
-                        else:
-                            text = "".join([c['text'] for c in cropped.chars])
+                for category in categories:
+                    cbase = categories[category]
+                    if cbase['name'] == '': continue
 
-                        if name and name not in text:
-                            if direction == 'top':
-                                if y0 - 50 < 0:
-                                    direction = 'bottom'
-                                    continue
-                                y0 -= 50 
-                                y1 -= 50
+                    match cbase['box']:
+                        case 'tbox':
+                            pass
+                        case 'lchart' | 'rchart':
+                            pass
+                        case _:
+                            text = box_text[cbase['box']]
+                            start, end = index[cbase['box']][category]
 
-                            else:
-                                if (y1 + 50 > page.height):
-                                    print("Could not find")
-                                    break
+                            for subcat in cbase['subheadings']:
+                                scbase = cbase['subheadings'][subcat]
+                                if scbase['name'] == '': continue
 
-                                y0 += 50
-                                y1 += 50
-                        else:
-                            break
+                                pattern1 = f"{scbase['name']}.*?\n"
+                                pattern2 = f"{scbase['name']}.*?$"
+                                search = (re.search(pattern1, text[start:end])
+                                          or re.search(pattern2, text[start:end]))
+                                if search:
+                                    result = search.group(0)
+                                    result = result[len(scbase['name']):]
+                                    result = result.strip()
+                                    result = result.split(scbase['delim'])
+                                    result = [ r.strip() for r in result[1:] ]
+                                    print(subcat, result)
+                                else:
+                                    print(repr(pattern))
+                                    print(repr(text[start:end]))
+                                    print('Not Found.')
 
+                            if cbase['delim'] is not None:
+                                search = re.search(cbase['name'], text[start:end])
+                                if search:
+                                    print(search.split(scbase['delim']))
 
-
-                    if name == None: name = ''
-                    if category == "Act 44 Fixed Route Distribution Factors":
-                        category = "Act 44 Factors"
-
-
-                    terminal_width = shutil.get_terminal_size().columns
-                    yr_wdth = int(terminal_width * 0.1)
-                    cat_wdth = int(terminal_width * 0.2)
-                    name_wdth = int(terminal_width * 0.2)
-                    text_wdth = int(terminal_width * 0.5)
-
-
-                    print(f'{year}{" " * (yr_wdth - len(year))}'
-                          f'{category}{" " * (cat_wdth - len(category))}'
-                          f'{name}{" " * (name_wdth - len(name))}'
-                          f'{text}{" " * (text_wdth - len(text))}'
-                          )
-
+                if exception and i == exception[0]:
+                    i -= per_agency
+                    i += exception[1]
 
 if __name__ == '__main__':
     main()

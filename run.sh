@@ -13,6 +13,14 @@ elif [ "$1" = "convert" ]; then
 	"$ROOT_DIR/src/convert_format.py" "$2" "$3"
 elif [ "$1" = "setup" ]; then
 	"$ROOT_DIR/src/setup.py" "$2" "$3"
+elif [ "$1" = "merge" ]; then
+	export FORMAT_CSV="categories.csv"
+	export FORMAT_JSON="categories.json"
+	export META_END=1
+	"$ROOT_DIR/src/convert_format.py"
+	MERGE_JSON="/home/garry/documents/ppt/annual_reports/categories.json"
+	"$ROOT_DIR/src/merge.py"
+
 else
 	"$ROOT_DIR/$1" "$2" "$3"
 fi

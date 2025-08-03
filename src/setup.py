@@ -8,6 +8,7 @@ logging.getLogger("pdfminer").setLevel(logging.ERROR)
 
 REPORTS_DIR = os.getenv("REPORTS_DIR")
 FORMAT_JSON = os.getenv("FORMAT_JSON")
+TMP_JSON = os.getenv("TMP_JSON")
 REPORT_NAME_FORMAT = os.getenv("REPORT_NAME_FORMAT")
 YEAR_START = os.getenv("YEAR_START")
 YEAR_END = os.getenv("YEAR_END")
@@ -69,10 +70,10 @@ def get_format_dict():
     with open(FORMAT_JSON, "r") as file:
         format_dict = json.load(file)
 
-    if os.path.exists("tmp.json"):
+    if os.path.exists(TMP_JSON):
         open_tmp = input("Open tmp format file? (y/n) ")
         if open_tmp == 'y':
-            with open("tmp.json", "r") as file:
+            with open(TMP_JSON, "r") as file:
                 format_dict = json.load(file)
     return format_dict
 
@@ -92,7 +93,7 @@ def print_help():
     return
 
 def write_to_tmp(dict_dump):
-    with open('tmp.json', 'w') as file:
+    with open(TMP_JSON, 'w') as file:
         json.dump(dict_dump, file, indent=1)
 
 def verify_nums(vals):

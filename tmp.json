@@ -10,6 +10,223 @@
    "Consolidated Agencies": ""
   },
   "categories": {
+   "Name": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "Service Area Statistics": [
+    "Service Area Statistics",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Square Miles": [
+    "Square Miles",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Population": [
+    "Population",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Act 44 Fixed Route \nDistribution Factors": [
+    "1513 Urban Fixed Route \nDistribution Factors",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Total Passengers": [
+    "Total Passengers",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Senior Passengers": [
+    "Senior Passengers",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Revenue Vehicle Miles": [
+    "Revenue Vehicle Miles",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Revenue Vehicle Hours": [
+    "Revenue Vehicle Hours",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Act 44 Operating Assistance": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Section 1513 Allocation": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Required Local Match": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Total Fleet Size": [
+    "Total Fleet Size",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Motor Bus": [
+    "Fixed Route",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Commuter Rail Cars": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Heavy Rail Cars": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Street Car Rail/Light Rail": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Trolley Bus": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Paratransit Vehicles": [
+    "Paratransit",
+    null,
+    null,
+    null,
+    null
+   ],
+   "System-wide": [
+    "Systemwide",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fare Information": [
+    "Fare Information",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fixed Route Base": [
+    "Fixed Route Base",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fixed Route Avg": [
+    "Fixed Route Avg",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Last Base Fare Increase": [
+    "Last Base Fare Increase",
+    null,
+    null,
+    null,
+    null
+   ],
+   "System-wide Increase": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Employees": [
+    "Employees",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fixed Route Full/Part Time": [
+    "Fixed Route Full/Part Time",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Paratransit Full/Part Time": [
+    "Paratransit Full/Part Time",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Systemwide Full/Part Time": [
+    "Systemwide Full/Part Time",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Operating Expense": [
+    "TOTAL OPERATING EXPENSE",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Operating Funds": [
+    "TOTAL OPERATING FUNDS",
+    null,
+    null,
+    null,
+    null
+   ],
    "lbox": [
     97,
     58,
@@ -53,6 +270,223 @@
    "Consolidated Agencies": ""
   },
   "categories": {
+   "Name": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "Service Area Statistics": [
+    "Service Area Statistics",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Square Miles": [
+    "Square Miles",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Population": [
+    "Population",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Act 44 Fixed Route \nDistribution Factors": [
+    "Act 44 Fixed Route \nDistribution Factors",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Total Passengers": [
+    "Total Passengers",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Senior Passengers": [
+    "Senior Passengers",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Revenue Vehicle Miles": [
+    "Revenue Vehicle Miles",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Revenue Vehicle Hours": [
+    "Revenue Vehicle Hours",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Act 44 Operating Assistance": [
+    "Act 44 Operating Assistance",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Section 1513 Allocation": [
+    "Operating Assistance",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Required Local Match": [
+    "Required Local Match",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Total Fleet Size": [
+    "Total Fleet Size",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Motor Bus": [
+    "Fixed Route",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Commuter Rail Cars": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Heavy Rail Cars": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Street Car Rail/Light Rail": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Trolley Bus": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Paratransit Vehicles": [
+    "Paratransit",
+    null,
+    null,
+    null,
+    null
+   ],
+   "System-wide": [
+    "System-wide",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fare Information": [
+    "Fare Information",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fixed Route Base": [
+    "Fixed Route Base",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fixed Route Avg": [
+    "Fixed Route Avg",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Last Base Fare Increase": [
+    "Last Base Fare Increase",
+    null,
+    null,
+    null,
+    null
+   ],
+   "System-wide Increase": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Employees": [
+    "Employees",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fixed Route Full/Part Time": [
+    "Fixed Route Full/Part Time",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Paratransit Full/Part Time": [
+    "Paratransit Full/Part Time",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Systemwide Full/Part Time": [
+    "Systemwide Full/Part Time",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Operating Expense": [
+    "OPERATING EXPENSE",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Operating Funds": [
+    "OPERATING FUNDS",
+    null,
+    null,
+    null,
+    null
+   ],
    "lbox": [
     97,
     58,
@@ -96,6 +530,223 @@
    "Consolidated Agencies": ""
   },
   "categories": {
+   "Name": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "Service Area Statistics": [
+    "Service Area Statistics",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Square Miles": [
+    "Square Miles",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Population": [
+    "Population",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Act 44 Fixed Route \nDistribution Factors": [
+    "Act 44 Fixed Route \nDistribution Factors",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Total Passengers": [
+    "Total Passengers",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Senior Passengers": [
+    "Senior Passengers",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Revenue Vehicle Miles": [
+    "Revenue Vehicle Miles",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Revenue Vehicle Hours": [
+    "Revenue Vehicle Hours",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Act 44 Operating Assistance": [
+    "Act 44 Operating Assistance",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Section 1513 Allocation": [
+    "Operating Assistance",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Required Local Match": [
+    "Required Local Match",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Total Fleet Size": [
+    "Total Fleet Size",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Motor Bus": [
+    "Fixed Route",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Commuter Rail Cars": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Heavy Rail Cars": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Street Car Rail/Light Rail": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Trolley Bus": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Paratransit Vehicles": [
+    "Paratransit",
+    null,
+    null,
+    null,
+    null
+   ],
+   "System-wide": [
+    "System-wide",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fare Information": [
+    "Fare Information",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fixed Route Base": [
+    "Fixed Route Base",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fixed Route Avg": [
+    "Fixed Route Avg",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Last Base Fare Increase": [
+    "Last Base Fare Increase",
+    null,
+    null,
+    null,
+    null
+   ],
+   "System-wide Increase": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Employees": [
+    "Employees",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fixed Route Full/Part Time": [
+    "Fixed Route Full/Part Time",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Paratransit Full/Part Time": [
+    "Paratransit Full/Part Time",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Systemwide Full/Part Time": [
+    "Systemwide Full/Part Time",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Operating Expense": [
+    "OPERATING EXPENSE",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Operating Funds": [
+    "OPERATING FUNDS",
+    null,
+    null,
+    null,
+    null
+   ],
    "lbox": [
     97,
     58,
@@ -139,6 +790,223 @@
    "Consolidated Agencies": ""
   },
   "categories": {
+   "Name": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "Service Area Statistics": [
+    "Service Area Statistics",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Square Miles": [
+    "Square Miles",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Population": [
+    "Population",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Act 44 Fixed Route \nDistribution Factors": [
+    "Act 44 Fixed Route \nDistribution Factors",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Total Passengers": [
+    "Total Passengers",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Senior Passengers": [
+    "Senior Passengers",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Revenue Vehicle Miles": [
+    "Revenue Vehicle Miles",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Revenue Vehicle Hours": [
+    "Revenue Vehicle Hours",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Act 44 Operating Assistance": [
+    "Act 44 Operating Assistance",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Section 1513 Allocation": [
+    "Operating Assistance",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Required Local Match": [
+    "Required Local Match",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Total Fleet Size": [
+    "Total Fleet Size",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Motor Bus": [
+    "Fixed Route",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Commuter Rail Cars": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Heavy Rail Cars": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Street Car Rail/Light Rail": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Trolley Bus": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Paratransit Vehicles": [
+    "Paratransit",
+    null,
+    null,
+    null,
+    null
+   ],
+   "System-wide": [
+    "System-wide",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fare Information": [
+    "Fare Information",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fixed Route Base": [
+    "Fixed Route Base",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fixed Route Avg": [
+    "Fixed Route Avg",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Last Base Fare Increase": [
+    "Last Base Fare Increase",
+    null,
+    null,
+    null,
+    null
+   ],
+   "System-wide Increase": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Employees": [
+    "Employees",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fixed Route Full/Part Time": [
+    "Fixed Route Full/Part Time",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Paratransit Full/Part Time": [
+    "Paratransit Full/Part Time",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Systemwide Full/Part Time": [
+    "Systemwide Full/Part Time",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Operating Expense": [
+    "OPERATING EXPENSE",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Operating Funds": [
+    "OPERATING FUNDS",
+    null,
+    null,
+    null,
+    null
+   ],
    "lbox": [
     102,
     53,
@@ -182,6 +1050,223 @@
    "Consolidated Agencies": ""
   },
   "categories": {
+   "Name": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "Service Area Statistics": [
+    "Service Area Statistics",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Square Miles": [
+    "Square Miles",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Population": [
+    "Population",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Act 44 Fixed Route \nDistribution Factors": [
+    "Act 44 Fixed Route \nDistribution Factors",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Total Passengers": [
+    "Total Passengers",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Senior Passengers": [
+    "Senior Passengers",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Revenue Vehicle Miles": [
+    "Revenue Vehicle Miles",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Revenue Vehicle Hours": [
+    "Revenue Vehicle Hours",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Act 44 Operating Assistance": [
+    "Act 44 Operating Assistance",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Section 1513 Allocation": [
+    "Operating Assistance",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Required Local Match": [
+    "Required Local Match",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Total Fleet Size": [
+    "Total Fleet Size",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Motor Bus": [
+    "Motor Bus",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Commuter Rail Cars": [
+    "Commuter Rail Cars",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Heavy Rail Cars": [
+    "Heavy Rail Cars",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Street Car Rail/Light Rail": [
+    "Street Car Rail/Light Rail",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Trolley Bus": [
+    "Trolley Bus",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Paratransit Vehicles": [
+    "Paratransit Vehicles",
+    null,
+    null,
+    null,
+    null
+   ],
+   "System-wide": [
+    "System-wide",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fare Information": [
+    "Fare Information",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fixed Route Base": [
+    "Fixed Route Base",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fixed Route Avg": [
+    "Fixed Route Avg",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Last Base Fare Increase": [
+    "Last Base Fare Increase",
+    null,
+    null,
+    null,
+    null
+   ],
+   "System-wide Increase": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Employees": [
+    "Employees",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fixed Route Full/Part Time": [
+    "Fixed Route Full/Part Time",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Paratransit Full/Part Time": [
+    "Paratransit Full/Part Time",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Systemwide Full/Part Time": [
+    "Systemwide Full/Part Time",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Operating Expense": [
+    "Operating Expense",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Operating Funds": [
+    "Operating Funds",
+    null,
+    null,
+    null,
+    null
+   ],
    "lbox": [
     102,
     53,
@@ -225,6 +1310,223 @@
    "Consolidated Agencies": ""
   },
   "categories": {
+   "Name": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "Service Area Statistics": [
+    "Service Area Statistics",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Square Miles": [
+    "Square Miles",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Population": [
+    "Population",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Act 44 Fixed Route \nDistribution Factors": [
+    "Act 44 Fixed Route \nDistribution Factors",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Total Passengers": [
+    "Total Passengers",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Senior Passengers": [
+    "Senior Passengers",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Revenue Vehicle Miles": [
+    "Revenue Vehicle Miles",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Revenue Vehicle Hours": [
+    "Revenue Vehicle Hours",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Act 44 Operating Assistance": [
+    "Act 44 Operating Assistance",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Section 1513 Allocation": [
+    "Section 1513 Allocation",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Required Local Match": [
+    "Required Local Match",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Total Fleet Size": [
+    "Total Fleet Size",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Motor Bus": [
+    "Motor Bus",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Commuter Rail Cars": [
+    "Commuter Rail Cars",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Heavy Rail Cars": [
+    "Heavy Rail Cars",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Street Car Rail/Light Rail": [
+    "Street Car Rail/Light Rail",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Trolley Bus": [
+    "Trolley Bus",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Paratransit Vehicles": [
+    "Paratransit Vehicles",
+    null,
+    null,
+    null,
+    null
+   ],
+   "System-wide": [
+    "System-wide",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fare Information": [
+    "Fare Information",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fixed Route Base": [
+    "Fixed Route Base",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fixed Route Avg": [
+    "Fixed Route Avg",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Last Base Fare Increase": [
+    "Last Base Fare Increase",
+    null,
+    null,
+    null,
+    null
+   ],
+   "System-wide Increase": [
+    "System-wide Increase",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Employees": [
+    "Employees",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fixed Route Full/Part Time": [
+    "Fixed Route Full/Part Time",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Paratransit Full/Part Time": [
+    "Paratransit Full/Part Time",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Systemwide Full/Part Time": [
+    "Systemwide Full/Part Time",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Operating Expense": [
+    "Operating Expense",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Operating Funds": [
+    "Operating Funds",
+    null,
+    null,
+    null,
+    null
+   ],
    "lbox": [
     102,
     53,
@@ -268,6 +1570,223 @@
    "Consolidated Agencies": ""
   },
   "categories": {
+   "Name": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "Service Area Statistics": [
+    "Service Area Statistics",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Square Miles": [
+    "Square Miles",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Population": [
+    "Population",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Act 44 Fixed Route \nDistribution Factors": [
+    "Act 44 Fixed Route \nDistribution Factors",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Total Passengers": [
+    "Total Passengers",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Senior Passengers": [
+    "Senior Passengers",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Revenue Vehicle Miles": [
+    "Revenue Vehicle Miles",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Revenue Vehicle Hours": [
+    "Revenue Vehicle Hours",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Act 44 Operating Assistance": [
+    "Act 44 Operating Assistance",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Section 1513 Allocation": [
+    "Section 1513 Allocation",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Required Local Match": [
+    "Required Local Match",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Total Fleet Size": [
+    "Current Fleet Size",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Motor Bus": [
+    "Motor Bus",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Commuter Rail Cars": [
+    "Commuter Rail Cars",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Heavy Rail Cars": [
+    "Heavy Rail Cars",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Street Car Rail/Light Rail": [
+    "Street Car Rail/Light Rail",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Trolley Bus": [
+    "Trolley Bus",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Paratransit Vehicles": [
+    "Paratransit Vehicles",
+    null,
+    null,
+    null,
+    null
+   ],
+   "System-wide": [
+    "System-wide",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fare Information": [
+    "Current Fare Information",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fixed Route Base": [
+    "Fixed Route Base",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fixed Route Avg": [
+    "Fixed Route Average",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Last Base Fare Increase": [
+    "Last Base Fare Increase",
+    null,
+    null,
+    null,
+    null
+   ],
+   "System-wide Increase": [
+    "System-wide Increase",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Employees": [
+    "Current Employees",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fixed Route Full/Part Time": [
+    "Fixed Route Full/Part Time",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Paratransit Full/Part Time": [
+    "Paratransit Full/Part Time",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Systemwide Full/Part Time": [
+    "Systemwide Full/Part Time",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Operating Expense": [
+    "Operating Expense",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Operating Funds": [
+    "Operating Funds",
+    null,
+    null,
+    null,
+    null
+   ],
    "lbox": [
     137,
     89,
@@ -312,6 +1831,223 @@
    "Consolidated Agencies": ""
   },
   "categories": {
+   "Name": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "Service Area Statistics": [
+    "Service Area Statistics",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Square Miles": [
+    "Square Miles",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Population": [
+    "Population",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Act 44 Fixed Route \nDistribution Factors": [
+    "Act 44 Fixed Route \nDistribution Factors",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Total Passengers": [
+    "Total Passengers",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Senior Passengers": [
+    "Senior Passengers",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Revenue Vehicle Miles": [
+    "Revenue Vehicle Miles",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Revenue Vehicle Hours": [
+    "Revenue Vehicle Hours",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Act 44 Operating Assistance": [
+    "Act 44 Operating Assistance",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Section 1513 Allocation": [
+    "Section 1513 Allocation",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Required Local Match": [
+    "Required Local Match",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Total Fleet Size": [
+    "Current Fleet Size",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Motor Bus": [
+    "Motor Bus",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Commuter Rail Cars": [
+    "Commuter Rail Cars",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Heavy Rail Cars": [
+    "Heavy Rail Cars",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Street Car Rail/Light Rail": [
+    "Street Car Rail/Light Rail",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Trolley Bus": [
+    "Trolley Bus",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Paratransit Vehicles": [
+    "Paratransit Vehicles",
+    null,
+    null,
+    null,
+    null
+   ],
+   "System-wide": [
+    "System-wide",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fare Information": [
+    "Current Fare Information",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fixed Route Base": [
+    "Fixed Route Base",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fixed Route Avg": [
+    "Fixed Route Average",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Last Base Fare Increase": [
+    "Last Base Fare Increase",
+    null,
+    null,
+    null,
+    null
+   ],
+   "System-wide Increase": [
+    "System-wide Increase",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Employees": [
+    "Current Employees",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fixed Route Full/Part Time": [
+    "Fixed Route Full/Part Time",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Paratransit Full/Part Time": [
+    "Paratransit Full/Part Time",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Systemwide Full/Part Time": [
+    "Systemwide Full/Part Time",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Operating Expense": [
+    "Operating Expense",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Operating Funds": [
+    "Operating Funds",
+    null,
+    null,
+    null,
+    null
+   ],
    "lbox": [
     137,
     119,
@@ -355,6 +2091,223 @@
    "Consolidated Agencies": ""
   },
   "categories": {
+   "Name": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "Service Area Statistics": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Square Miles": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Population": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Act 44 Fixed Route \nDistribution Factors": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Total Passengers": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Senior Passengers": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Revenue Vehicle Miles": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Revenue Vehicle Hours": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Act 44 Operating Assistance": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Section 1513 Allocation": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Required Local Match": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Total Fleet Size": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Motor Bus": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Commuter Rail Cars": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Heavy Rail Cars": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Street Car Rail/Light Rail": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Trolley Bus": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Paratransit Vehicles": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "System-wide": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fare Information": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fixed Route Base": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fixed Route Avg": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Last Base Fare Increase": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "System-wide Increase": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Employees": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fixed Route Full/Part Time": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Paratransit Full/Part Time": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Systemwide Full/Part Time": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Operating Expense": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Operating Funds": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
    "lbox": [
     137,
     119,
@@ -398,6 +2351,223 @@
    "Consolidated Agencies": ""
   },
   "categories": {
+   "Name": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "Service Area Statistics": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Square Miles": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Population": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Act 44 Fixed Route \nDistribution Factors": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Total Passengers": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Senior Passengers": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Revenue Vehicle Miles": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Revenue Vehicle Hours": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Act 44 Operating Assistance": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Section 1513 Allocation": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Required Local Match": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Total Fleet Size": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Motor Bus": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Commuter Rail Cars": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Heavy Rail Cars": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Street Car Rail/Light Rail": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Trolley Bus": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Paratransit Vehicles": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "System-wide": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fare Information": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fixed Route Base": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fixed Route Avg": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Last Base Fare Increase": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "System-wide Increase": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Employees": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fixed Route Full/Part Time": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Paratransit Full/Part Time": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Systemwide Full/Part Time": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Operating Expense": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Operating Funds": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
    "lbox": [
     137,
     119,
@@ -441,6 +2611,223 @@
    "Consolidated Agencies": "BARTA, RRTA -> SCTA\nWashington City, County -> WCTA\nCATO, VCTO -> CATA"
   },
   "categories": {
+   "Name": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "Service Area Statistics": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Square Miles": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Population": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Act 44 Fixed Route \nDistribution Factors": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Total Passengers": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Senior Passengers": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Revenue Vehicle Miles": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Revenue Vehicle Hours": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Act 44 Operating Assistance": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Section 1513 Allocation": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Required Local Match": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Total Fleet Size": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Motor Bus": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Commuter Rail Cars": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Heavy Rail Cars": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Street Car Rail/Light Rail": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Trolley Bus": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Paratransit Vehicles": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "System-wide": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fare Information": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fixed Route Base": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fixed Route Avg": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Last Base Fare Increase": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "System-wide Increase": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Employees": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fixed Route Full/Part Time": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Paratransit Full/Part Time": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Systemwide Full/Part Time": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Operating Expense": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Operating Funds": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
    "lbox": [
     137,
     119,
@@ -484,6 +2871,223 @@
    "Consolidated Agencies": ""
   },
   "categories": {
+   "Name": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "Service Area Statistics": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Square Miles": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Population": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Act 44 Fixed Route \nDistribution Factors": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Total Passengers": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Senior Passengers": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Revenue Vehicle Miles": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Revenue Vehicle Hours": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Act 44 Operating Assistance": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Section 1513 Allocation": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Required Local Match": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Total Fleet Size": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Motor Bus": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Commuter Rail Cars": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Heavy Rail Cars": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Street Car Rail/Light Rail": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Trolley Bus": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Paratransit Vehicles": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "System-wide": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fare Information": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fixed Route Base": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fixed Route Avg": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Last Base Fare Increase": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "System-wide Increase": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Employees": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fixed Route Full/Part Time": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Paratransit Full/Part Time": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Systemwide Full/Part Time": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Operating Expense": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Operating Funds": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
    "lbox": [
     137,
     119,
@@ -527,6 +3131,223 @@
    "Consolidated Agencies": ""
   },
   "categories": {
+   "Name": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "Service Area Statistics": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Square Miles": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Population": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Act 44 Fixed Route \nDistribution Factors": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Total Passengers": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Senior Passengers": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Revenue Vehicle Miles": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Revenue Vehicle Hours": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Act 44 Operating Assistance": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Section 1513 Allocation": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Required Local Match": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Total Fleet Size": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Motor Bus": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Commuter Rail Cars": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Heavy Rail Cars": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Street Car Rail/Light Rail": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Trolley Bus": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Paratransit Vehicles": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "System-wide": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fare Information": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fixed Route Base": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fixed Route Avg": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Last Base Fare Increase": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "System-wide Increase": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Employees": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fixed Route Full/Part Time": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Paratransit Full/Part Time": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Systemwide Full/Part Time": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Operating Expense": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Operating Funds": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
    "lbox": [
     137,
     119,
@@ -570,6 +3391,223 @@
    "Consolidated Agencies": ""
   },
   "categories": {
+   "Name": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "Service Area Statistics": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Square Miles": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Population": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Act 44 Fixed Route \nDistribution Factors": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Total Passengers": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Senior Passengers": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Revenue Vehicle Miles": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Revenue Vehicle Hours": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Act 44 Operating Assistance": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Section 1513 Allocation": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Required Local Match": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Total Fleet Size": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Motor Bus": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Commuter Rail Cars": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Heavy Rail Cars": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Street Car Rail/Light Rail": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Trolley Bus": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Paratransit Vehicles": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "System-wide": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fare Information": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fixed Route Base": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fixed Route Avg": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Last Base Fare Increase": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "System-wide Increase": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Employees": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fixed Route Full/Part Time": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Paratransit Full/Part Time": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Systemwide Full/Part Time": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Operating Expense": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Operating Funds": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
    "lbox": [
     137,
     119,
@@ -613,6 +3651,223 @@
    "Consolidated Agencies": ""
   },
   "categories": {
+   "Name": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "Service Area Statistics": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Square Miles": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Population": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Act 44 Fixed Route \nDistribution Factors": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Total Passengers": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Senior Passengers": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Revenue Vehicle Miles": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Revenue Vehicle Hours": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Act 44 Operating Assistance": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Section 1513 Allocation": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Required Local Match": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Total Fleet Size": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Motor Bus": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Commuter Rail Cars": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Heavy Rail Cars": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Street Car Rail/Light Rail": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Trolley Bus": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Paratransit Vehicles": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "System-wide": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fare Information": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fixed Route Base": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fixed Route Avg": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Last Base Fare Increase": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "System-wide Increase": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Employees": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fixed Route Full/Part Time": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Paratransit Full/Part Time": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Systemwide Full/Part Time": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Operating Expense": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Operating Funds": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
    "lbox": [
     137,
     119,
@@ -657,6 +3912,223 @@
    "Consolidated Agencies": ""
   },
   "categories": {
+   "Name": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "Service Area Statistics": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Square Miles": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Population": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Act 44 Fixed Route \nDistribution Factors": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Total Passengers": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Senior Passengers": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Revenue Vehicle Miles": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Revenue Vehicle Hours": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Act 44 Operating Assistance": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Section 1513 Allocation": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Required Local Match": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Total Fleet Size": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Motor Bus": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Commuter Rail Cars": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Heavy Rail Cars": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Street Car Rail/Light Rail": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Trolley Bus": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Paratransit Vehicles": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "System-wide": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fare Information": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fixed Route Base": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fixed Route Avg": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Last Base Fare Increase": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "System-wide Increase": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Employees": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fixed Route Full/Part Time": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Paratransit Full/Part Time": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Systemwide Full/Part Time": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Operating Expense": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Operating Funds": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
    "lbox": [
     297,
     109,
@@ -701,6 +4173,223 @@
    "Consolidated Agencies": ""
   },
   "categories": {
+   "Name": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "Service Area Statistics": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Square Miles": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Population": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Act 44 Fixed Route \nDistribution Factors": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Total Passengers": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Senior Passengers": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Revenue Vehicle Miles": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Revenue Vehicle Hours": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Act 44 Operating Assistance": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Section 1513 Allocation": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Required Local Match": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Total Fleet Size": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Motor Bus": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Commuter Rail Cars": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Heavy Rail Cars": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Street Car Rail/Light Rail": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Trolley Bus": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Paratransit Vehicles": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "System-wide": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fare Information": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fixed Route Base": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fixed Route Avg": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Last Base Fare Increase": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "System-wide Increase": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Employees": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fixed Route Full/Part Time": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Paratransit Full/Part Time": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Systemwide Full/Part Time": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Operating Expense": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Operating Funds": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
    "lbox": [
     297,
     109,
@@ -745,6 +4434,223 @@
    "Consolidated Agencies": ""
   },
   "categories": {
+   "Name": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "Service Area Statistics": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Square Miles": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Population": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Act 44 Fixed Route \nDistribution Factors": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Total Passengers": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Senior Passengers": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Revenue Vehicle Miles": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Revenue Vehicle Hours": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Act 44 Operating Assistance": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Section 1513 Allocation": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Required Local Match": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Total Fleet Size": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Motor Bus": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Commuter Rail Cars": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Heavy Rail Cars": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Street Car Rail/Light Rail": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Trolley Bus": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Paratransit Vehicles": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "System-wide": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fare Information": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fixed Route Base": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fixed Route Avg": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Last Base Fare Increase": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "System-wide Increase": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Employees": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Fixed Route Full/Part Time": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Paratransit Full/Part Time": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Systemwide Full/Part Time": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Operating Expense": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
+   "Operating Funds": [
+    "",
+    null,
+    null,
+    null,
+    null
+   ],
    "lbox": [
     297,
     109,
