@@ -133,6 +133,10 @@
       "name": "",
       "delim": null
      },
+     "Inclined Plane Cars": {
+      "name": "",
+      "delim": null
+     },
      "Paratransit Vehicles": {
       "name": "",
       "delim": null
@@ -331,6 +335,10 @@
       "delim": null
      },
      "Trolley Bus": {
+      "name": "",
+      "delim": null
+     },
+     "Inclined Plane Cars": {
       "name": "",
       "delim": null
      },
@@ -535,7 +543,11 @@
       "name": "",
       "delim": null
      },
-     "Paratransit Vehicles": {
+     "Inclined Plane Cars": {
+      "name": "",
+      "delim": null
+     },
+    "Paratransit Vehicles": {
       "name": "",
       "delim": null
      },
@@ -733,6 +745,10 @@
       "delim": null
      },
      "Trolley Bus": {
+      "name": "",
+      "delim": null
+     },
+     "Inclined Plane Cars": {
       "name": "",
       "delim": null
      },
@@ -941,6 +957,10 @@
       "delim": ":"
      },
      "Trolley Bus": {
+      "name": "Trolley Bus",
+      "delim": ":"
+     },
+     "Inclined Plane Cars": {
       "name": "Inclined Plane Cars",
       "delim": ":"
      },
@@ -1145,6 +1165,10 @@
       "delim": ":"
      },
      "Trolley Bus": {
+      "name": "Trolley Bus",
+      "delim": ":"
+     },
+     "Inclined Plane Cars": {
       "name": "Inclined Plane Cars",
       "delim": ":"
      },
@@ -1349,6 +1373,10 @@
       "delim": ":"
      },
      "Trolley Bus": {
+      "name": "Trolley Bus",
+      "delim": ":"
+     },
+     "Inclined Plane Cars": {
       "name": "Inclined Plane Cars",
       "delim": ":"
      },
@@ -1423,7 +1451,12 @@
    "Shared Ride (Start Page)": 194,
    "Pages Per Agency": 4,
    "PPA_exception": {
-    "70": 2
+    "70": 2,
+	"108":2,
+	"130":2,
+	"136":2,
+	"148":2,
+	"158":2
    },
    "Format Changed?": false,
    "Has Distributional Factors": true,
@@ -1431,7 +1464,9 @@
    "except": [
     62
    ],
-   "silent": [],
+   "silent": [
+    "Total Fleet Size"
+   ],
    "boxes": {
     "lbox": [
      137,
@@ -1554,6 +1589,10 @@
       "delim": ":"
      },
      "Trolley Bus": {
+      "name": "Trolley Bus",
+      "delim": ":"
+     },
+     "Inclined Plane Cars": {
       "name": "Inclined Plane Cars",
       "delim": ":"
      },
@@ -1752,6 +1791,10 @@
       "delim": ":"
      },
      "Trolley Bus": {
+      "name": "Trolley Bus",
+      "delim": ":"
+     },
+     "Inclined Plane Cars": {
       "name": "Inclined Plane Cars",
       "delim": ":"
      },
@@ -1950,6 +1993,10 @@
       "delim": ":"
      },
      "Trolley Bus": {
+      "name": "Trolley Bus",
+      "delim": ":"
+     },
+     "Inclined Plane Cars": {
       "name": "Inclined Plane Cars",
       "delim": ":"
      },
@@ -2148,6 +2195,10 @@
       "delim": ":"
      },
      "Trolley Bus": {
+      "name": "Trolley Bus",
+      "delim": ":"
+     },
+     "Inclined Plane Cars": {
       "name": "Inclined Plane Cars",
       "delim": ":"
      },
@@ -2346,6 +2397,10 @@
       "delim": ":"
      },
      "Trolley Bus": {
+      "name": "Trolley Bus",
+      "delim": ":"
+     },
+     "Inclined Plane Cars": {
       "name": "Inclined Plane Cars",
       "delim": ":"
      },
@@ -2544,6 +2599,10 @@
       "delim": ":"
      },
      "Trolley Bus": {
+      "name": "Trolley Bus",
+      "delim": ":"
+     },
+     "Inclined Plane Cars": {
       "name": "Inclined Plane Cars",
       "delim": ":"
      },
@@ -2742,6 +2801,10 @@
       "delim": ":"
      },
      "Trolley Bus": {
+      "name": "Trolley Bus",
+      "delim": ":"
+     },
+     "Inclined Plane Cars": {
       "name": "Inclined Plane Cars",
       "delim": ":"
      },
@@ -2940,6 +3003,10 @@
       "delim": ":"
      },
      "Trolley Bus": {
+      "name": "Trolley Bus",
+      "delim": ":"
+     },
+     "Inclined Plane Cars": {
       "name": "Inclined Plane Cars",
       "delim": ":"
      },
@@ -3139,6 +3206,10 @@
       "delim": ":"
      },
      "Trolley Bus": {
+      "name": "Trolley Bus",
+      "delim": ":"
+     },
+     "Inclined Plane Cars": {
       "name": "Inclined Plane Cars",
       "delim": ":"
      },
@@ -3338,6 +3409,10 @@
       "delim": ":"
      },
      "Trolley Bus": {
+      "name": "Trolley Bus",
+      "delim": ":"
+     },
+     "Inclined Plane Cars": {
       "name": "Inclined Plane Cars",
       "delim": ":"
      },
@@ -3537,6 +3612,10 @@
       "delim": ":"
      },
      "Trolley Bus": {
+      "name": "Trolley Bus",
+      "delim": ":"
+     },
+     "Inclined Plane Cars": {
       "name": "Inclined Plane Cars",
       "delim": ":"
      },

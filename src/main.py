@@ -23,7 +23,8 @@ def clean(val):
             return val
         else:
             val = val[0]
-    return int(val) if val.isdigit() else val
+    return val
+#    return int(val) if val.isdigit() else val
 # ------------------------------------
 
 def get_format_dict():
@@ -63,28 +64,38 @@ def change_year_format(format_dict, year, prior):
 
 def get_agency_range(meta):
     pages_per_agency = int(meta["Pages Per Agency"])
-#     exception = meta.get('PPA_exception')
-#     if exception:
-#         exception = exception.split(' ')
-#         exception[0] = int(exception[0])
-#         exception[1] = int(exception[1])
-# 
-# # TODO
-
+    exceptions = meta.get('PPA_exception', dict())
     index0 = int(meta["Urban Systems (Start Page)"])
     index1 = int(meta["Rural Systems (Start Page)"])
     index2 = int(meta["Shared Ride (Start Page)"])
 
-    urban = range(index0, index1 - 2, pages_per_agency)
-    rural = range(index1, index2 - 2, pages_per_agency)
+    ranges = [[index0, index1 - 2, pages_per_agency], 
+              [index1, index2 - 2, pages_per_agency]]
 
-#    if exception and i == exception[0] + :
-#        i -= int(meta["Pages Per Agency"])
-#        i += exception[1]
-#
+    i = 0
 
+    for except_start in sorted(int(e) for e in exceptions.keys()):
+        except_step = exceptions[str(except_start)]
+        except_end = except_start + except_step
 
-    return list(urban) + list(rural)
+        while(i < len(ranges) and ranges[i][0] < except_start):
+            i += 1
+
+        if i != 0 and ranges[i-1][1] > except_end:
+            original_end = ranges[i-1][1]
+            ranges[i-1][1] = except_start
+            ranges.insert(i, [except_start, except_end, except_step])
+            ranges.insert(i+1, [except_end, original_end, ranges[i-1][2]])
+        else:
+            ranges.insert(i, [except_start, except_end, except_step])
+            ranges[i+1][0] = except_end
+
+    expanded_ranges = []
+    for r in ranges:
+        expanded_ranges += list(range(*r))
+
+    print(expanded_ranges)
+    return expanded_ranges
 
 def get_box_text(page, meta) -> dict:
     box_text = dict()
@@ -232,7 +243,6 @@ def main(start = None):
 
                 results[year][name] = vals
                 write_to_file(results, PARSED_JSON)
-
 
 if __name__ == '__main__':
     start = None
