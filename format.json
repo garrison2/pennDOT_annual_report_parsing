@@ -2,7 +2,7 @@
  "2006-07": {
   "meta": {
    "Urban Systems (Start Page)": 16,
-   "Rural Systems (Start Page)": 52,
+   "Rural Systems (Start Page)": 66,
    "Shared Ride (Start Page)": 98,
    "Pages Per Agency": 2,
    "Format Changed?": false,
@@ -62,8 +62,8 @@
      }
     }
    },
-   "Act 44 Fixed Route \nDistribution Factors": {
-    "name": "1513 .*? Fixed Route\nDistribution Factors",
+   "Act 44 Fixed Route Distribution Factors": {
+    "name": "Distribution Factors",
     "box": "lbox",
     "delim": null,
     "subheadings": {
@@ -105,9 +105,17 @@
     "box": "lbox",
     "delim": null,
     "subheadings": {
-     "Motor Bus": {
+     "Fixed Route": {
       "name": "Fixed Route",
       "delim": ":"
+     },
+     "Paratransit": {
+      "name": "Paratransit",
+      "delim": ":"
+     },
+     "Motor Bus": {
+      "name": "",
+      "delim": null
      },
      "Commuter Rail Cars": {
       "name": "",
@@ -126,10 +134,10 @@
       "delim": null
      },
      "Paratransit Vehicles": {
-      "name": "Paratransit",
-      "delim": ":"
+      "name": "",
+      "delim": null
      },
-     "System-wide": {
+     "Systemwide": {
       "name": "Systemwide",
       "delim": ":"
      }
@@ -152,7 +160,7 @@
       "name": "Last Base Fare Increase",
       "delim": ":"
      },
-     "System-wide Increase": {
+     "Systemwide Increase": {
       "name": "",
       "delim": null
      }
@@ -198,6 +206,9 @@
    "Format Changed?": true,
    "Has Distributional Factors": false,
    "Consolidated Agencies": "",
+   "except": [
+    22
+   ],
    "boxes": {
     "lbox": [
      97,
@@ -234,12 +245,12 @@
   "categories": {
    "Name": {
     "name": null,
-    "box": null,
-    "delim": null
+    "box": "tbox",
+    "delim": "all"
    },
    "Service Area Statistics": {
     "name": "Service Area Statistics",
-    "box": null,
+    "box": "lbox",
     "delim": null,
     "subheadings": {
      "Square Miles": {
@@ -252,9 +263,9 @@
      }
     }
    },
-   "Act 44 Fixed Route \nDistribution Factors": {
-    "name": "Act 44 Fixed Route \nDistribution Factors",
-    "box": null,
+   "Act 44 Fixed Route Distribution Factors": {
+    "name": "Act 44 Fixed Route Distribution Factors",
+    "box": "lbox",
     "delim": null,
     "subheadings": {
      "Total Passengers": {
@@ -277,7 +288,7 @@
    },
    "Act 44 Operating Assistance": {
     "name": "Act 44 Operating Assistance",
-    "box": null,
+    "box": "lbox",
     "delim": null,
     "subheadings": {
      "Section 1513 Allocation": {
@@ -292,11 +303,19 @@
    },
    "Total Fleet Size": {
     "name": "Total Fleet Size",
-    "box": null,
+    "box": "rbox",
     "delim": null,
     "subheadings": {
-     "Motor Bus": {
+     "Fixed Route": {
       "name": "Fixed Route",
+      "delim": ":"
+     },
+     "Paratransit": {
+      "name": "Paratransit",
+      "delim": ":"
+     },
+     "Motor Bus": {
+      "name": "",
       "delim": null
      },
      "Commuter Rail Cars": {
@@ -316,18 +335,18 @@
       "delim": null
      },
      "Paratransit Vehicles": {
-      "name": "Paratransit",
+      "name": "",
       "delim": null
      },
-     "System-wide": {
-      "name": "System-wide",
-      "delim": null
+     "Systemwide": {
+      "name": "Systemwide",
+      "delim": ":"
      }
     }
    },
    "Fare Information": {
     "name": "Fare Information",
-    "box": null,
+    "box": "rbox",
     "delim": null,
     "subheadings": {
      "Fixed Route Base": {
@@ -340,9 +359,9 @@
      },
      "Last Base Fare Increase": {
       "name": "Last Base Fare Increase",
-      "delim": null
+      "delim": ":"
      },
-     "System-wide Increase": {
+     "Systemwide Increase": {
       "name": "",
       "delim": null
      }
@@ -350,7 +369,7 @@
    },
    "Employees": {
     "name": "Employees",
-    "box": null,
+    "box": "rbox",
     "delim": null,
     "subheadings": {
      "Paratransit Full/Part Time": {
@@ -369,13 +388,13 @@
    },
    "Operating Expense": {
     "name": "OPERATING EXPENSE",
-    "box": null,
-    "delim": null
+    "box": "lchart",
+    "delim": "mixed"
    },
    "Operating Funds": {
     "name": "OPERATING FUNDS",
-    "box": null,
-    "delim": null
+    "box": "rchart",
+    "delim": "mixed"
    }
   }
  },
@@ -388,6 +407,9 @@
    "Format Changed?": false,
    "Has Distributional Factors": false,
    "Consolidated Agencies": "",
+   "except": [
+    23
+   ],
    "boxes": {
     "lbox": [
      97,
@@ -424,12 +446,12 @@
   "categories": {
    "Name": {
     "name": null,
-    "box": null,
-    "delim": null
+    "box": "tbox",
+    "delim": "all"
    },
    "Service Area Statistics": {
     "name": "Service Area Statistics",
-    "box": null,
+    "box": "lbox",
     "delim": null,
     "subheadings": {
      "Square Miles": {
@@ -442,9 +464,9 @@
      }
     }
    },
-   "Act 44 Fixed Route \nDistribution Factors": {
-    "name": "Act 44 Fixed Route \nDistribution Factors",
-    "box": null,
+   "Act 44 Fixed Route Distribution Factors": {
+    "name": "Act 44 Fixed Route Distribution Factors",
+    "box": "lbox",
     "delim": null,
     "subheadings": {
      "Total Passengers": {
@@ -467,7 +489,7 @@
    },
    "Act 44 Operating Assistance": {
     "name": "Act 44 Operating Assistance",
-    "box": null,
+    "box": "lbox",
     "delim": null,
     "subheadings": {
      "Section 1513 Allocation": {
@@ -482,11 +504,19 @@
    },
    "Total Fleet Size": {
     "name": "Total Fleet Size",
-    "box": null,
+    "box": "rbox",
     "delim": null,
     "subheadings": {
-     "Motor Bus": {
+     "Fixed Route": {
       "name": "Fixed Route",
+      "delim": ":"
+     },
+     "Paratransit": {
+      "name": "Paratransit",
+      "delim": ":"
+     },
+     "Motor Bus": {
+      "name": "",
       "delim": null
      },
      "Commuter Rail Cars": {
@@ -506,18 +536,18 @@
       "delim": null
      },
      "Paratransit Vehicles": {
-      "name": "Paratransit",
+      "name": "",
       "delim": null
      },
-     "System-wide": {
-      "name": "System-wide",
-      "delim": null
+     "Systemwide": {
+      "name": "Systemwide",
+      "delim": ":"
      }
     }
    },
    "Fare Information": {
     "name": "Fare Information",
-    "box": null,
+    "box": "rbox",
     "delim": null,
     "subheadings": {
      "Fixed Route Base": {
@@ -530,9 +560,9 @@
      },
      "Last Base Fare Increase": {
       "name": "Last Base Fare Increase",
-      "delim": null
+      "delim": ":"
      },
-     "System-wide Increase": {
+     "Systemwide Increase": {
       "name": "",
       "delim": null
      }
@@ -540,7 +570,7 @@
    },
    "Employees": {
     "name": "Employees",
-    "box": null,
+    "box": "rbox",
     "delim": null,
     "subheadings": {
      "Paratransit Full/Part Time": {
@@ -559,13 +589,13 @@
    },
    "Operating Expense": {
     "name": "OPERATING EXPENSE",
-    "box": null,
-    "delim": null
+    "box": "lchart",
+    "delim": "mixed"
    },
    "Operating Funds": {
     "name": "OPERATING FUNDS",
-    "box": null,
-    "delim": null
+    "box": "rchart",
+    "delim": "mixed"
    }
   }
  },
@@ -578,48 +608,51 @@
    "Format Changed?": false,
    "Has Distributional Factors": false,
    "Consolidated Agencies": "",
+   "except": [
+    26
+   ],
    "boxes": {
     "lbox": [
-     102,
-     53,
+     97,
+     58,
      306,
-     431
+     481
     ],
     "rbox": [
      358,
-     53,
-     575,
-     431
+     58,
+     570,
+     481
     ],
     "tbox": [
      0,
      0,
      612,
-     36
+     41
     ],
     "lchart": [
      85,
-     471,
+     511,
      276,
-     506
+     536
     ],
     "rchart": [
-     361,
-     471,
+     381,
+     511,
      527,
-     514
+     544
     ]
    }
   },
   "categories": {
    "Name": {
     "name": null,
-    "box": null,
-    "delim": null
+    "box": "tbox",
+    "delim": "all"
    },
    "Service Area Statistics": {
     "name": "Service Area Statistics",
-    "box": null,
+    "box": "lbox",
     "delim": null,
     "subheadings": {
      "Square Miles": {
@@ -632,9 +665,9 @@
      }
     }
    },
-   "Act 44 Fixed Route \nDistribution Factors": {
-    "name": "Act 44 Fixed Route \nDistribution Factors",
-    "box": null,
+   "Act 44 Fixed Route Distribution Factors": {
+    "name": "Act 44 Fixed-Route Distribution Factors",
+    "box": "lbox",
     "delim": null,
     "subheadings": {
      "Total Passengers": {
@@ -657,7 +690,7 @@
    },
    "Act 44 Operating Assistance": {
     "name": "Act 44 Operating Assistance",
-    "box": null,
+    "box": "lbox",
     "delim": null,
     "subheadings": {
      "Section 1513 Allocation": {
@@ -672,11 +705,19 @@
    },
    "Total Fleet Size": {
     "name": "Total Fleet Size",
-    "box": null,
+    "box": "rbox",
     "delim": null,
     "subheadings": {
+     "Fixed Route": {
+      "name": "Fixed-Route",
+      "delim": ":"
+     },
+     "Paratransit": {
+      "name": "Paratransit",
+      "delim": ":"
+     },
      "Motor Bus": {
-      "name": "Fixed Route",
+      "name": "",
       "delim": null
      },
      "Commuter Rail Cars": {
@@ -696,33 +737,33 @@
       "delim": null
      },
      "Paratransit Vehicles": {
-      "name": "Paratransit",
+      "name": "",
       "delim": null
      },
-     "System-wide": {
+     "Systemwide": {
       "name": "System-wide",
-      "delim": null
+      "delim": ":"
      }
     }
    },
    "Fare Information": {
     "name": "Fare Information",
-    "box": null,
+    "box": "rbox",
     "delim": null,
     "subheadings": {
      "Fixed Route Base": {
-      "name": "Fixed Route Base",
+      "name": "Fixed-Route Base",
       "delim": null
      },
      "Fixed Route Avg": {
-      "name": "Fixed Route Avg",
+      "name": "Fixed-Route Avg",
       "delim": null
      },
      "Last Base Fare Increase": {
       "name": "Last Base Fare Increase",
-      "delim": null
+      "delim": ":"
      },
-     "System-wide Increase": {
+     "Systemwide Increase": {
       "name": "",
       "delim": null
      }
@@ -730,7 +771,7 @@
    },
    "Employees": {
     "name": "Employees",
-    "box": null,
+    "box": "rbox",
     "delim": null,
     "subheadings": {
      "Paratransit Full/Part Time": {
@@ -738,24 +779,24 @@
       "delim": null
      },
      "Fixed Route Full/Part Time": {
-      "name": "Fixed Route",
+      "name": "Fixed-Route",
       "delim": null
      },
      "Systemwide Full/Part Time": {
-      "name": "Systemwide",
+      "name": "System-wide",
       "delim": null
      }
     }
    },
    "Operating Expense": {
     "name": "OPERATING EXPENSE",
-    "box": null,
-    "delim": null
+    "box": "lchart",
+    "delim": "mixed"
    },
    "Operating Funds": {
     "name": "OPERATING FUNDS",
-    "box": null,
-    "delim": null
+    "box": "rchart",
+    "delim": "mixed"
    }
   }
  },
@@ -768,6 +809,12 @@
    "Format Changed?": true,
    "Has Distributional Factors": false,
    "Consolidated Agencies": "",
+   "except": [
+    28
+   ],
+   "silent": [
+    "Total Fleet Size"
+   ],
    "boxes": {
     "lbox": [
      102,
@@ -804,12 +851,12 @@
   "categories": {
    "Name": {
     "name": null,
-    "box": null,
-    "delim": null
+    "box": "tbox",
+    "delim": "all"
    },
    "Service Area Statistics": {
     "name": "Service Area Statistics",
-    "box": null,
+    "box": "lbox",
     "delim": null,
     "subheadings": {
      "Square Miles": {
@@ -822,9 +869,9 @@
      }
     }
    },
-   "Act 44 Fixed Route \nDistribution Factors": {
-    "name": "Act 44 Fixed Route \nDistribution Factors",
-    "box": null,
+   "Act 44 Fixed Route Distribution Factors": {
+    "name": "Act 44 Fixed-Route Distribution Factors",
+    "box": "lbox",
     "delim": null,
     "subheadings": {
      "Total Passengers": {
@@ -847,7 +894,7 @@
    },
    "Act 44 Operating Assistance": {
     "name": "Act 44 Operating Assistance",
-    "box": null,
+    "box": "lbox",
     "delim": null,
     "subheadings": {
      "Section 1513 Allocation": {
@@ -862,57 +909,69 @@
    },
    "Total Fleet Size": {
     "name": "Total Fleet Size",
-    "box": null,
+    "box": "rbox",
     "delim": null,
     "subheadings": {
+     "Fixed Route": {
+      "name": "Fixed-Route",
+      "delim": ":"
+     },
+     "Paratransit": {
+      "name": "Paratransit",
+      "delim": ":"
+     },
      "Motor Bus": {
       "name": "Motor Bus",
-      "delim": null
+      "delim": ":"
      },
      "Commuter Rail Cars": {
       "name": "Commuter Rail Cars",
-      "delim": null
+      "delim": ":"
      },
      "Heavy Rail Cars": {
       "name": "Heavy Rail Cars",
-      "delim": null
+      "delim": ":"
+     },
+     "Inclined Plane Cars": {
+      "name": "Inclined Plane Cars",
+      "delim": ":"
      },
      "Street Car Rail/Light Rail": {
       "name": "Street Car Rail/Light Rail",
-      "delim": null
+      "delim": ":"
      },
      "Trolley Bus": {
-      "name": "Trolley Bus",
-      "delim": null
+      "name": "Inclined Plane Cars",
+      "delim": ":"
      },
      "Paratransit Vehicles": {
-      "name": "Paratransit Vehicles",
-      "delim": null
+      "name": "Paratransit",
+      "delim": ":"
      },
-     "System-wide": {
+     "Systemwide": {
       "name": "System-wide",
-      "delim": null
+      "delim": ":"
      }
     }
    },
    "Fare Information": {
     "name": "Fare Information",
-    "box": null,
+    "box": "rbox",
     "delim": null,
     "subheadings": {
      "Fixed Route Base": {
-      "name": "Fixed Route Base",
+      "name": "Fixed-Route Base",
       "delim": null
      },
      "Fixed Route Avg": {
-      "name": "Fixed Route Avg",
+      "name": "Fixed-Route Average",
       "delim": null
      },
      "Last Base Fare Increase": {
       "name": "Last Base Fare Increase",
-      "delim": null
+      "delim": ":"
      },
-     "System-wide Increase": {
+     "Systemwide Increase": {
       "name": "",
       "delim": null
      }
@@ -920,7 +979,7 @@
    },
    "Employees": {
     "name": "Employees",
-    "box": null,
+    "box": "rbox",
     "delim": null,
     "subheadings": {
      "Paratransit Full/Part Time": {
@@ -928,24 +987,24 @@
       "delim": null
      },
      "Fixed Route Full/Part Time": {
-      "name": "Fixed Route",
+      "name": "Fixed-Route",
       "delim": null
      },
      "Systemwide Full/Part Time": {
-      "name": "Systemwide",
+      "name": "System-wide",
       "delim": null
      }
     }
    },
    "Operating Expense": {
     "name": "Operating Expense",
-    "box": null,
-    "delim": null
+    "box": "lchart",
+    "delim": "mixed"
    },
    "Operating Funds": {
     "name": "Operating Funds",
-    "box": null,
-    "delim": null
+    "box": "rchart",
+    "delim": "mixed"
    }
   }
  },
@@ -958,6 +1017,12 @@
    "Format Changed?": false,
    "Has Distributional Factors": false,
    "Consolidated Agencies": "",
+   "except": [
+    60
+   ],
+   "silent": [
+    "Total Fleet Size"
+   ],
    "boxes": {
     "lbox": [
      102,
@@ -994,12 +1059,12 @@
   "categories": {
    "Name": {
     "name": null,
-    "box": null,
-    "delim": null
+    "box": "tbox",
+    "delim": "all"
    },
    "Service Area Statistics": {
     "name": "Service Area Statistics",
-    "box": null,
+    "box": "lbox",
     "delim": null,
     "subheadings": {
      "Square Miles": {
@@ -1012,9 +1077,9 @@
      }
     }
    },
-   "Act 44 Fixed Route \nDistribution Factors": {
-    "name": "Act 44 Fixed Route \nDistribution Factors",
-    "box": null,
+   "Act 44 Fixed Route Distribution Factors": {
+    "name": "Act 44 Fixed Route Distribution Factors",
+    "box": "lbox",
     "delim": null,
     "subheadings": {
      "Total Passengers": {
@@ -1037,7 +1102,7 @@
    },
    "Act 44 Operating Assistance": {
     "name": "Act 44 Operating Assistance",
-    "box": null,
+    "box": "lbox",
     "delim": null,
     "subheadings": {
      "Section 1513 Allocation": {
@@ -1052,42 +1117,50 @@
    },
    "Total Fleet Size": {
     "name": "Total Fleet Size",
-    "box": null,
+    "box": "rbox",
     "delim": null,
     "subheadings": {
+     "Fixed Route": {
+      "name": "Fixed Route",
+      "delim": ":"
+     },
+     "Paratransit": {
+      "name": "Paratransit",
+      "delim": ":"
+     },
      "Motor Bus": {
       "name": "Motor Bus",
-      "delim": null
+      "delim": ":"
      },
      "Commuter Rail Cars": {
       "name": "Commuter Rail Cars",
-      "delim": null
+      "delim": ":"
      },
      "Heavy Rail Cars": {
       "name": "Heavy Rail Cars",
-      "delim": null
+      "delim": ":"
      },
      "Street Car Rail/Light Rail": {
       "name": "Street Car Rail/Light Rail",
-      "delim": null
+      "delim": ":"
      },
      "Trolley Bus": {
-      "name": "Trolley Bus",
-      "delim": null
+      "name": "Inclined Plane Cars",
+      "delim": ":"
      },
      "Paratransit Vehicles": {
-      "name": "Paratransit Vehicles",
-      "delim": null
+      "name": "Paratransit",
+      "delim": ":"
      },
-     "System-wide": {
+     "Systemwide": {
       "name": "System-wide",
-      "delim": null
+      "delim": ":"
      }
     }
    },
    "Fare Information": {
     "name": "Fare Information",
-    "box": null,
+    "box": "rbox",
     "delim": null,
     "subheadings": {
      "Fixed Route Base": {
@@ -1095,22 +1168,22 @@
       "delim": null
      },
      "Fixed Route Avg": {
-      "name": "Fixed Route Avg",
+      "name": "Fixed Route Average",
       "delim": null
      },
      "Last Base Fare Increase": {
       "name": "Last Base Fare Increase",
-      "delim": null
+      "delim": ":"
      },
-     "System-wide Increase": {
+     "Systemwide Increase": {
       "name": "System-wide Increase",
-      "delim": null
+      "delim": ":"
      }
     }
    },
    "Employees": {
     "name": "Employees",
-    "box": null,
+    "box": "rbox",
     "delim": null,
     "subheadings": {
      "Paratransit Full/Part Time": {
@@ -1122,20 +1195,20 @@
       "delim": null
      },
      "Systemwide Full/Part Time": {
-      "name": "Systemwide",
+      "name": "System-wide",
       "delim": null
      }
     }
    },
    "Operating Expense": {
     "name": "Operating Expense",
-    "box": null,
-    "delim": null
+    "box": "lchart",
+    "delim": "mixed"
    },
    "Operating Funds": {
     "name": "Operating Funds",
-    "box": null,
-    "delim": null
+    "box": "rchart",
+    "delim": "mixed"
    }
   }
  },
@@ -1148,12 +1221,18 @@
    "Format Changed?": false,
    "Has Distributional Factors": false,
    "Consolidated Agencies": "",
+   "except": [
+    38
+   ],
+   "silent": [
+    "Total Fleet Size"
+   ],
    "boxes": {
     "lbox": [
-     137,
-     89,
-     341,
-     468
+     102,
+     53,
+     306,
+     431
     ],
     "rbox": [
      358,
@@ -1164,14 +1243,14 @@
     "tbox": [
      0,
      0,
-     648,
-     71
+     612,
+     36
     ],
     "lchart": [
-     110,
-     496,
-     306,
-     546
+     85,
+     471,
+     276,
+     506
     ],
     "rchart": [
      361,
@@ -1184,12 +1263,12 @@
   "categories": {
    "Name": {
     "name": null,
-    "box": null,
-    "delim": null
+    "box": "tbox",
+    "delim": "all"
    },
    "Service Area Statistics": {
     "name": "Service Area Statistics",
-    "box": null,
+    "box": "lbox",
     "delim": null,
     "subheadings": {
      "Square Miles": {
@@ -1202,9 +1281,9 @@
      }
     }
    },
-   "Act 44 Fixed Route \nDistribution Factors": {
-    "name": "Act 44 Fixed Route \nDistribution Factors",
-    "box": null,
+   "Act 44 Fixed Route Distribution Factors": {
+    "name": "Act 44 Fixed Route Distribution Factors",
+    "box": "lbox",
     "delim": null,
     "subheadings": {
      "Total Passengers": {
@@ -1227,7 +1306,7 @@
    },
    "Act 44 Operating Assistance": {
     "name": "Act 44 Operating Assistance",
-    "box": null,
+    "box": "lbox",
     "delim": null,
     "subheadings": {
      "Section 1513 Allocation": {
@@ -1242,42 +1321,50 @@
    },
    "Total Fleet Size": {
     "name": "Current Fleet Size",
-    "box": null,
+    "box": "rbox",
     "delim": null,
     "subheadings": {
+     "Fixed Route": {
+      "name": "Fixed Route",
+      "delim": ":"
+     },
+     "Paratransit": {
+      "name": "Paratransit",
+      "delim": ":"
+     },
      "Motor Bus": {
       "name": "Motor Bus",
-      "delim": null
+      "delim": ":"
      },
      "Commuter Rail Cars": {
       "name": "Commuter Rail Cars",
-      "delim": null
+      "delim": ":"
      },
      "Heavy Rail Cars": {
       "name": "Heavy Rail Cars",
-      "delim": null
+      "delim": ":"
      },
      "Street Car Rail/Light Rail": {
       "name": "Street Car Rail/Light Rail",
-      "delim": null
+      "delim": ":"
      },
      "Trolley Bus": {
-      "name": "Trolley Bus",
-      "delim": null
+      "name": "Inclined Plane Cars",
+      "delim": ":"
      },
      "Paratransit Vehicles": {
-      "name": "Paratransit Vehicles",
-      "delim": null
+      "name": "Paratransit",
+      "delim": ":"
      },
-     "System-wide": {
+     "Systemwide": {
       "name": "System-wide",
-      "delim": null
+      "delim": ":"
      }
     }
    },
    "Fare Information": {
     "name": "Current Fare Information",
-    "box": null,
+    "box": "rbox",
     "delim": null,
     "subheadings": {
      "Fixed Route Base": {
@@ -1290,17 +1377,17 @@
      },
      "Last Base Fare Increase": {
       "name": "Last Base Fare Increase",
-      "delim": null
+      "delim": ":"
      },
-     "System-wide Increase": {
+     "Systemwide Increase": {
       "name": "System-wide Increase",
-      "delim": null
+      "delim": ":"
      }
     }
    },
    "Employees": {
     "name": "Current Employees",
-    "box": null,
+    "box": "rbox",
     "delim": null,
     "subheadings": {
      "Paratransit Full/Part Time": {
@@ -1312,20 +1399,20 @@
       "delim": null
      },
      "Systemwide Full/Part Time": {
-      "name": "Systemwide",
+      "name": "System-wide",
       "delim": null
      }
     }
    },
    "Operating Expense": {
     "name": "Operating Expense",
-    "box": null,
-    "delim": null
+    "box": "lchart",
+    "delim": "mixed"
    },
    "Operating Funds": {
     "name": "Operating Funds",
-    "box": null,
-    "delim": null
+    "box": "rchart",
+    "delim": "mixed"
    }
   }
  },
@@ -1335,10 +1422,16 @@
    "Rural Systems (Start Page)": 144,
    "Shared Ride (Start Page)": 194,
    "Pages Per Agency": 4,
-   "PPA_exception": "70 2",
+   "PPA_exception": {
+    "70": 2
+   },
    "Format Changed?": false,
    "Has Distributional Factors": true,
    "Consolidated Agencies": "",
+   "except": [
+    62
+   ],
+   "silent": [],
    "boxes": {
     "lbox": [
      137,
@@ -1375,12 +1468,12 @@
   "categories": {
    "Name": {
     "name": null,
-    "box": null,
-    "delim": null
+    "box": "tbox",
+    "delim": "all"
    },
    "Service Area Statistics": {
     "name": "Service Area Statistics",
-    "box": null,
+    "box": "lbox",
     "delim": null,
     "subheadings": {
      "Square Miles": {
@@ -1393,9 +1486,9 @@
      }
     }
    },
-   "Act 44 Fixed Route \nDistribution Factors": {
-    "name": "Act 44 Fixed Route \nDistribution Factors",
-    "box": null,
+   "Act 44 Fixed Route Distribution Factors": {
+    "name": "Act 44 Fixed Route Distribution Factors",
+    "box": "lbox",
     "delim": null,
     "subheadings": {
      "Total Passengers": {
@@ -1418,7 +1511,7 @@
    },
    "Act 44 Operating Assistance": {
     "name": "Act 44 Operating Assistance",
-    "box": null,
+    "box": "lbox",
     "delim": null,
     "subheadings": {
      "Section 1513 Allocation": {
@@ -1433,42 +1526,50 @@
    },
    "Total Fleet Size": {
     "name": "Current Fleet Size",
-    "box": null,
+    "box": "rbox",
     "delim": null,
     "subheadings": {
+     "Fixed Route": {
+      "name": "Fixed Route",
+      "delim": ":"
+     },
+     "Paratransit": {
+      "name": "Paratransit",
+      "delim": ":"
+     },
      "Motor Bus": {
       "name": "Motor Bus",
-      "delim": null
+      "delim": ":"
      },
      "Commuter Rail Cars": {
       "name": "Commuter Rail Cars",
-      "delim": null
+      "delim": ":"
      },
      "Heavy Rail Cars": {
       "name": "Heavy Rail Cars",
-      "delim": null
+      "delim": ":"
      },
      "Street Car Rail/Light Rail": {
       "name": "Street Car Rail/Light Rail",
-      "delim": null
+      "delim": ":"
      },
      "Trolley Bus": {
-      "name": "Trolley Bus",
-      "delim": null
+      "name": "Inclined Plane Cars",
+      "delim": ":"
      },
      "Paratransit Vehicles": {
-      "name": "Paratransit Vehicles",
-      "delim": null
+      "name": "Paratransit",
+      "delim": ":"
      },
-     "System-wide": {
+     "Systemwide": {
       "name": "System-wide",
-      "delim": null
+      "delim": ":"
      }
     }
    },
    "Fare Information": {
     "name": "Current Fare Information",
-    "box": null,
+    "box": "rbox",
     "delim": null,
     "subheadings": {
      "Fixed Route Base": {
@@ -1481,17 +1582,17 @@
      },
      "Last Base Fare Increase": {
       "name": "Last Base Fare Increase",
-      "delim": null
+      "delim": ":"
      },
-     "System-wide Increase": {
+     "Systemwide Increase": {
       "name": "System-wide Increase",
-      "delim": null
+      "delim": ":"
      }
     }
    },
    "Employees": {
     "name": "Current Employees",
-    "box": null,
+    "box": "rbox",
     "delim": null,
     "subheadings": {
      "Paratransit Full/Part Time": {
@@ -1503,20 +1604,20 @@
       "delim": null
      },
      "Systemwide Full/Part Time": {
-      "name": "Systemwide",
+      "name": "System-wide",
       "delim": null
      }
     }
    },
    "Operating Expense": {
     "name": "Operating Expense",
-    "box": null,
-    "delim": null
+    "box": "lchart",
+    "delim": "mixed"
    },
    "Operating Funds": {
     "name": "Operating Funds",
-    "box": null,
-    "delim": null
+    "box": "rchart",
+    "delim": "mixed"
    }
   }
  },
@@ -1583,7 +1684,7 @@
      }
     }
    },
-   "Act 44 Fixed Route \nDistribution Factors": {
+   "Act 44 Fixed Route Distribution Factors": {
     "name": "",
     "box": null,
     "delim": null,
@@ -1626,33 +1727,41 @@
     "box": null,
     "delim": null,
     "subheadings": {
+     "Fixed Route": {
+      "name": "Fixed Route",
+      "delim": ":"
+     },
+     "Paratransit": {
+      "name": "Paratransit",
+      "delim": ":"
+     },
      "Motor Bus": {
-      "name": "",
-      "delim": null
+      "name": "Motor Bus",
+      "delim": ":"
      },
      "Commuter Rail Cars": {
-      "name": "",
-      "delim": null
+      "name": "Commuter Rail Cars",
+      "delim": ":"
      },
      "Heavy Rail Cars": {
-      "name": "",
-      "delim": null
+      "name": "Heavy Rail Cars",
+      "delim": ":"
      },
      "Street Car Rail/Light Rail": {
-      "name": "",
-      "delim": null
+      "name": "Street Car Rail/Light Rail",
+      "delim": ":"
      },
      "Trolley Bus": {
-      "name": "",
-      "delim": null
+      "name": "Inclined Plane Cars",
+      "delim": ":"
      },
      "Paratransit Vehicles": {
-      "name": "",
-      "delim": null
+      "name": "Paratransit",
+      "delim": ":"
      },
-     "System-wide": {
-      "name": "",
-      "delim": null
+     "Systemwide": {
+      "name": "System-wide",
+      "delim": ":"
      }
     }
    },
@@ -1673,7 +1782,7 @@
       "name": "",
       "delim": null
      },
-     "System-wide Increase": {
+     "Systemwide Increase": {
       "name": "",
       "delim": null
      }
@@ -1773,7 +1882,7 @@
      }
     }
    },
-   "Act 44 Fixed Route \nDistribution Factors": {
+   "Act 44 Fixed Route Distribution Factors": {
     "name": "",
     "box": null,
     "delim": null,
@@ -1816,33 +1925,41 @@
     "box": null,
     "delim": null,
     "subheadings": {
+     "Fixed Route": {
+      "name": "Fixed Route",
+      "delim": ":"
+     },
+     "Paratransit": {
+      "name": "Paratransit",
+      "delim": ":"
+     },
      "Motor Bus": {
-      "name": "",
-      "delim": null
+      "name": "Motor Bus",
+      "delim": ":"
      },
      "Commuter Rail Cars": {
-      "name": "",
-      "delim": null
+      "name": "Commuter Rail Cars",
+      "delim": ":"
      },
      "Heavy Rail Cars": {
-      "name": "",
-      "delim": null
+      "name": "Heavy Rail Cars",
+      "delim": ":"
      },
      "Street Car Rail/Light Rail": {
-      "name": "",
-      "delim": null
+      "name": "Street Car Rail/Light Rail",
+      "delim": ":"
      },
      "Trolley Bus": {
-      "name": "",
-      "delim": null
+      "name": "Inclined Plane Cars",
+      "delim": ":"
      },
      "Paratransit Vehicles": {
-      "name": "",
-      "delim": null
+      "name": "Paratransit",
+      "delim": ":"
      },
-     "System-wide": {
-      "name": "",
-      "delim": null
+     "Systemwide": {
+      "name": "System-wide",
+      "delim": ":"
      }
     }
    },
@@ -1863,7 +1980,7 @@
       "name": "",
       "delim": null
      },
-     "System-wide Increase": {
+     "Systemwide Increase": {
       "name": "",
       "delim": null
      }
@@ -1963,7 +2080,7 @@
      }
     }
    },
-   "Act 44 Fixed Route \nDistribution Factors": {
+   "Act 44 Fixed Route Distribution Factors": {
     "name": "",
     "box": null,
     "delim": null,
@@ -2006,33 +2123,41 @@
     "box": null,
     "delim": null,
     "subheadings": {
+     "Fixed Route": {
+      "name": "Fixed Route",
+      "delim": ":"
+     },
+     "Paratransit": {
+      "name": "Paratransit",
+      "delim": ":"
+     },
      "Motor Bus": {
-      "name": "",
-      "delim": null
+      "name": "Motor Bus",
+      "delim": ":"
      },
      "Commuter Rail Cars": {
-      "name": "",
-      "delim": null
+      "name": "Commuter Rail Cars",
+      "delim": ":"
      },
      "Heavy Rail Cars": {
-      "name": "",
-      "delim": null
+      "name": "Heavy Rail Cars",
+      "delim": ":"
      },
      "Street Car Rail/Light Rail": {
-      "name": "",
-      "delim": null
+      "name": "Street Car Rail/Light Rail",
+      "delim": ":"
      },
      "Trolley Bus": {
-      "name": "",
-      "delim": null
+      "name": "Inclined Plane Cars",
+      "delim": ":"
      },
      "Paratransit Vehicles": {
-      "name": "",
-      "delim": null
+      "name": "Paratransit",
+      "delim": ":"
      },
-     "System-wide": {
-      "name": "",
-      "delim": null
+     "Systemwide": {
+      "name": "System-wide",
+      "delim": ":"
      }
     }
    },
@@ -2053,7 +2178,7 @@
       "name": "",
       "delim": null
      },
-     "System-wide Increase": {
+     "Systemwide Increase": {
       "name": "",
       "delim": null
      }
@@ -2153,7 +2278,7 @@
      }
     }
    },
-   "Act 44 Fixed Route \nDistribution Factors": {
+   "Act 44 Fixed Route Distribution Factors": {
     "name": "",
     "box": null,
     "delim": null,
@@ -2196,33 +2321,41 @@
     "box": null,
     "delim": null,
     "subheadings": {
+     "Fixed Route": {
+      "name": "Fixed Route",
+      "delim": ":"
+     },
+     "Paratransit": {
+      "name": "Paratransit",
+      "delim": ":"
+     },
      "Motor Bus": {
-      "name": "",
-      "delim": null
+      "name": "Motor Bus",
+      "delim": ":"
      },
      "Commuter Rail Cars": {
-      "name": "",
-      "delim": null
+      "name": "Commuter Rail Cars",
+      "delim": ":"
      },
      "Heavy Rail Cars": {
-      "name": "",
-      "delim": null
+      "name": "Heavy Rail Cars",
+      "delim": ":"
      },
      "Street Car Rail/Light Rail": {
-      "name": "",
-      "delim": null
+      "name": "Street Car Rail/Light Rail",
+      "delim": ":"
      },
      "Trolley Bus": {
-      "name": "",
-      "delim": null
+      "name": "Inclined Plane Cars",
+      "delim": ":"
      },
      "Paratransit Vehicles": {
-      "name": "",
-      "delim": null
+      "name": "Paratransit",
+      "delim": ":"
      },
-     "System-wide": {
-      "name": "",
-      "delim": null
+     "Systemwide": {
+      "name": "System-wide",
+      "delim": ":"
      }
     }
    },
@@ -2243,7 +2376,7 @@
       "name": "",
       "delim": null
      },
-     "System-wide Increase": {
+     "Systemwide Increase": {
       "name": "",
       "delim": null
      }
@@ -2343,7 +2476,7 @@
      }
     }
    },
-   "Act 44 Fixed Route \nDistribution Factors": {
+   "Act 44 Fixed Route Distribution Factors": {
     "name": "",
     "box": null,
     "delim": null,
@@ -2386,33 +2519,41 @@
     "box": null,
     "delim": null,
     "subheadings": {
+     "Fixed Route": {
+      "name": "Fixed Route",
+      "delim": ":"
+     },
+     "Paratransit": {
+      "name": "Paratransit",
+      "delim": ":"
+     },
      "Motor Bus": {
-      "name": "",
-      "delim": null
+      "name": "Motor Bus",
+      "delim": ":"
      },
      "Commuter Rail Cars": {
-      "name": "",
-      "delim": null
+      "name": "Commuter Rail Cars",
+      "delim": ":"
      },
      "Heavy Rail Cars": {
-      "name": "",
-      "delim": null
+      "name": "Heavy Rail Cars",
+      "delim": ":"
      },
      "Street Car Rail/Light Rail": {
-      "name": "",
-      "delim": null
+      "name": "Street Car Rail/Light Rail",
+      "delim": ":"
      },
      "Trolley Bus": {
-      "name": "",
-      "delim": null
+      "name": "Inclined Plane Cars",
+      "delim": ":"
      },
      "Paratransit Vehicles": {
-      "name": "",
-      "delim": null
+      "name": "Paratransit",
+      "delim": ":"
      },
-     "System-wide": {
-      "name": "",
-      "delim": null
+     "Systemwide": {
+      "name": "System-wide",
+      "delim": ":"
      }
     }
    },
@@ -2433,7 +2574,7 @@
       "name": "",
       "delim": null
      },
-     "System-wide Increase": {
+     "Systemwide Increase": {
       "name": "",
       "delim": null
      }
@@ -2533,7 +2674,7 @@
      }
     }
    },
-   "Act 44 Fixed Route \nDistribution Factors": {
+   "Act 44 Fixed Route Distribution Factors": {
     "name": "",
     "box": null,
     "delim": null,
@@ -2576,33 +2717,41 @@
     "box": null,
     "delim": null,
     "subheadings": {
+     "Fixed Route": {
+      "name": "Fixed Route",
+      "delim": ":"
+     },
+     "Paratransit": {
+      "name": "Paratransit",
+      "delim": ":"
+     },
      "Motor Bus": {
-      "name": "",
-      "delim": null
+      "name": "Motor Bus",
+      "delim": ":"
      },
      "Commuter Rail Cars": {
-      "name": "",
-      "delim": null
+      "name": "Commuter Rail Cars",
+      "delim": ":"
      },
      "Heavy Rail Cars": {
-      "name": "",
-      "delim": null
+      "name": "Heavy Rail Cars",
+      "delim": ":"
      },
      "Street Car Rail/Light Rail": {
-      "name": "",
-      "delim": null
+      "name": "Street Car Rail/Light Rail",
+      "delim": ":"
      },
      "Trolley Bus": {
-      "name": "",
-      "delim": null
+      "name": "Inclined Plane Cars",
+      "delim": ":"
      },
      "Paratransit Vehicles": {
-      "name": "",
-      "delim": null
+      "name": "Paratransit",
+      "delim": ":"
      },
-     "System-wide": {
-      "name": "",
-      "delim": null
+     "Systemwide": {
+      "name": "System-wide",
+      "delim": ":"
      }
     }
    },
@@ -2623,7 +2772,7 @@
       "name": "",
       "delim": null
      },
-     "System-wide Increase": {
+     "Systemwide Increase": {
       "name": "",
       "delim": null
      }
@@ -2723,7 +2872,7 @@
      }
     }
    },
-   "Act 44 Fixed Route \nDistribution Factors": {
+   "Act 44 Fixed Route Distribution Factors": {
     "name": "",
     "box": null,
     "delim": null,
@@ -2766,33 +2915,41 @@
     "box": null,
     "delim": null,
     "subheadings": {
+     "Fixed Route": {
+      "name": "Fixed Route",
+      "delim": ":"
+     },
+     "Paratransit": {
+      "name": "Paratransit",
+      "delim": ":"
+     },
      "Motor Bus": {
-      "name": "",
-      "delim": null
+      "name": "Motor Bus",
+      "delim": ":"
      },
      "Commuter Rail Cars": {
-      "name": "",
-      "delim": null
+      "name": "Commuter Rail Cars",
+      "delim": ":"
      },
      "Heavy Rail Cars": {
-      "name": "",
-      "delim": null
+      "name": "Heavy Rail Cars",
+      "delim": ":"
      },
      "Street Car Rail/Light Rail": {
-      "name": "",
-      "delim": null
+      "name": "Street Car Rail/Light Rail",
+      "delim": ":"
      },
      "Trolley Bus": {
-      "name": "",
-      "delim": null
+      "name": "Inclined Plane Cars",
+      "delim": ":"
      },
      "Paratransit Vehicles": {
-      "name": "",
-      "delim": null
+      "name": "Paratransit",
+      "delim": ":"
      },
-     "System-wide": {
-      "name": "",
-      "delim": null
+     "Systemwide": {
+      "name": "System-wide",
+      "delim": ":"
      }
     }
    },
@@ -2813,7 +2970,7 @@
       "name": "",
       "delim": null
      },
-     "System-wide Increase": {
+     "Systemwide Increase": {
       "name": "",
       "delim": null
      }
@@ -2914,7 +3071,7 @@
      }
     }
    },
-   "Act 44 Fixed Route \nDistribution Factors": {
+   "Act 44 Fixed Route Distribution Factors": {
     "name": "",
     "box": null,
     "delim": null,
@@ -2957,33 +3114,41 @@
     "box": null,
     "delim": null,
     "subheadings": {
+     "Fixed Route": {
+      "name": "Fixed Route",
+      "delim": ":"
+     },
+     "Paratransit": {
+      "name": "Paratransit",
+      "delim": ":"
+     },
      "Motor Bus": {
-      "name": "",
-      "delim": null
+      "name": "Motor Bus",
+      "delim": ":"
      },
      "Commuter Rail Cars": {
-      "name": "",
-      "delim": null
+      "name": "Commuter Rail Cars",
+      "delim": ":"
      },
      "Heavy Rail Cars": {
-      "name": "",
-      "delim": null
+      "name": "Heavy Rail Cars",
+      "delim": ":"
      },
      "Street Car Rail/Light Rail": {
-      "name": "",
-      "delim": null
+      "name": "Street Car Rail/Light Rail",
+      "delim": ":"
      },
      "Trolley Bus": {
-      "name": "",
-      "delim": null
+      "name": "Inclined Plane Cars",
+      "delim": ":"
      },
      "Paratransit Vehicles": {
-      "name": "",
-      "delim": null
+      "name": "Paratransit",
+      "delim": ":"
      },
-     "System-wide": {
-      "name": "",
-      "delim": null
+     "Systemwide": {
+      "name": "System-wide",
+      "delim": ":"
      }
     }
    },
@@ -3004,7 +3169,7 @@
       "name": "",
       "delim": null
      },
-     "System-wide Increase": {
+     "Systemwide Increase": {
       "name": "",
       "delim": null
      }
@@ -3105,7 +3270,7 @@
      }
     }
    },
-   "Act 44 Fixed Route \nDistribution Factors": {
+   "Act 44 Fixed Route Distribution Factors": {
     "name": "",
     "box": null,
     "delim": null,
@@ -3148,33 +3313,41 @@
     "box": null,
     "delim": null,
     "subheadings": {
+     "Fixed Route": {
+      "name": "Fixed Route",
+      "delim": ":"
+     },
+     "Paratransit": {
+      "name": "Paratransit",
+      "delim": ":"
+     },
      "Motor Bus": {
-      "name": "",
-      "delim": null
+      "name": "Motor Bus",
+      "delim": ":"
      },
      "Commuter Rail Cars": {
-      "name": "",
-      "delim": null
+      "name": "Commuter Rail Cars",
+      "delim": ":"
      },
      "Heavy Rail Cars": {
-      "name": "",
-      "delim": null
+      "name": "Heavy Rail Cars",
+      "delim": ":"
      },
      "Street Car Rail/Light Rail": {
-      "name": "",
-      "delim": null
+      "name": "Street Car Rail/Light Rail",
+      "delim": ":"
      },
      "Trolley Bus": {
-      "name": "",
-      "delim": null
+      "name": "Inclined Plane Cars",
+      "delim": ":"
      },
      "Paratransit Vehicles": {
-      "name": "",
-      "delim": null
+      "name": "Paratransit",
+      "delim": ":"
      },
-     "System-wide": {
-      "name": "",
-      "delim": null
+     "Systemwide": {
+      "name": "System-wide",
+      "delim": ":"
      }
     }
    },
@@ -3195,7 +3368,7 @@
       "name": "",
       "delim": null
      },
-     "System-wide Increase": {
+     "Systemwide Increase": {
       "name": "",
       "delim": null
      }
@@ -3296,7 +3469,7 @@
      }
     }
    },
-   "Act 44 Fixed Route \nDistribution Factors": {
+   "Act 44 Fixed Route Distribution Factors": {
     "name": "",
     "box": null,
     "delim": null,
@@ -3339,33 +3512,41 @@
     "box": null,
     "delim": null,
     "subheadings": {
+     "Fixed Route": {
+      "name": "Fixed Route",
+      "delim": ":"
+     },
+     "Paratransit": {
+      "name": "Paratransit",
+      "delim": ":"
+     },
      "Motor Bus": {
-      "name": "",
-      "delim": null
+      "name": "Motor Bus",
+      "delim": ":"
      },
      "Commuter Rail Cars": {
-      "name": "",
-      "delim": null
+      "name": "Commuter Rail Cars",
+      "delim": ":"
      },
      "Heavy Rail Cars": {
-      "name": "",
-      "delim": null
+      "name": "Heavy Rail Cars",
+      "delim": ":"
      },
      "Street Car Rail/Light Rail": {
-      "name": "",
-      "delim": null
+      "name": "Street Car Rail/Light Rail",
+      "delim": ":"
      },
      "Trolley Bus": {
-      "name": "",
-      "delim": null
+      "name": "Inclined Plane Cars",
+      "delim": ":"
      },
      "Paratransit Vehicles": {
-      "name": "",
-      "delim": null
+      "name": "Paratransit",
+      "delim": ":"
      },
-     "System-wide": {
-      "name": "",
-      "delim": null
+     "Systemwide": {
+      "name": "System-wide",
+      "delim": ":"
      }
     }
    },
@@ -3386,7 +3567,7 @@
       "name": "",
       "delim": null
      },
-     "System-wide Increase": {
+     "Systemwide Increase": {
       "name": "",
       "delim": null
      }

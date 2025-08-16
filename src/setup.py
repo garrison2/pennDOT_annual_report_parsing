@@ -48,16 +48,16 @@ class Boxes:
         if prior:
             for box in BOXES:
                 for i in range(4):
-                    if prior['categories'][box][i] is not None:
-                        setattr(self, box, prior['categories'][box])
+                    if prior['meta']['boxes'][box][i] is not None:
+                        setattr(self, box, prior['meta']['boxes'][box])
 
         self.exists = True
         for box in BOXES:
             for i in range(4):
-                if current['categories'][box][i] is None:
+                if current['meta']['boxes'][box][i] is None:
                     self.exists = False
                 else:
-                    getattr(self, box)[i] == current['categories'][box][i]
+                    getattr(self, box)[i] == current['meta']['boxes'][box][i]
 
     def print(self):
         for box in BOXES:
@@ -263,7 +263,7 @@ def main(format_dict):
             print(f'Year: {year}')
             result = loop(pdf, startpage, pages_per_agency, boxes)
 
-        format_dict[year]['categories'] |= result
+        format_dict[year]['meta']['boxes'] |= result
         write_to_tmp(format_dict)
 
 
@@ -288,7 +288,7 @@ if __name__ == '__main__':
             print(f'Year: {year}')
             result = loop(pdf, startpage, pages_per_agency, boxes)
 
-        format_dict[year]['categories'] |= result
+        format_dict[year]['meta']['boxes'] |= result
         write_to_tmp(format_dict)
 
     else:
