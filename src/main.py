@@ -15,6 +15,11 @@ YEAR_END = os.getenv("YEAR_END")
 
 BOXES = [ 'lbox', 'rbox', 'tbox', 'lchart', 'rchart' ]
 
+class TextNotFoundError(Exception):
+    def __init__(self, pattern, search_text):
+        message = (f'{repr(pattern)}\n{repr(search_text)}')
+        super().__init__(message)
+
 # -------------- HELPER --------------
 def clean(val):
     if isinstance(val, list):
@@ -50,30 +55,40 @@ def change_year_format(format_dict, year, prior):
         pbase = format_dict[prior]['categories'][category]
         for item in cbase:
             if item == 'subheadings': continue
-            if cbase[item] is None:
+            if not cbase[item]:
                 cbase[item] = pbase.get(item)
 
         if 'subheadings' in cbase:
             sbase = cbase['subheadings']
             psbase = pbase.get('subheadings', dict())
-            for item in sbase:
-                if item is None:
-                    sbase[item] = psbase.get(item)
+            for subheading in sbase:
+                if subheading is None:
+                    sbase[subheading] = psbase.get(subheading)
+                else:
+                    for item in sbase[subheading]:
+                        item_val = sbase[subheading][item]
+                        if not item_val:
+                            sbase[subheading][item] = psbase.get(subheading, dict()).get(item, item_val)
 
     write_to_file(format_dict, TMP_JSON)
 
 def get_agency_range(meta):
     pages_per_agency = int(meta["Pages Per Agency"])
     exceptions = meta.get('PPA_exception', dict())
-    index0 = int(meta["Urban Systems (Start Page)"])
-    index1 = int(meta["Rural Systems (Start Page)"])
-    index2 = int(meta["Shared Ride (Start Page)"])
 
-    ranges = [[index0, index1 - 2, pages_per_agency], 
-              [index1, index2 - 2, pages_per_agency]]
+    all_start = meta.get('All Start')
+    all_end = meta.get('All End')
+    if all_start and all_end:
+        ranges = [[all_start, all_end, pages_per_agency]]
+    else:
+        index0 = int(meta["Urban Systems (Start Page)"])
+        index1 = int(meta["Rural Systems (Start Page)"])
+        index2 = int(meta["Shared Ride (Start Page)"])
+
+        ranges = [[index0, index1 - 2, pages_per_agency], 
+                  [index1, index2 - 2, pages_per_agency]]
 
     i = 0
-
     for except_start in sorted(int(e) for e in exceptions.keys()):
         except_step = exceptions[str(except_start)]
         except_end = except_start + except_step
@@ -94,7 +109,6 @@ def get_agency_range(meta):
     for r in ranges:
         expanded_ranges += list(range(*r))
 
-    print(expanded_ranges)
     return expanded_ranges
 
 def get_box_text(page, meta) -> dict:
@@ -121,8 +135,7 @@ def get_lrbox_index(box_text, categories) -> dict:
             tmp_index[box].append((category, search.end()))
             continue
 
-        print(f'Error: {repr(pattern)}')
-        print(repr(search_text))
+        raise TextNotFoundError(pattern, search_text)
 
     tmp_index['lbox'].sort(key=lambda x:x[1])
     tmp_index['rbox'].sort(key=lambda x:x[1])
@@ -143,22 +156,32 @@ def get_lrbox_index(box_text, categories) -> dict:
 def match_lrbox(cbase, text, start, end, silent = False):
     vals = dict()
     for subcat in cbase['subheadings']:
-
         scbase = cbase['subheadings'][subcat]
         if scbase['name'] == '': continue
 
-        pattern1 = f"{scbase['name']}.*?\n"
-        pattern2 = f"{scbase['name']}.*?$"
-        search = (re.search(pattern1, text[start:end])
-                  or re.search(pattern2, text[start:end]))
+#        pattern1 = f"{scbase['name']}.*?\n"
+#        pattern2 = f"{scbase['name']}.*?$"
+#        pattern3 = f"{scbase['name'].upper()}.*?$"
+        pattern = f"^{scbase['name'].upper()}.*$"
+        search = re.search(pattern, text[start:end].upper(), re.MULTILINE)
+#        search = (re.search(pattern1, text[start:end])
+#                  or re.search(pattern2, text[start:end])
+#                  or re.search(pattern3, text[start:end].upper()))
         if search:
-            tmp = search.group(0)
+            tmp = text[start:end][search.start():search.end()]
+#            tmp = search.group(0)
             tmp = tmp[len(scbase['name']):]
             tmp = tmp.strip()
             tmp = tmp.split(scbase['delim'])
             tmp = [ r.strip() for r in tmp[1:] ] if len(tmp) > 1 else tmp
             vals[subcat] = clean(tmp)
         else:
+            if subcat == 'Systemwide':
+                print(repr(pattern3))
+                print(repr(text[start:end].upper()))
+                print(re.search(pattern3, text[start:end].upper()))
+                exit()
+
             vals[subcat] = "_"
             if silent: continue
             print(f'\t{subcat} | {repr(scbase['name'])} | '
@@ -177,8 +200,7 @@ def match_lrbox(cbase, text, start, end, silent = False):
 def main(start = None):
     format_dict = get_format_dict()
     if os.path.exists(PARSED_JSON):
-        with open(PARSED_JSON, 'r') as file:
-            results = json.load(file)
+        with open(PARSED_JSON, 'r') as file: results = json.load(file)
     else:
         results = dict()
 
@@ -204,13 +226,24 @@ def main(start = None):
 
             print(f'Year: {year}')
 
+            offset = 0
             for i in get_agency_range(meta):
                 if 'except' in meta and i in meta['except']:
                     continue
-                page = pdf.pages[i - 1]
+                page = pdf.pages[i - 1 - offset]
 
                 box_text = get_box_text(page, meta)
-                index = get_lrbox_index(box_text, categories)
+                try:
+                    index = get_lrbox_index(box_text, categories)
+                except TextNotFoundError as e:
+                    print(f'page: {i}')
+                    print(get_agency_range(meta))
+
+                    offset = 2
+                    print(i - 1 - offset)
+                    page = pdf.pages[i - 1 - offset]
+                    box_text = get_box_text(page, meta)
+                    index = get_lrbox_index(box_text, categories)
 
                 name = None
                 vals = dict()

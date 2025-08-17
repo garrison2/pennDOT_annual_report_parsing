@@ -65,6 +65,44 @@ class Boxes:
             print(f'{box}: [ {" ".join(str(r) for r in remap(val))} ]')
 
 # -------------- HELPER --------------
+def get_agency_range(meta):
+    pages_per_agency = int(meta["Pages Per Agency"])
+    exceptions = meta.get('PPA_exception', dict())
+
+    all_start = meta.get('All Start')
+    all_end = meta.get('All End')
+    if all_start and all_end:
+        ranges = [[all_start, all_end, pages_per_agency]]
+    else:
+        index0 = int(meta["Urban Systems (Start Page)"])
+        index1 = int(meta["Rural Systems (Start Page)"])
+        index2 = int(meta["Shared Ride (Start Page)"])
+
+        ranges = [[index0, index1 - 2, pages_per_agency], 
+                  [index1, index2 - 2, pages_per_agency]]
+
+    i = 0
+    for except_start in sorted(int(e) for e in exceptions.keys()):
+        except_step = exceptions[str(except_start)]
+        except_end = except_start + except_step
+
+        while(i < len(ranges) and ranges[i][0] < except_start):
+            i += 1
+
+        if i != 0 and ranges[i-1][1] > except_end:
+            original_end = ranges[i-1][1]
+            ranges[i-1][1] = except_start
+            ranges.insert(i, [except_start, except_end, except_step])
+            ranges.insert(i+1, [except_end, original_end, ranges[i-1][2]])
+        else:
+            ranges.insert(i, [except_start, except_end, except_step])
+            ranges[i+1][0] = except_end
+
+    expanded_ranges = []
+    for r in ranges:
+        expanded_ranges += list(range(*r))
+
+    return expanded_ranges
 
 def get_format_dict():
     with open(FORMAT_JSON, "r") as file:
@@ -196,11 +234,12 @@ def process_input(usr_input, boxes): # lbox, rbox, tbox, lchart, rchart):
 
         return { ReturnType.DRAW, ReturnType.SHOW }
         
-def loop(pdf, pagenum, pages_per_agency, boxes):
+def loop(pdf, page_range, boxes):
     print()
     print_help()
     print()
 
+    pagenum = next(page_range)
     pagenum -= 1
     page = pdf.pages[pagenum]
     print(f"height: {page.height}, width: {page.width}, "
@@ -210,7 +249,7 @@ def loop(pdf, pagenum, pages_per_agency, boxes):
 
     while True:
         if ReturnType.PAGE in status:
-            pagenum += pages_per_agency
+            pagenum = next(page_range) - 1
             page = pdf.pages[pagenum]
         if ReturnType.SHOW in status:
             boxes.print()
@@ -250,6 +289,8 @@ def main(format_dict):
         prior = str(y - 1) + "-" + str(y)[-2:]
         filepath = os.path.join(REPORTS_DIR, REPORT_NAME_FORMAT.format(year=year))
 
+
+        page_range = iter(get_agency_range(format_dict[year]['meta']))
         startpage = format_dict[year]['meta']["Urban Systems (Start Page)"]
         pages_per_agency = format_dict[year]['meta']["Pages Per Agency"]
 
@@ -261,7 +302,7 @@ def main(format_dict):
             if boxes.exists: continue
 
             print(f'Year: {year}')
-            result = loop(pdf, startpage, pages_per_agency, boxes)
+            result = loop(pdf, page_range, boxes)
 
         format_dict[year]['meta']['boxes'] |= result
         write_to_tmp(format_dict)
@@ -278,6 +319,7 @@ if __name__ == '__main__':
 
         startpage = format_dict[year]['meta']["Urban Systems (Start Page)"]
         pages_per_agency = format_dict[year]['meta']["Pages Per Agency"]
+        page_range = iter(get_agency_range(format_dict[year]['meta']))
 
         with open(filepath, 'rb') as file:
             pdf = pdfplumber.open(file)
@@ -286,7 +328,7 @@ if __name__ == '__main__':
             boxes = Boxes(page, format_dict[year], format_dict.get(prior))
 
             print(f'Year: {year}')
-            result = loop(pdf, startpage, pages_per_agency, boxes)
+            result = loop(pdf, page_range, boxes)
 
         format_dict[year]['meta']['boxes'] |= result
         write_to_tmp(format_dict)

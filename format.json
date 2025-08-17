@@ -207,12 +207,12 @@
    "Rural Systems (Start Page)": 72,
    "Shared Ride (Start Page)": 102,
    "Pages Per Agency": 2,
-   "Format Changed?": true,
-   "Has Distributional Factors": false,
-   "Consolidated Agencies": "",
    "except": [
     22
    ],
+   "Format Changed?": true,
+   "Has Distributional Factors": false,
+   "Consolidated Agencies": "",
    "boxes": {
     "lbox": [
      97,
@@ -259,11 +259,11 @@
     "subheadings": {
      "Square Miles": {
       "name": "Square Miles",
-      "delim": null
+      "delim": ":"
      },
      "Population": {
       "name": "Population",
-      "delim": null
+      "delim": ":"
      }
     }
    },
@@ -274,19 +274,19 @@
     "subheadings": {
      "Total Passengers": {
       "name": "Total Passengers",
-      "delim": null
+      "delim": ":"
      },
      "Senior Passengers": {
       "name": "Senior Passengers",
-      "delim": null
+      "delim": ":"
      },
      "Revenue Vehicle Miles": {
       "name": "Revenue Vehicle Miles",
-      "delim": null
+      "delim": ":"
      },
      "Revenue Vehicle Hours": {
       "name": "Revenue Vehicle Hours",
-      "delim": null
+      "delim": ":"
      }
     }
    },
@@ -359,11 +359,11 @@
     "subheadings": {
      "Fixed Route Base": {
       "name": "Fixed Route Base",
-      "delim": null
+      "delim": ":"
      },
      "Fixed Route Avg": {
       "name": "Fixed Route Avg",
-      "delim": null
+      "delim": ":"
      },
      "Last Base Fare Increase": {
       "name": "Last Base Fare Increase",
@@ -382,15 +382,15 @@
     "subheadings": {
      "Paratransit Full/Part Time": {
       "name": "Paratransit",
-      "delim": null
+      "delim": " "
      },
      "Fixed Route Full/Part Time": {
       "name": "Fixed Route",
-      "delim": null
+      "delim": " "
      },
      "Systemwide Full/Part Time": {
       "name": "Systemwide",
-      "delim": null
+      "delim": " "
      }
     }
    },
@@ -412,12 +412,12 @@
    "Rural Systems (Start Page)": 73,
    "Shared Ride (Start Page)": 103,
    "Pages Per Agency": 2,
-   "Format Changed?": false,
-   "Has Distributional Factors": false,
-   "Consolidated Agencies": "",
    "except": [
     23
    ],
+   "Format Changed?": false,
+   "Has Distributional Factors": false,
+   "Consolidated Agencies": "",
    "boxes": {
     "lbox": [
      97,
@@ -464,11 +464,11 @@
     "subheadings": {
      "Square Miles": {
       "name": "Square Miles",
-      "delim": null
+      "delim": ":"
      },
      "Population": {
       "name": "Population",
-      "delim": null
+      "delim": ":"
      }
     }
    },
@@ -479,19 +479,19 @@
     "subheadings": {
      "Total Passengers": {
       "name": "Total Passengers",
-      "delim": null
+      "delim": ":"
      },
      "Senior Passengers": {
       "name": "Senior Passengers",
-      "delim": null
+      "delim": ":"
      },
      "Revenue Vehicle Miles": {
       "name": "Revenue Vehicle Miles",
-      "delim": null
+      "delim": ":"
      },
      "Revenue Vehicle Hours": {
       "name": "Revenue Vehicle Hours",
-      "delim": null
+      "delim": ":"
      }
     }
    },
@@ -547,7 +547,7 @@
       "name": "",
       "delim": null
      },
-    "Paratransit Vehicles": {
+     "Paratransit Vehicles": {
       "name": "",
       "delim": null
      },
@@ -564,11 +564,11 @@
     "subheadings": {
      "Fixed Route Base": {
       "name": "Fixed Route Base",
-      "delim": null
+      "delim": ":"
      },
      "Fixed Route Avg": {
       "name": "Fixed Route Avg",
-      "delim": null
+      "delim": ":"
      },
      "Last Base Fare Increase": {
       "name": "Last Base Fare Increase",
@@ -587,15 +587,15 @@
     "subheadings": {
      "Paratransit Full/Part Time": {
       "name": "Paratransit",
-      "delim": null
+      "delim": " "
      },
      "Fixed Route Full/Part Time": {
       "name": "Fixed Route",
-      "delim": null
+      "delim": " "
      },
      "Systemwide Full/Part Time": {
       "name": "Systemwide",
-      "delim": null
+      "delim": " "
      }
     }
    },
@@ -617,12 +617,12 @@
    "Rural Systems (Start Page)": 120,
    "Shared Ride (Start Page)": 178,
    "Pages Per Agency": 4,
-   "Format Changed?": false,
-   "Has Distributional Factors": false,
-   "Consolidated Agencies": "",
    "except": [
     26
    ],
+   "Format Changed?": false,
+   "Has Distributional Factors": false,
+   "Consolidated Agencies": "",
    "boxes": {
     "lbox": [
      97,
@@ -669,11 +669,11 @@
     "subheadings": {
      "Square Miles": {
       "name": "Square Miles",
-      "delim": null
+      "delim": ":"
      },
      "Population": {
       "name": "Population",
-      "delim": null
+      "delim": ":"
      }
     }
    },
@@ -684,19 +684,19 @@
     "subheadings": {
      "Total Passengers": {
       "name": "Total Passengers",
-      "delim": null
+      "delim": ":"
      },
      "Senior Passengers": {
       "name": "Senior Passengers",
-      "delim": null
+      "delim": ":"
      },
      "Revenue Vehicle Miles": {
       "name": "Revenue Vehicle Miles",
-      "delim": null
+      "delim": ":"
      },
      "Revenue Vehicle Hours": {
       "name": "Revenue Vehicle Hours",
-      "delim": null
+      "delim": ":"
      }
     }
    },
@@ -769,11 +769,11 @@
     "subheadings": {
      "Fixed Route Base": {
       "name": "Fixed-Route Base",
-      "delim": null
+      "delim": ":"
      },
      "Fixed Route Avg": {
       "name": "Fixed-Route Avg",
-      "delim": null
+      "delim": ":"
      },
      "Last Base Fare Increase": {
       "name": "Last Base Fare Increase",
@@ -792,15 +792,15 @@
     "subheadings": {
      "Paratransit Full/Part Time": {
       "name": "Paratransit",
-      "delim": null
+      "delim": " "
      },
      "Fixed Route Full/Part Time": {
       "name": "Fixed-Route",
-      "delim": null
+      "delim": " "
      },
      "Systemwide Full/Part Time": {
       "name": "System-wide",
-      "delim": null
+      "delim": " "
      }
     }
    },
@@ -822,12 +822,12 @@
    "Rural Systems (Start Page)": 122,
    "Shared Ride (Start Page)": 180,
    "Pages Per Agency": 4,
-   "Format Changed?": true,
-   "Has Distributional Factors": false,
-   "Consolidated Agencies": "",
    "except": [
     28
    ],
+   "Format Changed?": true,
+   "Has Distributional Factors": false,
+   "Consolidated Agencies": "",
    "silent": [
     "Total Fleet Size"
    ],
@@ -877,11 +877,11 @@
     "subheadings": {
      "Square Miles": {
       "name": "Square Miles",
-      "delim": null
+      "delim": ":"
      },
      "Population": {
       "name": "Population",
-      "delim": null
+      "delim": ":"
      }
     }
    },
@@ -892,19 +892,19 @@
     "subheadings": {
      "Total Passengers": {
       "name": "Total Passengers",
-      "delim": null
+      "delim": ":"
      },
      "Senior Passengers": {
       "name": "Senior Passengers",
-      "delim": null
+      "delim": ":"
      },
      "Revenue Vehicle Miles": {
       "name": "Revenue Vehicle Miles",
-      "delim": null
+      "delim": ":"
      },
      "Revenue Vehicle Hours": {
       "name": "Revenue Vehicle Hours",
-      "delim": null
+      "delim": ":"
      }
     }
    },
@@ -960,12 +960,8 @@
       "name": "Trolley Bus",
       "delim": ":"
      },
-     "Inclined Plane Cars": {
-      "name": "Inclined Plane Cars",
-      "delim": ":"
-     },
      "Paratransit Vehicles": {
-      "name": "Paratransit",
+      "name": "Paratransit Vehicles",
       "delim": ":"
      },
      "Systemwide": {
@@ -981,11 +977,11 @@
     "subheadings": {
      "Fixed Route Base": {
       "name": "Fixed-Route Base",
-      "delim": null
+      "delim": ":"
      },
      "Fixed Route Avg": {
       "name": "Fixed-Route Average",
-      "delim": null
+      "delim": ":"
      },
      "Last Base Fare Increase": {
       "name": "Last Base Fare Increase",
@@ -1004,15 +1000,15 @@
     "subheadings": {
      "Paratransit Full/Part Time": {
       "name": "Paratransit",
-      "delim": null
+      "delim": " "
      },
      "Fixed Route Full/Part Time": {
       "name": "Fixed-Route",
-      "delim": null
+      "delim": " "
      },
      "Systemwide Full/Part Time": {
       "name": "System-wide",
-      "delim": null
+      "delim": " "
      }
     }
    },
@@ -1034,12 +1030,12 @@
    "Rural Systems (Start Page)": 154,
    "Shared Ride (Start Page)": 204,
    "Pages Per Agency": 4,
-   "Format Changed?": false,
-   "Has Distributional Factors": false,
-   "Consolidated Agencies": "",
    "except": [
     60
    ],
+   "Format Changed?": false,
+   "Has Distributional Factors": false,
+   "Consolidated Agencies": "",
    "silent": [
     "Total Fleet Size"
    ],
@@ -1089,11 +1085,11 @@
     "subheadings": {
      "Square Miles": {
       "name": "Square Miles",
-      "delim": null
+      "delim": ":"
      },
      "Population": {
       "name": "Population",
-      "delim": null
+      "delim": ":"
      }
     }
    },
@@ -1104,19 +1100,19 @@
     "subheadings": {
      "Total Passengers": {
       "name": "Total Passengers",
-      "delim": null
+      "delim": ":"
      },
      "Senior Passengers": {
       "name": "Senior Passengers",
-      "delim": null
+      "delim": ":"
      },
      "Revenue Vehicle Miles": {
       "name": "Revenue Vehicle Miles",
-      "delim": null
+      "delim": ":"
      },
      "Revenue Vehicle Hours": {
       "name": "Revenue Vehicle Hours",
-      "delim": null
+      "delim": ":"
      }
     }
    },
@@ -1173,7 +1169,7 @@
       "delim": ":"
      },
      "Paratransit Vehicles": {
-      "name": "Paratransit",
+      "name": "Paratransit Vehicles",
       "delim": ":"
      },
      "Systemwide": {
@@ -1189,11 +1185,11 @@
     "subheadings": {
      "Fixed Route Base": {
       "name": "Fixed Route Base",
-      "delim": null
+      "delim": ":"
      },
      "Fixed Route Avg": {
       "name": "Fixed Route Average",
-      "delim": null
+      "delim": ":"
      },
      "Last Base Fare Increase": {
       "name": "Last Base Fare Increase",
@@ -1212,15 +1208,15 @@
     "subheadings": {
      "Paratransit Full/Part Time": {
       "name": "Paratransit",
-      "delim": null
+      "delim": " "
      },
      "Fixed Route Full/Part Time": {
       "name": "Fixed Route",
-      "delim": null
+      "delim": " "
      },
      "Systemwide Full/Part Time": {
       "name": "System-wide",
-      "delim": null
+      "delim": " "
      }
     }
    },
@@ -1242,12 +1238,12 @@
    "Rural Systems (Start Page)": 132,
    "Shared Ride (Start Page)": 190,
    "Pages Per Agency": 4,
-   "Format Changed?": false,
-   "Has Distributional Factors": false,
-   "Consolidated Agencies": "",
    "except": [
     38
    ],
+   "Format Changed?": false,
+   "Has Distributional Factors": false,
+   "Consolidated Agencies": "",
    "silent": [
     "Total Fleet Size"
    ],
@@ -1297,11 +1293,11 @@
     "subheadings": {
      "Square Miles": {
       "name": "Square Miles",
-      "delim": null
+      "delim": ":"
      },
      "Population": {
       "name": "Population",
-      "delim": null
+      "delim": ":"
      }
     }
    },
@@ -1312,19 +1308,19 @@
     "subheadings": {
      "Total Passengers": {
       "name": "Total Passengers",
-      "delim": null
+      "delim": ":"
      },
      "Senior Passengers": {
       "name": "Senior Passengers",
-      "delim": null
+      "delim": ":"
      },
      "Revenue Vehicle Miles": {
       "name": "Revenue Vehicle Miles",
-      "delim": null
+      "delim": ":"
      },
      "Revenue Vehicle Hours": {
       "name": "Revenue Vehicle Hours",
-      "delim": null
+      "delim": ":"
      }
     }
    },
@@ -1381,7 +1377,7 @@
       "delim": ":"
      },
      "Paratransit Vehicles": {
-      "name": "Paratransit",
+      "name": "Paratransit Vehicles",
       "delim": ":"
      },
      "Systemwide": {
@@ -1397,11 +1393,11 @@
     "subheadings": {
      "Fixed Route Base": {
       "name": "Fixed Route Base",
-      "delim": null
+      "delim": ":"
      },
      "Fixed Route Avg": {
       "name": "Fixed Route Average",
-      "delim": null
+      "delim": ":"
      },
      "Last Base Fare Increase": {
       "name": "Last Base Fare Increase",
@@ -1420,15 +1416,15 @@
     "subheadings": {
      "Paratransit Full/Part Time": {
       "name": "Paratransit",
-      "delim": null
+      "delim": " "
      },
      "Fixed Route Full/Part Time": {
       "name": "Fixed Route",
-      "delim": null
+      "delim": " "
      },
      "Systemwide Full/Part Time": {
       "name": "System-wide",
-      "delim": null
+      "delim": " "
      }
     }
    },
@@ -1452,18 +1448,18 @@
    "Pages Per Agency": 4,
    "PPA_exception": {
     "70": 2,
-	"108":2,
-	"130":2,
-	"136":2,
-	"148":2,
-	"158":2
+    "108": 2,
+    "130": 2,
+    "136": 2,
+    "148": 2,
+    "158": 2
    },
-   "Format Changed?": false,
-   "Has Distributional Factors": true,
-   "Consolidated Agencies": "",
    "except": [
     62
    ],
+   "Format Changed?": false,
+   "Has Distributional Factors": true,
+   "Consolidated Agencies": "",
    "silent": [
     "Total Fleet Size"
    ],
@@ -1513,11 +1509,11 @@
     "subheadings": {
      "Square Miles": {
       "name": "Square Miles",
-      "delim": null
+      "delim": ":"
      },
      "Population": {
       "name": "Population",
-      "delim": null
+      "delim": ":"
      }
     }
    },
@@ -1528,19 +1524,19 @@
     "subheadings": {
      "Total Passengers": {
       "name": "Total Passengers",
-      "delim": null
+      "delim": ":"
      },
      "Senior Passengers": {
       "name": "Senior Passengers",
-      "delim": null
+      "delim": ":"
      },
      "Revenue Vehicle Miles": {
       "name": "Revenue Vehicle Miles",
-      "delim": null
+      "delim": ":"
      },
      "Revenue Vehicle Hours": {
       "name": "Revenue Vehicle Hours",
-      "delim": null
+      "delim": ":"
      }
     }
    },
@@ -1597,7 +1593,7 @@
       "delim": ":"
      },
      "Paratransit Vehicles": {
-      "name": "Paratransit",
+      "name": "Paratransit Vehicles",
       "delim": ":"
      },
      "Systemwide": {
@@ -1613,11 +1609,11 @@
     "subheadings": {
      "Fixed Route Base": {
       "name": "Fixed Route Base",
-      "delim": null
+      "delim": ":"
      },
      "Fixed Route Avg": {
       "name": "Fixed Route Average",
-      "delim": null
+      "delim": ":"
      },
      "Last Base Fare Increase": {
       "name": "Last Base Fare Increase",
@@ -1636,15 +1632,15 @@
     "subheadings": {
      "Paratransit Full/Part Time": {
       "name": "Paratransit",
-      "delim": null
+      "delim": " "
      },
      "Fixed Route Full/Part Time": {
       "name": "Fixed Route",
-      "delim": null
+      "delim": " "
      },
      "Systemwide Full/Part Time": {
       "name": "System-wide",
-      "delim": null
+      "delim": " "
      }
     }
    },
@@ -1663,12 +1659,27 @@
  "2014-15": {
   "meta": {
    "Urban Systems (Start Page)": 70,
-   "Rural Systems (Start Page)": "",
-   "Shared Ride (Start Page)": "",
+   "Rural Systems (Start Page)": 156,
+   "Shared Ride (Start Page)": 206,
    "Pages Per Agency": 4,
+   "PPA_exception": {
+    "78": 2,
+    "116": 2,
+    "142": 2,
+    "148": 2,
+    "160": 2,
+    "170": 2
+   },
+   "except": [
+    70
+   ],
    "Format Changed?": false,
    "Has Distributional Factors": true,
    "Consolidated Agencies": "",
+   "silent": [
+    "Total Fleet Size",
+    "Fare Information"
+   ],
    "boxes": {
     "lbox": [
      137,
@@ -1705,65 +1716,65 @@
   "categories": {
    "Name": {
     "name": null,
-    "box": null,
-    "delim": null
+    "box": "tbox",
+    "delim": "all"
    },
    "Service Area Statistics": {
-    "name": "",
-    "box": null,
+    "name": "Service Area Statistics",
+    "box": "lbox",
     "delim": null,
     "subheadings": {
      "Square Miles": {
-      "name": "",
-      "delim": null
+      "name": "Square Miles",
+      "delim": ":"
      },
      "Population": {
-      "name": "",
-      "delim": null
+      "name": "Population",
+      "delim": ":"
      }
     }
    },
    "Act 44 Fixed Route Distribution Factors": {
-    "name": "",
-    "box": null,
+    "name": "Act 44 Fixed Route Distribution Factors",
+    "box": "lbox",
     "delim": null,
     "subheadings": {
      "Total Passengers": {
-      "name": "",
-      "delim": null
+      "name": "Total Passengers",
+      "delim": ":"
      },
      "Senior Passengers": {
-      "name": "",
-      "delim": null
+      "name": "Senior Passengers",
+      "delim": ":"
      },
      "Revenue Vehicle Miles": {
-      "name": "",
-      "delim": null
+      "name": "Revenue Vehicle Miles",
+      "delim": ":"
      },
      "Revenue Vehicle Hours": {
-      "name": "",
-      "delim": null
+      "name": "Revenue Vehicle Hours",
+      "delim": ":"
      }
     }
    },
    "Act 44 Operating Assistance": {
-    "name": "",
-    "box": null,
+    "name": "Act 44 Operating Assistance",
+    "box": "lbox",
     "delim": null,
     "subheadings": {
      "Section 1513 Allocation": {
-      "name": "",
+      "name": "Section 1513 Allocation",
       "delim": null
      },
      "Required Local Match": {
-      "name": "",
+      "name": "Required Local Match",
       "delim": null
      }
     }
    },
    "Total Fleet Size": {
-    "name": "",
-    "box": null,
+    "name": "Current Fleet Size",
+    "box": "rbox",
     "delim": null,
     "subheadings": {
      "Fixed Route": {
@@ -1799,7 +1810,7 @@
       "delim": ":"
      },
      "Paratransit Vehicles": {
-      "name": "Paratransit",
+      "name": "Paratransit Vehicles",
       "delim": ":"
      },
      "Systemwide": {
@@ -1809,56 +1820,56 @@
     }
    },
    "Fare Information": {
-    "name": "",
-    "box": null,
+    "name": "Current Fare Information",
+    "box": "rbox",
     "delim": null,
     "subheadings": {
      "Fixed Route Base": {
-      "name": "",
-      "delim": null
+      "name": "Fixed Route Base",
+      "delim": ":"
      },
      "Fixed Route Avg": {
-      "name": "",
-      "delim": null
+      "name": "Fixed Route Average",
+      "delim": ":"
      },
      "Last Base Fare Increase": {
-      "name": "",
-      "delim": null
+      "name": "Last Base Fare Increase",
+      "delim": ":"
      },
      "Systemwide Increase": {
-      "name": "",
-      "delim": null
+      "name": "System-wide Increase",
+      "delim": ":"
      }
     }
    },
    "Employees": {
-    "name": "",
-    "box": null,
+    "name": "Current Employees",
+    "box": "rbox",
     "delim": null,
     "subheadings": {
      "Paratransit Full/Part Time": {
-      "name": "",
-      "delim": null
+      "name": "Paratransit",
+      "delim": " "
      },
      "Fixed Route Full/Part Time": {
-      "name": "",
-      "delim": null
+      "name": "Fixed Route",
+      "delim": " "
      },
      "Systemwide Full/Part Time": {
-      "name": "",
-      "delim": null
+      "name": "System-wide",
+      "delim": " "
      }
     }
    },
    "Operating Expense": {
-    "name": "",
-    "box": null,
-    "delim": null
+    "name": "Operating Expense",
+    "box": "lchart",
+    "delim": "mixed"
    },
    "Operating Funds": {
-    "name": "",
-    "box": null,
-    "delim": null
+    "name": "Operating Funds",
+    "box": "rchart",
+    "delim": "mixed"
    }
   }
  },
@@ -1868,9 +1879,21 @@
    "Rural Systems (Start Page)": 154,
    "Shared Ride (Start Page)": 204,
    "Pages Per Agency": 4,
+   "PPA_exception": {
+    "82": 2,
+    "120": 2,
+    "158": 2,
+    "168": 2
+   },
+   "except": [
+    74
+   ],
    "Format Changed?": false,
    "Has Distributional Factors": true,
    "Consolidated Agencies": "",
+   "silent": [
+    "Total Fleet Size"
+   ],
    "boxes": {
     "lbox": [
      137,
@@ -1907,65 +1930,65 @@
   "categories": {
    "Name": {
     "name": null,
-    "box": null,
-    "delim": null
+    "box": "tbox",
+    "delim": "all"
    },
    "Service Area Statistics": {
-    "name": "",
-    "box": null,
+    "name": "Service Area Statistics",
+    "box": "lbox",
     "delim": null,
     "subheadings": {
      "Square Miles": {
-      "name": "",
-      "delim": null
+      "name": "Square Miles",
+      "delim": ":"
      },
      "Population": {
-      "name": "",
-      "delim": null
+      "name": "Population",
+      "delim": ":"
      }
     }
    },
    "Act 44 Fixed Route Distribution Factors": {
-    "name": "",
-    "box": null,
+    "name": "Act 44 Fixed Route Distribution Factors",
+    "box": "lbox",
     "delim": null,
     "subheadings": {
      "Total Passengers": {
-      "name": "",
-      "delim": null
+      "name": "Total Passengers",
+      "delim": ":"
      },
      "Senior Passengers": {
-      "name": "",
-      "delim": null
+      "name": "Senior Passengers",
+      "delim": ":"
      },
      "Revenue Vehicle Miles": {
-      "name": "",
-      "delim": null
+      "name": "Revenue Vehicle Miles",
+      "delim": ":"
      },
      "Revenue Vehicle Hours": {
-      "name": "",
-      "delim": null
+      "name": "Revenue Vehicle Hours",
+      "delim": ":"
      }
     }
    },
    "Act 44 Operating Assistance": {
-    "name": "",
-    "box": null,
+    "name": "Act 44 Operating Assistance",
+    "box": "lbox",
     "delim": null,
     "subheadings": {
      "Section 1513 Allocation": {
-      "name": "",
+      "name": "Section 1513 Allocation",
       "delim": null
      },
      "Required Local Match": {
-      "name": "",
+      "name": "Required Local Match",
       "delim": null
      }
     }
    },
    "Total Fleet Size": {
-    "name": "",
-    "box": null,
+    "name": "Current Fleet Size",
+    "box": "rbox",
     "delim": null,
     "subheadings": {
      "Fixed Route": {
@@ -1974,6 +1997,22 @@
      },
      "Paratransit": {
       "name": "Paratransit",
+      "delim": ":"
+     },
+     "Diesel Motor Bus": {
+      "name": "Diesel Motor Bus",
+      "delim": ":"
+     },
+     "Diesel/Gasoline Motor Bus": {
+      "name": "Diesel/Gasoline Motor Bus",
+      "delim": ":"
+     },
+     "CNG Motor Bus": {
+      "name": "CNG Motor Bus",
+      "delim": ":"
+     },
+     "Other Alternative Fuel Motor Bus": {
+      "name": "Other Alternative Fuel Motor Bus",
       "delim": ":"
      },
      "Motor Bus": {
@@ -2001,7 +2040,23 @@
       "delim": ":"
      },
      "Paratransit Vehicles": {
-      "name": "Paratransit",
+      "name": "Paratransit Vehicle",
+      "delim": ":"
+     },
+     "Gasoline Paratransit Vehicles": {
+      "name": "Gasoline Paratransit Vehicle",
+      "delim": ":"
+     },
+     "Diesel/Gasoline Paratransit Vehicles": {
+      "name": "Diesel/Gasoline Paratransit Vehicle",
+      "delim": ":"
+     },
+     "CNG Paratransit Vehicles": {
+      "name": "CNG Paratransit Vehicle",
+      "delim": ":"
+     },
+     "Other Alternative Fuel Paratransit": {
+      "name": "Other Alternative Fuel Paratransit",
       "delim": ":"
      },
      "Systemwide": {
@@ -2011,56 +2066,56 @@
     }
    },
    "Fare Information": {
-    "name": "",
-    "box": null,
+    "name": "Current Fare Information",
+    "box": "rbox",
     "delim": null,
     "subheadings": {
      "Fixed Route Base": {
-      "name": "",
-      "delim": null
-     },
-     "Fixed Route Avg": {
-      "name": "",
-      "delim": null
+      "name": "Fixed Route Base",
+      "delim": ":"
      },
      "Last Base Fare Increase": {
-      "name": "",
-      "delim": null
+      "name": "Last Base Fare Increase",
+      "delim": ":"
      },
      "Systemwide Increase": {
-      "name": "",
-      "delim": null
+      "name": "System-wide Increase",
+      "delim": ":"
      }
     }
    },
    "Employees": {
-    "name": "",
-    "box": null,
+    "name": "Current Employees",
+    "box": "rbox",
     "delim": null,
     "subheadings": {
-     "Paratransit Full/Part Time": {
-      "name": "",
-      "delim": null
+     "Agency Full-Time": {
+      "name": "Agency Full-Time",
+      "delim": " "
      },
-     "Fixed Route Full/Part Time": {
-      "name": "",
-      "delim": null
+     "Contractor Full-Time": {
+      "name": "Contractor Full-Time",
+      "delim": " "
+     },
+     "Contractor Part-Time": {
+      "name": "Contractor Part-Time",
+      "delim": " "
      },
      "Systemwide Full/Part Time": {
-      "name": "",
-      "delim": null
+      "name": "System-Wide",
+      "delim": " "
      }
     }
    },
    "Operating Expense": {
-    "name": "",
-    "box": null,
-    "delim": null
+    "name": "Operating Expense",
+    "box": "lchart",
+    "delim": "mixed"
    },
    "Operating Funds": {
-    "name": "",
-    "box": null,
-    "delim": null
+    "name": "Operating Funds",
+    "box": "rchart",
+    "delim": "mixed"
    }
   }
  },
@@ -2070,6 +2125,16 @@
    "Rural Systems (Start Page)": 148,
    "Shared Ride (Start Page)": 190,
    "Pages Per Agency": 4,
+   "PPA_exception": {
+    "72": 2,
+	"110": 2,
+	"124": 2,
+	"130": 2,
+	"152": 2
+   },
+   "except": [
+    64
+   ],
    "Format Changed?": false,
    "Has Distributional Factors": true,
    "Consolidated Agencies": "BARTA, RRTA -> SCTA\nWashington City, County -> WCTA\nCATO, VCTO -> CATA",
@@ -2109,65 +2174,65 @@
   "categories": {
    "Name": {
     "name": null,
-    "box": null,
-    "delim": null
+    "box": "tbox",
+    "delim": "all"
    },
    "Service Area Statistics": {
-    "name": "",
-    "box": null,
+    "name": "Service Area Statistics",
+    "box": "lbox",
     "delim": null,
     "subheadings": {
      "Square Miles": {
-      "name": "",
-      "delim": null
+      "name": "Square Miles",
+      "delim": ":"
      },
      "Population": {
-      "name": "",
-      "delim": null
+      "name": "Population",
+      "delim": ":"
      }
     }
    },
    "Act 44 Fixed Route Distribution Factors": {
-    "name": "",
-    "box": null,
+    "name": "Act 44 Fixed Route Distribution Factors",
+    "box": "lbox",
     "delim": null,
     "subheadings": {
      "Total Passengers": {
-      "name": "",
-      "delim": null
+      "name": "Total Passengers",
+      "delim": ":"
      },
      "Senior Passengers": {
-      "name": "",
-      "delim": null
+      "name": "Senior Passengers",
+      "delim": ":"
      },
      "Revenue Vehicle Miles": {
-      "name": "",
-      "delim": null
+      "name": "Revenue Vehicle Miles",
+      "delim": ":"
      },
      "Revenue Vehicle Hours": {
-      "name": "",
-      "delim": null
+      "name": "Revenue Vehicle Hours",
+      "delim": ":"
      }
     }
    },
    "Act 44 Operating Assistance": {
-    "name": "",
-    "box": null,
+    "name": "Act 44 Operating Assistance",
+    "box": "lbox",
     "delim": null,
     "subheadings": {
      "Section 1513 Allocation": {
-      "name": "",
+      "name": "Section 1513 Allocation",
       "delim": null
      },
      "Required Local Match": {
-      "name": "",
+      "name": "Required Local Match",
       "delim": null
      }
     }
    },
    "Total Fleet Size": {
-    "name": "",
-    "box": null,
+    "name": "Current Fleet Size",
+    "box": "rbox",
     "delim": null,
     "subheadings": {
      "Fixed Route": {
@@ -2176,6 +2241,22 @@
      },
      "Paratransit": {
       "name": "Paratransit",
+      "delim": ":"
+     },
+     "Diesel Motor Bus": {
+      "name": "Diesel Motor Bus",
+      "delim": ":"
+     },
+     "Diesel/Gasoline Motor Bus": {
+      "name": "Diesel/Gasoline Motor Bus",
+      "delim": ":"
+     },
+     "CNG Motor Bus": {
+      "name": "CNG Motor Bus",
+      "delim": ":"
+     },
+     "Other Alternative Fuel Motor Bus": {
+      "name": "Other Alternative Fuel Motor Bus",
       "delim": ":"
      },
      "Motor Bus": {
@@ -2203,7 +2284,23 @@
       "delim": ":"
      },
      "Paratransit Vehicles": {
-      "name": "Paratransit",
+      "name": "Paratransit Vehicle",
+      "delim": ":"
+     },
+     "Gasoline Paratransit Vehicles": {
+      "name": "Gasoline Paratransit Vehicle",
+      "delim": ":"
+     },
+     "Diesel/Gasoline Paratransit Vehicles": {
+      "name": "Diesel/Gasoline Paratransit Vehicle",
+      "delim": ":"
+     },
+     "CNG Paratransit Vehicles": {
+      "name": "CNG Paratransit Vehicle",
+      "delim": ":"
+     },
+     "Other Alternative Fuel Paratransit": {
+      "name": "Other Alternative Fuel Paratransit",
       "delim": ":"
      },
      "Systemwide": {
@@ -2213,64 +2310,66 @@
     }
    },
    "Fare Information": {
-    "name": "",
-    "box": null,
+    "name": "Current Fare Information",
+    "box": "rbox",
     "delim": null,
     "subheadings": {
      "Fixed Route Base": {
-      "name": "",
-      "delim": null
-     },
-     "Fixed Route Avg": {
-      "name": "",
-      "delim": null
+      "name": "Fixed Route Base",
+      "delim": ":"
      },
      "Last Base Fare Increase": {
-      "name": "",
-      "delim": null
+      "name": "Last Base Fare Increase",
+      "delim": ":"
      },
      "Systemwide Increase": {
-      "name": "",
-      "delim": null
+      "name": "System-wide Increase",
+      "delim": ":"
      }
     }
    },
    "Employees": {
-    "name": "",
-    "box": null,
+    "name": "Current Employees",
+    "box": "rbox",
     "delim": null,
     "subheadings": {
-     "Paratransit Full/Part Time": {
-      "name": "",
-      "delim": null
+     "Agency Full-Time": {
+      "name": "Agency Full-Time",
+      "delim": " "
      },
-     "Fixed Route Full/Part Time": {
-      "name": "",
-      "delim": null
+     "Contractor Full-Time": {
+      "name": "Contractor Full-Time",
+      "delim": " "
+     },
+     "Contractor Part-Time": {
+      "name": "Contractor Part-Time",
+      "delim": " "
      },
      "Systemwide Full/Part Time": {
-      "name": "",
-      "delim": null
+      "name": "System-Wide",
+      "delim": " "
      }
     }
    },
    "Operating Expense": {
-    "name": "",
-    "box": null,
-    "delim": null
+    "name": "Operating Expense",
+    "box": "lchart",
+    "delim": "mixed"
    },
    "Operating Funds": {
-    "name": "",
-    "box": null,
-    "delim": null
+    "name": "Operating Funds",
+    "box": "rchart",
+    "delim": "mixed"
    }
   }
  },
  "2017-18": {
   "meta": {
-   "Urban Systems (Start Page)": 46,
+   "Urban Systems (Start Page)": "",
    "Rural Systems (Start Page)": "",
    "Shared Ride (Start Page)": "",
+   "All Start": 46,
+   "All End": 201,
    "Pages Per Agency": 4,
    "Format Changed?": false,
    "Has Distributional Factors": true,
@@ -2311,65 +2410,65 @@
   "categories": {
    "Name": {
     "name": null,
-    "box": null,
-    "delim": null
+    "box": "tbox",
+    "delim": "all"
    },
    "Service Area Statistics": {
     "name": "",
-    "box": null,
+    "box": "lbox",
     "delim": null,
     "subheadings": {
      "Square Miles": {
-      "name": "",
-      "delim": null
+      "name": "Square Miles",
+      "delim": ":"
      },
      "Population": {
-      "name": "",
-      "delim": null
+      "name": "Population",
+      "delim": ":"
      }
     }
    },
    "Act 44 Fixed Route Distribution Factors": {
     "name": "",
-    "box": null,
+    "box": "lbox",
     "delim": null,
     "subheadings": {
      "Total Passengers": {
-      "name": "",
-      "delim": null
+      "name": "Total Passengers",
+      "delim": ":"
      },
      "Senior Passengers": {
-      "name": "",
-      "delim": null
+      "name": "Senior Passengers",
+      "delim": ":"
      },
      "Revenue Vehicle Miles": {
-      "name": "",
-      "delim": null
+      "name": "Revenue Vehicle Miles",
+      "delim": ":"
      },
      "Revenue Vehicle Hours": {
-      "name": "",
-      "delim": null
+      "name": "Revenue Vehicle Hours",
+      "delim": ":"
      }
     }
    },
    "Act 44 Operating Assistance": {
     "name": "",
-    "box": null,
+    "box": "lbox",
     "delim": null,
     "subheadings": {
      "Section 1513 Allocation": {
-      "name": "",
+      "name": "Section 1513 Allocation",
       "delim": null
      },
      "Required Local Match": {
-      "name": "",
+      "name": "Required Local Match",
       "delim": null
      }
     }
    },
    "Total Fleet Size": {
     "name": "",
-    "box": null,
+    "box": "rbox",
     "delim": null,
     "subheadings": {
      "Fixed Route": {
@@ -2416,63 +2515,65 @@
    },
    "Fare Information": {
     "name": "",
-    "box": null,
+    "box": "rbox",
     "delim": null,
     "subheadings": {
      "Fixed Route Base": {
-      "name": "",
-      "delim": null
+      "name": "Fixed Route Base",
+      "delim": ":"
      },
      "Fixed Route Avg": {
-      "name": "",
-      "delim": null
+      "name": "Fixed Route Average",
+      "delim": ":"
      },
      "Last Base Fare Increase": {
-      "name": "",
-      "delim": null
+      "name": "Last Base Fare Increase",
+      "delim": ":"
      },
      "Systemwide Increase": {
-      "name": "",
-      "delim": null
+      "name": "System-wide Increase",
+      "delim": ":"
      }
     }
    },
    "Employees": {
     "name": "",
-    "box": null,
+    "box": "rbox",
     "delim": null,
     "subheadings": {
      "Paratransit Full/Part Time": {
-      "name": "",
-      "delim": null
+      "name": "Paratransit",
+      "delim": " "
      },
      "Fixed Route Full/Part Time": {
-      "name": "",
-      "delim": null
+      "name": "Fixed Route",
+      "delim": " "
      },
      "Systemwide Full/Part Time": {
-      "name": "",
-      "delim": null
+      "name": "System-wide",
+      "delim": " "
      }
     }
    },
    "Operating Expense": {
     "name": "",
-    "box": null,
-    "delim": null
+    "box": "lchart",
+    "delim": "mixed"
    },
    "Operating Funds": {
     "name": "",
-    "box": null,
-    "delim": null
+    "box": "rchart",
+    "delim": "mixed"
    }
   }
  },
  "2018-19": {
   "meta": {
-   "Urban Systems (Start Page)": 36,
+   "Urban Systems (Start Page)": "",
    "Rural Systems (Start Page)": "",
    "Shared Ride (Start Page)": "",
+   "All Start": 36,
+   "All End": 191,
    "Pages Per Agency": 4,
    "Format Changed?": false,
    "Has Distributional Factors": true,
@@ -2513,65 +2614,65 @@
   "categories": {
    "Name": {
     "name": null,
-    "box": null,
-    "delim": null
+    "box": "tbox",
+    "delim": "all"
    },
    "Service Area Statistics": {
     "name": "",
-    "box": null,
+    "box": "lbox",
     "delim": null,
     "subheadings": {
      "Square Miles": {
-      "name": "",
-      "delim": null
+      "name": "Square Miles",
+      "delim": ":"
      },
      "Population": {
-      "name": "",
-      "delim": null
+      "name": "Population",
+      "delim": ":"
      }
     }
    },
    "Act 44 Fixed Route Distribution Factors": {
     "name": "",
-    "box": null,
+    "box": "lbox",
     "delim": null,
     "subheadings": {
      "Total Passengers": {
-      "name": "",
-      "delim": null
+      "name": "Total Passengers",
+      "delim": ":"
      },
      "Senior Passengers": {
-      "name": "",
-      "delim": null
+      "name": "Senior Passengers",
+      "delim": ":"
      },
      "Revenue Vehicle Miles": {
-      "name": "",
-      "delim": null
+      "name": "Revenue Vehicle Miles",
+      "delim": ":"
      },
      "Revenue Vehicle Hours": {
-      "name": "",
-      "delim": null
+      "name": "Revenue Vehicle Hours",
+      "delim": ":"
      }
     }
    },
    "Act 44 Operating Assistance": {
     "name": "",
-    "box": null,
+    "box": "lbox",
     "delim": null,
     "subheadings": {
      "Section 1513 Allocation": {
-      "name": "",
+      "name": "Section 1513 Allocation",
       "delim": null
      },
      "Required Local Match": {
-      "name": "",
+      "name": "Required Local Match",
       "delim": null
      }
     }
    },
    "Total Fleet Size": {
     "name": "",
-    "box": null,
+    "box": "rbox",
     "delim": null,
     "subheadings": {
      "Fixed Route": {
@@ -2618,63 +2719,65 @@
    },
    "Fare Information": {
     "name": "",
-    "box": null,
+    "box": "rbox",
     "delim": null,
     "subheadings": {
      "Fixed Route Base": {
-      "name": "",
-      "delim": null
+      "name": "Fixed Route Base",
+      "delim": ":"
      },
      "Fixed Route Avg": {
-      "name": "",
-      "delim": null
+      "name": "Fixed Route Average",
+      "delim": ":"
      },
      "Last Base Fare Increase": {
-      "name": "",
-      "delim": null
+      "name": "Last Base Fare Increase",
+      "delim": ":"
      },
      "Systemwide Increase": {
-      "name": "",
-      "delim": null
+      "name": "System-wide Increase",
+      "delim": ":"
      }
     }
    },
    "Employees": {
     "name": "",
-    "box": null,
+    "box": "rbox",
     "delim": null,
     "subheadings": {
      "Paratransit Full/Part Time": {
-      "name": "",
-      "delim": null
+      "name": "Paratransit",
+      "delim": " "
      },
      "Fixed Route Full/Part Time": {
-      "name": "",
-      "delim": null
+      "name": "Fixed Route",
+      "delim": " "
      },
      "Systemwide Full/Part Time": {
-      "name": "",
-      "delim": null
+      "name": "System-wide",
+      "delim": " "
      }
     }
    },
    "Operating Expense": {
     "name": "",
-    "box": null,
-    "delim": null
+    "box": "lchart",
+    "delim": "mixed"
    },
    "Operating Funds": {
     "name": "",
-    "box": null,
-    "delim": null
+    "box": "rchart",
+    "delim": "mixed"
    }
   }
  },
  "2019-20": {
   "meta": {
-   "Urban Systems (Start Page)": 44,
+   "Urban Systems (Start Page)": "",
    "Rural Systems (Start Page)": "",
    "Shared Ride (Start Page)": "",
+   "All Start": 44,
+   "All End": 199,
    "Pages Per Agency": 4,
    "Format Changed?": false,
    "Has Distributional Factors": true,
@@ -2715,65 +2818,65 @@
   "categories": {
    "Name": {
     "name": null,
-    "box": null,
-    "delim": null
+    "box": "tbox",
+    "delim": "all"
    },
    "Service Area Statistics": {
     "name": "",
-    "box": null,
+    "box": "lbox",
     "delim": null,
     "subheadings": {
      "Square Miles": {
-      "name": "",
-      "delim": null
+      "name": "Square Miles",
+      "delim": ":"
      },
      "Population": {
-      "name": "",
-      "delim": null
+      "name": "Population",
+      "delim": ":"
      }
     }
    },
    "Act 44 Fixed Route Distribution Factors": {
     "name": "",
-    "box": null,
+    "box": "lbox",
     "delim": null,
     "subheadings": {
      "Total Passengers": {
-      "name": "",
-      "delim": null
+      "name": "Total Passengers",
+      "delim": ":"
      },
      "Senior Passengers": {
-      "name": "",
-      "delim": null
+      "name": "Senior Passengers",
+      "delim": ":"
      },
      "Revenue Vehicle Miles": {
-      "name": "",
-      "delim": null
+      "name": "Revenue Vehicle Miles",
+      "delim": ":"
      },
      "Revenue Vehicle Hours": {
-      "name": "",
-      "delim": null
+      "name": "Revenue Vehicle Hours",
+      "delim": ":"
      }
     }
    },
    "Act 44 Operating Assistance": {
     "name": "",
-    "box": null,
+    "box": "lbox",
     "delim": null,
     "subheadings": {
      "Section 1513 Allocation": {
-      "name": "",
+      "name": "Section 1513 Allocation",
       "delim": null
      },
      "Required Local Match": {
-      "name": "",
+      "name": "Required Local Match",
       "delim": null
      }
     }
    },
    "Total Fleet Size": {
     "name": "",
-    "box": null,
+    "box": "rbox",
     "delim": null,
     "subheadings": {
      "Fixed Route": {
@@ -2820,55 +2923,55 @@
    },
    "Fare Information": {
     "name": "",
-    "box": null,
+    "box": "rbox",
     "delim": null,
     "subheadings": {
      "Fixed Route Base": {
-      "name": "",
-      "delim": null
+      "name": "Fixed Route Base",
+      "delim": ":"
      },
      "Fixed Route Avg": {
-      "name": "",
-      "delim": null
+      "name": "Fixed Route Average",
+      "delim": ":"
      },
      "Last Base Fare Increase": {
-      "name": "",
-      "delim": null
+      "name": "Last Base Fare Increase",
+      "delim": ":"
      },
      "Systemwide Increase": {
-      "name": "",
-      "delim": null
+      "name": "System-wide Increase",
+      "delim": ":"
      }
     }
    },
    "Employees": {
     "name": "",
-    "box": null,
+    "box": "rbox",
     "delim": null,
     "subheadings": {
      "Paratransit Full/Part Time": {
-      "name": "",
-      "delim": null
+      "name": "Paratransit",
+      "delim": " "
      },
      "Fixed Route Full/Part Time": {
-      "name": "",
-      "delim": null
+      "name": "Fixed Route",
+      "delim": " "
      },
      "Systemwide Full/Part Time": {
-      "name": "",
-      "delim": null
+      "name": "System-wide",
+      "delim": " "
      }
     }
    },
    "Operating Expense": {
     "name": "",
-    "box": null,
-    "delim": null
+    "box": "lchart",
+    "delim": "mixed"
    },
    "Operating Funds": {
     "name": "",
-    "box": null,
-    "delim": null
+    "box": "rchart",
+    "delim": "mixed"
    }
   }
  },
@@ -2877,6 +2980,8 @@
    "Urban Systems (Start Page)": 46,
    "Rural Systems (Start Page)": "",
    "Shared Ride (Start Page)": "",
+   "All Start": 46,
+   "All End": 201,
    "Pages Per Agency": 4,
    "Format Changed?": false,
    "Has Distributional Factors": true,
@@ -2917,65 +3022,65 @@
   "categories": {
    "Name": {
     "name": null,
-    "box": null,
-    "delim": null
+    "box": "tbox",
+    "delim": "all"
    },
    "Service Area Statistics": {
     "name": "",
-    "box": null,
+    "box": "lbox",
     "delim": null,
     "subheadings": {
      "Square Miles": {
-      "name": "",
-      "delim": null
+      "name": "Square Miles",
+      "delim": ":"
      },
      "Population": {
-      "name": "",
-      "delim": null
+      "name": "Population",
+      "delim": ":"
      }
     }
    },
    "Act 44 Fixed Route Distribution Factors": {
     "name": "",
-    "box": null,
+    "box": "lbox",
     "delim": null,
     "subheadings": {
      "Total Passengers": {
-      "name": "",
-      "delim": null
+      "name": "Total Passengers",
+      "delim": ":"
      },
      "Senior Passengers": {
-      "name": "",
-      "delim": null
+      "name": "Senior Passengers",
+      "delim": ":"
      },
      "Revenue Vehicle Miles": {
-      "name": "",
-      "delim": null
+      "name": "Revenue Vehicle Miles",
+      "delim": ":"
      },
      "Revenue Vehicle Hours": {
-      "name": "",
-      "delim": null
+      "name": "Revenue Vehicle Hours",
+      "delim": ":"
      }
     }
    },
    "Act 44 Operating Assistance": {
     "name": "",
-    "box": null,
+    "box": "lbox",
     "delim": null,
     "subheadings": {
      "Section 1513 Allocation": {
-      "name": "",
+      "name": "Section 1513 Allocation",
       "delim": null
      },
      "Required Local Match": {
-      "name": "",
+      "name": "Required Local Match",
       "delim": null
      }
     }
    },
    "Total Fleet Size": {
     "name": "",
-    "box": null,
+    "box": "rbox",
     "delim": null,
     "subheadings": {
      "Fixed Route": {
@@ -3022,55 +3127,55 @@
    },
    "Fare Information": {
     "name": "",
-    "box": null,
+    "box": "rbox",
     "delim": null,
     "subheadings": {
      "Fixed Route Base": {
-      "name": "",
-      "delim": null
+      "name": "Fixed Route Base",
+      "delim": ":"
      },
      "Fixed Route Avg": {
-      "name": "",
-      "delim": null
+      "name": "Fixed Route Average",
+      "delim": ":"
      },
      "Last Base Fare Increase": {
-      "name": "",
-      "delim": null
+      "name": "Last Base Fare Increase",
+      "delim": ":"
      },
      "Systemwide Increase": {
-      "name": "",
-      "delim": null
+      "name": "System-wide Increase",
+      "delim": ":"
      }
     }
    },
    "Employees": {
     "name": "",
-    "box": null,
+    "box": "rbox",
     "delim": null,
     "subheadings": {
      "Paratransit Full/Part Time": {
-      "name": "",
-      "delim": null
+      "name": "Paratransit",
+      "delim": " "
      },
      "Fixed Route Full/Part Time": {
-      "name": "",
-      "delim": null
+      "name": "Fixed Route",
+      "delim": " "
      },
      "Systemwide Full/Part Time": {
-      "name": "",
-      "delim": null
+      "name": "System-wide",
+      "delim": " "
      }
     }
    },
    "Operating Expense": {
     "name": "",
-    "box": null,
-    "delim": null
+    "box": "lchart",
+    "delim": "mixed"
    },
    "Operating Funds": {
     "name": "",
-    "box": null,
-    "delim": null
+    "box": "rchart",
+    "delim": "mixed"
    }
   }
  },
@@ -3079,6 +3184,8 @@
    "Urban Systems (Start Page)": 26,
    "Rural Systems (Start Page)": "",
    "Shared Ride (Start Page)": "",
+   "All Start": 26,
+   "All End": 99,
    "Pages Per Agency": 2,
    "Format Changed?": true,
    "rbox_present": false,
@@ -3120,65 +3227,65 @@
   "categories": {
    "Name": {
     "name": null,
-    "box": null,
-    "delim": null
+    "box": "tbox",
+    "delim": "all"
    },
    "Service Area Statistics": {
     "name": "",
-    "box": null,
+    "box": "lbox",
     "delim": null,
     "subheadings": {
      "Square Miles": {
-      "name": "",
-      "delim": null
+      "name": "Square Miles",
+      "delim": ":"
      },
      "Population": {
-      "name": "",
-      "delim": null
+      "name": "Population",
+      "delim": ":"
      }
     }
    },
    "Act 44 Fixed Route Distribution Factors": {
     "name": "",
-    "box": null,
+    "box": "lbox",
     "delim": null,
     "subheadings": {
      "Total Passengers": {
-      "name": "",
-      "delim": null
+      "name": "Total Passengers",
+      "delim": ":"
      },
      "Senior Passengers": {
-      "name": "",
-      "delim": null
+      "name": "Senior Passengers",
+      "delim": ":"
      },
      "Revenue Vehicle Miles": {
-      "name": "",
-      "delim": null
+      "name": "Revenue Vehicle Miles",
+      "delim": ":"
      },
      "Revenue Vehicle Hours": {
-      "name": "",
-      "delim": null
+      "name": "Revenue Vehicle Hours",
+      "delim": ":"
      }
     }
    },
    "Act 44 Operating Assistance": {
     "name": "",
-    "box": null,
+    "box": "lbox",
     "delim": null,
     "subheadings": {
      "Section 1513 Allocation": {
-      "name": "",
+      "name": "Section 1513 Allocation",
       "delim": null
      },
      "Required Local Match": {
-      "name": "",
+      "name": "Required Local Match",
       "delim": null
      }
     }
    },
    "Total Fleet Size": {
     "name": "",
-    "box": null,
+    "box": "rbox",
     "delim": null,
     "subheadings": {
      "Fixed Route": {
@@ -3225,63 +3332,65 @@
    },
    "Fare Information": {
     "name": "",
-    "box": null,
+    "box": "rbox",
     "delim": null,
     "subheadings": {
      "Fixed Route Base": {
-      "name": "",
-      "delim": null
+      "name": "Fixed Route Base",
+      "delim": ":"
      },
      "Fixed Route Avg": {
-      "name": "",
-      "delim": null
+      "name": "Fixed Route Average",
+      "delim": ":"
      },
      "Last Base Fare Increase": {
-      "name": "",
-      "delim": null
+      "name": "Last Base Fare Increase",
+      "delim": ":"
      },
      "Systemwide Increase": {
-      "name": "",
-      "delim": null
+      "name": "System-wide Increase",
+      "delim": ":"
      }
     }
    },
    "Employees": {
     "name": "",
-    "box": null,
+    "box": "rbox",
     "delim": null,
     "subheadings": {
      "Paratransit Full/Part Time": {
-      "name": "",
-      "delim": null
+      "name": "Paratransit",
+      "delim": " "
      },
      "Fixed Route Full/Part Time": {
-      "name": "",
-      "delim": null
+      "name": "Fixed Route",
+      "delim": " "
      },
      "Systemwide Full/Part Time": {
-      "name": "",
-      "delim": null
+      "name": "System-wide",
+      "delim": " "
      }
     }
    },
    "Operating Expense": {
     "name": "",
-    "box": null,
-    "delim": null
+    "box": "lchart",
+    "delim": "mixed"
    },
    "Operating Funds": {
     "name": "",
-    "box": null,
-    "delim": null
+    "box": "rchart",
+    "delim": "mixed"
    }
   }
  },
  "2022-23": {
   "meta": {
-   "Urban Systems (Start Page)": 27,
+   "Urban Systems (Start Page)": "",
    "Rural Systems (Start Page)": "",
    "Shared Ride (Start Page)": "",
+   "All Start": 27,
+   "All End": 100,
    "Pages Per Agency": 2,
    "Format Changed?": false,
    "rbox_present": false,
@@ -3323,65 +3432,65 @@
   "categories": {
    "Name": {
     "name": null,
-    "box": null,
-    "delim": null
+    "box": "tbox",
+    "delim": "all"
    },
    "Service Area Statistics": {
     "name": "",
-    "box": null,
+    "box": "lbox",
     "delim": null,
     "subheadings": {
      "Square Miles": {
-      "name": "",
-      "delim": null
+      "name": "Square Miles",
+      "delim": ":"
      },
      "Population": {
-      "name": "",
-      "delim": null
+      "name": "Population",
+      "delim": ":"
      }
     }
    },
    "Act 44 Fixed Route Distribution Factors": {
     "name": "",
-    "box": null,
+    "box": "lbox",
     "delim": null,
     "subheadings": {
      "Total Passengers": {
-      "name": "",
-      "delim": null
+      "name": "Total Passengers",
+      "delim": ":"
      },
      "Senior Passengers": {
-      "name": "",
-      "delim": null
+      "name": "Senior Passengers",
+      "delim": ":"
      },
      "Revenue Vehicle Miles": {
-      "name": "",
-      "delim": null
+      "name": "Revenue Vehicle Miles",
+      "delim": ":"
      },
      "Revenue Vehicle Hours": {
-      "name": "",
-      "delim": null
+      "name": "Revenue Vehicle Hours",
+      "delim": ":"
      }
     }
    },
    "Act 44 Operating Assistance": {
     "name": "",
-    "box": null,
+    "box": "lbox",
     "delim": null,
     "subheadings": {
      "Section 1513 Allocation": {
-      "name": "",
+      "name": "Section 1513 Allocation",
       "delim": null
      },
      "Required Local Match": {
-      "name": "",
+      "name": "Required Local Match",
       "delim": null
      }
     }
    },
    "Total Fleet Size": {
     "name": "",
-    "box": null,
+    "box": "rbox",
     "delim": null,
     "subheadings": {
      "Fixed Route": {
@@ -3428,63 +3537,65 @@
    },
    "Fare Information": {
     "name": "",
-    "box": null,
+    "box": "rbox",
     "delim": null,
     "subheadings": {
      "Fixed Route Base": {
-      "name": "",
-      "delim": null
+      "name": "Fixed Route Base",
+      "delim": ":"
      },
      "Fixed Route Avg": {
-      "name": "",
-      "delim": null
+      "name": "Fixed Route Average",
+      "delim": ":"
      },
      "Last Base Fare Increase": {
-      "name": "",
-      "delim": null
+      "name": "Last Base Fare Increase",
+      "delim": ":"
      },
      "Systemwide Increase": {
-      "name": "",
-      "delim": null
+      "name": "System-wide Increase",
+      "delim": ":"
      }
     }
    },
    "Employees": {
     "name": "",
-    "box": null,
+    "box": "rbox",
     "delim": null,
     "subheadings": {
      "Paratransit Full/Part Time": {
-      "name": "",
-      "delim": null
+      "name": "Paratransit",
+      "delim": " "
      },
      "Fixed Route Full/Part Time": {
-      "name": "",
-      "delim": null
+      "name": "Fixed Route",
+      "delim": " "
      },
      "Systemwide Full/Part Time": {
-      "name": "",
-      "delim": null
+      "name": "System-wide",
+      "delim": " "
      }
     }
    },
    "Operating Expense": {
     "name": "",
-    "box": null,
-    "delim": null
+    "box": "lchart",
+    "delim": "mixed"
    },
    "Operating Funds": {
     "name": "",
-    "box": null,
-    "delim": null
+    "box": "rchart",
+    "delim": "mixed"
    }
   }
  },
  "2023-24": {
   "meta": {
-   "Urban Systems (Start Page)": 38,
+   "Urban Systems (Start Page)": "",
    "Rural Systems (Start Page)": "",
    "Shared Ride (Start Page)": "",
+   "All Start": 38,
+   "All End": 111,
    "Pages Per Agency": 2,
    "Format Changed?": false,
    "rbox_present": false,
@@ -3526,65 +3637,65 @@
   "categories": {
    "Name": {
     "name": null,
-    "box": null,
-    "delim": null
+    "box": "tbox",
+    "delim": "all"
    },
    "Service Area Statistics": {
     "name": "",
-    "box": null,
+    "box": "lbox",
     "delim": null,
     "subheadings": {
      "Square Miles": {
-      "name": "",
-      "delim": null
+      "name": "Square Miles",
+      "delim": ":"
      },
      "Population": {
-      "name": "",
-      "delim": null
+      "name": "Population",
+      "delim": ":"
      }
     }
    },
    "Act 44 Fixed Route Distribution Factors": {
     "name": "",
-    "box": null,
+    "box": "lbox",
     "delim": null,
     "subheadings": {
      "Total Passengers": {
-      "name": "",
-      "delim": null
+      "name": "Total Passengers",
+      "delim": ":"
      },
      "Senior Passengers": {
-      "name": "",
-      "delim": null
+      "name": "Senior Passengers",
+      "delim": ":"
      },
      "Revenue Vehicle Miles": {
-      "name": "",
-      "delim": null
+      "name": "Revenue Vehicle Miles",
+      "delim": ":"
      },
      "Revenue Vehicle Hours": {
-      "name": "",
-      "delim": null
+      "name": "Revenue Vehicle Hours",
+      "delim": ":"
      }
     }
    },
    "Act 44 Operating Assistance": {
     "name": "",
-    "box": null,
+    "box": "lbox",
     "delim": null,
     "subheadings": {
      "Section 1513 Allocation": {
-      "name": "",
+      "name": "Section 1513 Allocation",
       "delim": null
      },
      "Required Local Match": {
-      "name": "",
+      "name": "Required Local Match",
       "delim": null
      }
     }
    },
    "Total Fleet Size": {
     "name": "",
-    "box": null,
+    "box": "rbox",
     "delim": null,
     "subheadings": {
      "Fixed Route": {
@@ -3631,55 +3742,55 @@
    },
    "Fare Information": {
     "name": "",
-    "box": null,
+    "box": "rbox",
     "delim": null,
     "subheadings": {
      "Fixed Route Base": {
-      "name": "",
-      "delim": null
+      "name": "Fixed Route Base",
+      "delim": ":"
      },
      "Fixed Route Avg": {
-      "name": "",
-      "delim": null
+      "name": "Fixed Route Average",
+      "delim": ":"
      },
      "Last Base Fare Increase": {
-      "name": "",
-      "delim": null
+      "name": "Last Base Fare Increase",
+      "delim": ":"
      },
      "Systemwide Increase": {
-      "name": "",
-      "delim": null
+      "name": "System-wide Increase",
+      "delim": ":"
      }
     }
    },
    "Employees": {
     "name": "",
-    "box": null,
+    "box": "rbox",
     "delim": null,
     "subheadings": {
      "Paratransit Full/Part Time": {
-      "name": "",
-      "delim": null
+      "name": "Paratransit",
+      "delim": " "
      },
      "Fixed Route Full/Part Time": {
-      "name": "",
-      "delim": null
+      "name": "Fixed Route",
+      "delim": " "
      },
      "Systemwide Full/Part Time": {
-      "name": "",
-      "delim": null
+      "name": "System-wide",
+      "delim": " "
      }
     }
    },
    "Operating Expense": {
     "name": "",
-    "box": null,
-    "delim": null
+    "box": "lchart",
+    "delim": "mixed"
    },
    "Operating Funds": {
     "name": "",
-    "box": null,
-    "delim": null
+    "box": "rchart",
+    "delim": "mixed"
    }
   }
  }
