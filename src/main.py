@@ -2,6 +2,8 @@
 import os, sys, json, re
 import pdfplumber
 
+import textwrap, shutil
+
 import logging
 logging.getLogger("pdfminer").setLevel(logging.ERROR)
 
@@ -30,6 +32,36 @@ def clean(val):
             val = val[0]
     return val
 #    return int(val) if val.isdigit() else val
+# ------------------------------------
+
+# ------------- CLEANING --------------
+def fix_offset(i, offset, pdf, meta, categories):
+    offset += 2
+    print(f'offset: {offset}')
+    print(f'page: {i}')
+    print(f'new page: {i - offset}')
+
+    page = pdf.pages[i - 1 - offset]
+    box_text = get_box_text(page, meta)
+
+    ts_boxes = meta.get('method', dict()).get('text_scrape')
+    if ts_boxes is None: ts_boxes = ['lbox', 'rbox']
+    index = get_lrbox_index(box_text, ts_boxes, categories)
+
+    meta['PPA_exception'] = meta.get('PPA_exception', dict())
+    meta['PPA_exception'][str(i - meta['Pages Per Agency'])] = 2
+    return offset, page, box_text, index
+
+def except_page(meta, page, i):
+    if not meta.get('except'): return False
+    page_text = page.extract_text()
+
+    for val in meta['except']:
+        if isinstance(val, int) and i == val:
+            return True
+        if isinstance(val, str) and val in page_text:
+            return True
+    return False
 # ------------------------------------
 
 def get_format_dict():
@@ -118,8 +150,9 @@ def get_box_text(page, meta) -> dict:
         box_text[box] = page.crop(dimensions).extract_text()
     return box_text
 
-def get_lrbox_index(box_text, categories) -> dict:
-    tmp_index = {'lbox':[], 'rbox':[]}
+def get_lrbox_index(box_text, boxes, categories) -> dict:
+#    tmp_index = {'lbox':[], 'rbox':[]}
+    tmp_index = { box:[] for box in boxes }
                
     for category in categories:
         box = categories[category]['box']
@@ -137,10 +170,11 @@ def get_lrbox_index(box_text, categories) -> dict:
 
         raise TextNotFoundError(pattern, search_text)
 
-    tmp_index['lbox'].sort(key=lambda x:x[1])
-    tmp_index['rbox'].sort(key=lambda x:x[1])
+    for box in tmp_index:
+        tmp_index[box].sort(key=lambda x:x[1])
 
-    index = {'lbox':dict(), 'rbox':dict()}
+#    index = {'lbox':dict(), 'rbox':dict()}
+    index = { box:dict() for box in boxes }
     for box in index:
         tmp_box = tmp_index[box]
         for i in range(len(tmp_box) - 1):
@@ -159,33 +193,25 @@ def match_lrbox(cbase, text, start, end, silent = False):
         scbase = cbase['subheadings'][subcat]
         if scbase['name'] == '': continue
 
-#        pattern1 = f"{scbase['name']}.*?\n"
-#        pattern2 = f"{scbase['name']}.*?$"
-#        pattern3 = f"{scbase['name'].upper()}.*?$"
         pattern = f"^{scbase['name'].upper()}.*$"
         search = re.search(pattern, text[start:end].upper(), re.MULTILINE)
-#        search = (re.search(pattern1, text[start:end])
-#                  or re.search(pattern2, text[start:end])
-#                  or re.search(pattern3, text[start:end].upper()))
         if search:
             tmp = text[start:end][search.start():search.end()]
-#            tmp = search.group(0)
             tmp = tmp[len(scbase['name']):]
             tmp = tmp.strip()
             tmp = tmp.split(scbase['delim'])
             tmp = [ r.strip() for r in tmp[1:] ] if len(tmp) > 1 else tmp
             vals[subcat] = clean(tmp)
         else:
-            if subcat == 'Systemwide':
-                print(repr(pattern3))
-                print(repr(text[start:end].upper()))
-                print(re.search(pattern3, text[start:end].upper()))
-                exit()
-
             vals[subcat] = "_"
             if silent: continue
-            print(f'\t{subcat} | {repr(scbase['name'])} | '
-                  f'{repr(text[start:end])} | Not Found.')
+            err_text = textwrap.wrap(repr(text[start:end]),
+                                     shutil.get_terminal_size()[0] - 16, 
+                                     initial_indent='\t\t',
+                                     subsequent_indent='\t\t')
+            print(f'\tNot Found: {subcat} | {repr(scbase['name'])}')
+            for line in err_text:
+                print(line)
 
     if cbase['delim'] is not None:
         search = re.search(cbase['name'], text[start:end])
@@ -227,23 +253,25 @@ def main(start = None):
             print(f'Year: {year}')
 
             offset = 0
+            print(get_agency_range(meta))
             for i in get_agency_range(meta):
-                if 'except' in meta and i in meta['except']:
-                    continue
                 page = pdf.pages[i - 1 - offset]
+                if except_page(meta, page, i):
+                    continue
 
                 box_text = get_box_text(page, meta)
-                try:
-                    index = get_lrbox_index(box_text, categories)
-                except TextNotFoundError as e:
-                    print(f'page: {i}')
-                    print(get_agency_range(meta))
+#                print(box_text)
 
-                    offset = 2
-                    print(i - 1 - offset)
-                    page = pdf.pages[i - 1 - offset]
-                    box_text = get_box_text(page, meta)
-                    index = get_lrbox_index(box_text, categories)
+                ts_boxes = meta.get('method', dict()).get('text_scrape')
+                if ts_boxes is None: ts_boxes = ['lbox', 'rbox']
+
+                try:
+                    index = get_lrbox_index(box_text, ts_boxes, categories)
+                except TextNotFoundError as e:
+                    print(get_agency_range(meta))
+                    tmp = fix_offset(i, offset, pdf, meta, categories)
+                    offset, page, box_text, index = tmp
+                    write_to_file(format_dict, TMP_JSON)
 
                 name = None
                 vals = dict()

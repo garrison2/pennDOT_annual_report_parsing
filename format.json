@@ -2127,10 +2127,10 @@
    "Pages Per Agency": 4,
    "PPA_exception": {
     "72": 2,
-	"110": 2,
-	"124": 2,
-	"130": 2,
-	"152": 2
+    "110": 2,
+    "124": 2,
+    "130": 2,
+    "152": 2
    },
    "except": [
     64
@@ -2371,6 +2371,12 @@
    "All Start": 46,
    "All End": 201,
    "Pages Per Agency": 4,
+   "except": [
+	   46,
+	   54,
+	   66,
+	   "Community Transportation"
+   ],
    "Format Changed?": false,
    "Has Distributional Factors": true,
    "Consolidated Agencies": "",
@@ -2414,7 +2420,7 @@
     "delim": "all"
    },
    "Service Area Statistics": {
-    "name": "",
+    "name": "Service Area Statistics",
     "box": "lbox",
     "delim": null,
     "subheadings": {
@@ -2429,7 +2435,7 @@
     }
    },
    "Act 44 Fixed Route Distribution Factors": {
-    "name": "",
+    "name": "Act 44 Fixed Route Distribution Factors",
     "box": "lbox",
     "delim": null,
     "subheadings": {
@@ -2452,7 +2458,7 @@
     }
    },
    "Act 44 Operating Assistance": {
-    "name": "",
+    "name": "Act 44 Operating Assistance",
     "box": "lbox",
     "delim": null,
     "subheadings": {
@@ -2467,7 +2473,7 @@
     }
    },
    "Total Fleet Size": {
-    "name": "",
+    "name": "Current Fleet Size",
     "box": "rbox",
     "delim": null,
     "subheadings": {
@@ -2477,6 +2483,22 @@
      },
      "Paratransit": {
       "name": "Paratransit",
+      "delim": ":"
+     },
+     "Diesel Motor Bus": {
+      "name": "Diesel Motor Bus",
+      "delim": ":"
+     },
+     "Diesel/Gasoline Motor Bus": {
+      "name": "Diesel/Gasoline Motor Bus",
+      "delim": ":"
+     },
+     "CNG Motor Bus": {
+      "name": "CNG Motor Bus",
+      "delim": ":"
+     },
+     "Other Alternative Fuel Motor Bus": {
+      "name": "Other Alternative Fuel Motor Bus",
       "delim": ":"
      },
      "Motor Bus": {
@@ -2504,7 +2526,23 @@
       "delim": ":"
      },
      "Paratransit Vehicles": {
-      "name": "Paratransit",
+      "name": "Paratransit Vehicle",
+      "delim": ":"
+     },
+     "Gasoline Paratransit Vehicles": {
+      "name": "Gasoline Paratransit Vehicle",
+      "delim": ":"
+     },
+     "Diesel/Gasoline Paratransit Vehicles": {
+      "name": "Diesel/Gasoline Paratransit Vehicle",
+      "delim": ":"
+     },
+     "CNG Paratransit Vehicles": {
+      "name": "CNG Paratransit Vehicle",
+      "delim": ":"
+     },
+     "Other Alternative Fuel Paratransit": {
+      "name": "Other Alternative Fuel Paratransit",
       "delim": ":"
      },
      "Systemwide": {
@@ -2514,16 +2552,12 @@
     }
    },
    "Fare Information": {
-    "name": "",
+    "name": "Current Fare Information",
     "box": "rbox",
     "delim": null,
     "subheadings": {
      "Fixed Route Base": {
       "name": "Fixed Route Base",
-      "delim": ":"
-     },
-     "Fixed Route Avg": {
-      "name": "Fixed Route Average",
       "delim": ":"
      },
      "Last Base Fare Increase": {
@@ -2537,31 +2571,35 @@
     }
    },
    "Employees": {
-    "name": "",
+    "name": "Current Employees",
     "box": "rbox",
     "delim": null,
     "subheadings": {
-     "Paratransit Full/Part Time": {
-      "name": "Paratransit",
+     "Agency Full-Time": {
+      "name": "Agency Full-Time",
       "delim": " "
      },
-     "Fixed Route Full/Part Time": {
-      "name": "Fixed Route",
+     "Contractor Full-Time": {
+      "name": "Contractor Full-Time",
+      "delim": " "
+     },
+     "Contractor Part-Time": {
+      "name": "Contractor Part-Time",
       "delim": " "
      },
      "Systemwide Full/Part Time": {
-      "name": "System-wide",
+      "name": "System-Wide",
       "delim": " "
      }
     }
    },
    "Operating Expense": {
-    "name": "",
+    "name": "Operating Expense",
     "box": "lchart",
     "delim": "mixed"
    },
    "Operating Funds": {
-    "name": "",
+    "name": "Operating Funds",
     "box": "rchart",
     "delim": "mixed"
    }
@@ -2575,6 +2613,10 @@
    "All Start": 36,
    "All End": 191,
    "Pages Per Agency": 4,
+   "except": [
+	   "SEPTA",
+	   "Community Transportation"
+   ],
    "Format Changed?": false,
    "Has Distributional Factors": true,
    "Consolidated Agencies": "",
@@ -2671,7 +2713,7 @@
     }
    },
    "Total Fleet Size": {
-    "name": "",
+    "name": "Current Fleet Size",
     "box": "rbox",
     "delim": null,
     "subheadings": {
@@ -2681,6 +2723,22 @@
      },
      "Paratransit": {
       "name": "Paratransit",
+      "delim": ":"
+     },
+     "Diesel Motor Bus": {
+      "name": "Diesel Motor Bus",
+      "delim": ":"
+     },
+     "Diesel/Gasoline Motor Bus": {
+      "name": "Diesel/Gasoline Motor Bus",
+      "delim": ":"
+     },
+     "CNG Motor Bus": {
+      "name": "CNG Motor Bus",
+      "delim": ":"
+     },
+     "Other Alternative Fuel Motor Bus": {
+      "name": "Other Alternative Fuel Motor Bus",
       "delim": ":"
      },
      "Motor Bus": {
@@ -2708,7 +2766,23 @@
       "delim": ":"
      },
      "Paratransit Vehicles": {
-      "name": "Paratransit",
+      "name": "Paratransit Vehicle",
+      "delim": ":"
+     },
+     "Gasoline Paratransit Vehicles": {
+      "name": "Gasoline Paratransit Vehicle",
+      "delim": ":"
+     },
+     "Diesel/Gasoline Paratransit Vehicles": {
+      "name": "Diesel/Gasoline Paratransit Vehicle",
+      "delim": ":"
+     },
+     "CNG Paratransit Vehicles": {
+      "name": "CNG Paratransit Vehicle",
+      "delim": ":"
+     },
+     "Other Alternative Fuel Paratransit": {
+      "name": "Other Alternative Fuel Paratransit",
       "delim": ":"
      },
      "Systemwide": {
@@ -2718,16 +2792,12 @@
     }
    },
    "Fare Information": {
-    "name": "",
+    "name": "Current Fare Information",
     "box": "rbox",
     "delim": null,
     "subheadings": {
      "Fixed Route Base": {
       "name": "Fixed Route Base",
-      "delim": ":"
-     },
-     "Fixed Route Avg": {
-      "name": "Fixed Route Average",
       "delim": ":"
      },
      "Last Base Fare Increase": {
@@ -2741,20 +2811,24 @@
     }
    },
    "Employees": {
-    "name": "",
+    "name": "Current Employees",
     "box": "rbox",
     "delim": null,
     "subheadings": {
-     "Paratransit Full/Part Time": {
-      "name": "Paratransit",
+     "Agency Full-Time": {
+      "name": "Agency Full-Time",
       "delim": " "
      },
-     "Fixed Route Full/Part Time": {
-      "name": "Fixed Route",
+     "Contractor Full-Time": {
+      "name": "Contractor Full-Time",
+      "delim": " "
+     },
+     "Contractor Part-Time": {
+      "name": "Contractor Part-Time",
       "delim": " "
      },
      "Systemwide Full/Part Time": {
-      "name": "System-wide",
+      "name": "System-Wide",
       "delim": " "
      }
     }
@@ -2779,7 +2853,11 @@
    "All Start": 44,
    "All End": 199,
    "Pages Per Agency": 4,
-   "Format Changed?": false,
+   "except": [
+	   "SEPTA",
+	   "Community Transportation"
+   ],
+ "Format Changed?": false,
    "Has Distributional Factors": true,
    "Consolidated Agencies": "",
    "boxes": {
@@ -2875,7 +2953,7 @@
     }
    },
    "Total Fleet Size": {
-    "name": "",
+    "name": "Current Fleet Size",
     "box": "rbox",
     "delim": null,
     "subheadings": {
@@ -2885,6 +2963,22 @@
      },
      "Paratransit": {
       "name": "Paratransit",
+      "delim": ":"
+     },
+     "Diesel Motor Bus": {
+      "name": "Diesel Motor Bus",
+      "delim": ":"
+     },
+     "Diesel/Gasoline Motor Bus": {
+      "name": "Diesel/Gasoline Motor Bus",
+      "delim": ":"
+     },
+     "CNG Motor Bus": {
+      "name": "CNG Motor Bus",
+      "delim": ":"
+     },
+     "Other Alternative Fuel Motor Bus": {
+      "name": "Other Alternative Fuel Motor Bus",
       "delim": ":"
      },
      "Motor Bus": {
@@ -2912,7 +3006,23 @@
       "delim": ":"
      },
      "Paratransit Vehicles": {
-      "name": "Paratransit",
+      "name": "Paratransit Vehicle",
+      "delim": ":"
+     },
+     "Gasoline Paratransit Vehicles": {
+      "name": "Gasoline Paratransit Vehicle",
+      "delim": ":"
+     },
+     "Diesel/Gasoline Paratransit Vehicles": {
+      "name": "Diesel/Gasoline Paratransit Vehicle",
+      "delim": ":"
+     },
+     "CNG Paratransit Vehicles": {
+      "name": "CNG Paratransit Vehicle",
+      "delim": ":"
+     },
+     "Other Alternative Fuel Paratransit": {
+      "name": "Other Alternative Fuel Paratransit",
       "delim": ":"
      },
      "Systemwide": {
@@ -2922,16 +3032,12 @@
     }
    },
    "Fare Information": {
-    "name": "",
+    "name": "Current Fare Information",
     "box": "rbox",
     "delim": null,
     "subheadings": {
      "Fixed Route Base": {
       "name": "Fixed Route Base",
-      "delim": ":"
-     },
-     "Fixed Route Avg": {
-      "name": "Fixed Route Average",
       "delim": ":"
      },
      "Last Base Fare Increase": {
@@ -2945,20 +3051,24 @@
     }
    },
    "Employees": {
-    "name": "",
+    "name": "Current Employees",
     "box": "rbox",
     "delim": null,
     "subheadings": {
-     "Paratransit Full/Part Time": {
-      "name": "Paratransit",
+     "Agency Full-Time": {
+      "name": "Agency Full-Time",
       "delim": " "
      },
-     "Fixed Route Full/Part Time": {
-      "name": "Fixed Route",
+     "Contractor Full-Time": {
+      "name": "Contractor Full-Time",
+      "delim": " "
+     },
+     "Contractor Part-Time": {
+      "name": "Contractor Part-Time",
       "delim": " "
      },
      "Systemwide Full/Part Time": {
-      "name": "System-wide",
+      "name": "System-Wide",
       "delim": " "
      }
     }
@@ -2983,7 +3093,11 @@
    "All Start": 46,
    "All End": 201,
    "Pages Per Agency": 4,
-   "Format Changed?": false,
+   "except": [
+	   "SEPTA",
+	   "Community Transportation"
+   ],
+ "Format Changed?": false,
    "Has Distributional Factors": true,
    "Consolidated Agencies": "",
    "boxes": {
@@ -3079,7 +3193,7 @@
     }
    },
    "Total Fleet Size": {
-    "name": "",
+    "name": "Current Fleet Size",
     "box": "rbox",
     "delim": null,
     "subheadings": {
@@ -3089,6 +3203,22 @@
      },
      "Paratransit": {
       "name": "Paratransit",
+      "delim": ":"
+     },
+     "Diesel Motor Bus": {
+      "name": "Diesel Motor Bus",
+      "delim": ":"
+     },
+     "Diesel/Gasoline Motor Bus": {
+      "name": "Diesel/Gasoline Motor Bus",
+      "delim": ":"
+     },
+     "CNG Motor Bus": {
+      "name": "CNG Motor Bus",
+      "delim": ":"
+     },
+     "Other Alternative Fuel Motor Bus": {
+      "name": "Other Alternative Fuel Motor Bus",
       "delim": ":"
      },
      "Motor Bus": {
@@ -3116,7 +3246,23 @@
       "delim": ":"
      },
      "Paratransit Vehicles": {
-      "name": "Paratransit",
+      "name": "Paratransit Vehicle",
+      "delim": ":"
+     },
+     "Gasoline Paratransit Vehicles": {
+      "name": "Gasoline Paratransit Vehicle",
+      "delim": ":"
+     },
+     "Diesel/Gasoline Paratransit Vehicles": {
+      "name": "Diesel/Gasoline Paratransit Vehicle",
+      "delim": ":"
+     },
+     "CNG Paratransit Vehicles": {
+      "name": "CNG Paratransit Vehicle",
+      "delim": ":"
+     },
+     "Other Alternative Fuel Paratransit": {
+      "name": "Other Alternative Fuel Paratransit",
       "delim": ":"
      },
      "Systemwide": {
@@ -3126,16 +3272,12 @@
     }
    },
    "Fare Information": {
-    "name": "",
+    "name": "Current Fare Information",
     "box": "rbox",
     "delim": null,
     "subheadings": {
      "Fixed Route Base": {
       "name": "Fixed Route Base",
-      "delim": ":"
-     },
-     "Fixed Route Avg": {
-      "name": "Fixed Route Average",
       "delim": ":"
      },
      "Last Base Fare Increase": {
@@ -3149,20 +3291,24 @@
     }
    },
    "Employees": {
-    "name": "",
+    "name": "Current Employees",
     "box": "rbox",
     "delim": null,
     "subheadings": {
-     "Paratransit Full/Part Time": {
-      "name": "Paratransit",
+     "Agency Full-Time": {
+      "name": "Agency Full-Time",
       "delim": " "
      },
-     "Fixed Route Full/Part Time": {
-      "name": "Fixed Route",
+     "Contractor Full-Time": {
+      "name": "Contractor Full-Time",
+      "delim": " "
+     },
+     "Contractor Part-Time": {
+      "name": "Contractor Part-Time",
       "delim": " "
      },
      "Systemwide Full/Part Time": {
-      "name": "System-wide",
+      "name": "System-Wide",
       "delim": " "
      }
     }
@@ -3187,6 +3333,10 @@
    "All Start": 26,
    "All End": 99,
    "Pages Per Agency": 2,
+   "except": [
+	   "SEPTA",
+	   "Community Transportation"
+   ],
    "Format Changed?": true,
    "rbox_present": false,
    "Has Distributional Factors": true,
@@ -3284,7 +3434,7 @@
     }
    },
    "Total Fleet Size": {
-    "name": "",
+    "name": "Current Fleet Size",
     "box": "rbox",
     "delim": null,
     "subheadings": {
@@ -3294,6 +3444,22 @@
      },
      "Paratransit": {
       "name": "Paratransit",
+      "delim": ":"
+     },
+     "Diesel Motor Bus": {
+      "name": "Diesel Motor Bus",
+      "delim": ":"
+     },
+     "Diesel/Gasoline Motor Bus": {
+      "name": "Diesel/Gasoline Motor Bus",
+      "delim": ":"
+     },
+     "CNG Motor Bus": {
+      "name": "CNG Motor Bus",
+      "delim": ":"
+     },
+     "Other Alternative Fuel Motor Bus": {
+      "name": "Other Alternative Fuel Motor Bus",
       "delim": ":"
      },
      "Motor Bus": {
@@ -3321,7 +3487,23 @@
       "delim": ":"
      },
      "Paratransit Vehicles": {
-      "name": "Paratransit",
+      "name": "Paratransit Vehicle",
+      "delim": ":"
+     },
+     "Gasoline Paratransit Vehicles": {
+      "name": "Gasoline Paratransit Vehicle",
+      "delim": ":"
+     },
+     "Diesel/Gasoline Paratransit Vehicles": {
+      "name": "Diesel/Gasoline Paratransit Vehicle",
+      "delim": ":"
+     },
+     "CNG Paratransit Vehicles": {
+      "name": "CNG Paratransit Vehicle",
+      "delim": ":"
+     },
+     "Other Alternative Fuel Paratransit": {
+      "name": "Other Alternative Fuel Paratransit",
       "delim": ":"
      },
      "Systemwide": {
@@ -3331,16 +3513,12 @@
     }
    },
    "Fare Information": {
-    "name": "",
+    "name": "Current Fare Information",
     "box": "rbox",
     "delim": null,
     "subheadings": {
      "Fixed Route Base": {
       "name": "Fixed Route Base",
-      "delim": ":"
-     },
-     "Fixed Route Avg": {
-      "name": "Fixed Route Average",
       "delim": ":"
      },
      "Last Base Fare Increase": {
@@ -3354,20 +3532,24 @@
     }
    },
    "Employees": {
-    "name": "",
+    "name": "Current Employees",
     "box": "rbox",
     "delim": null,
     "subheadings": {
-     "Paratransit Full/Part Time": {
-      "name": "Paratransit",
+     "Agency Full-Time": {
+      "name": "Agency Full-Time",
       "delim": " "
      },
-     "Fixed Route Full/Part Time": {
-      "name": "Fixed Route",
+     "Contractor Full-Time": {
+      "name": "Contractor Full-Time",
+      "delim": " "
+     },
+     "Contractor Part-Time": {
+      "name": "Contractor Part-Time",
       "delim": " "
      },
      "Systemwide Full/Part Time": {
-      "name": "System-wide",
+      "name": "System-Wide",
       "delim": " "
      }
     }
@@ -3392,6 +3574,10 @@
    "All Start": 27,
    "All End": 100,
    "Pages Per Agency": 2,
+   "except": [
+	   "SEPTA",
+	   "Community Transportation"
+   ],
    "Format Changed?": false,
    "rbox_present": false,
    "Has Distributional Factors": true,
@@ -3489,7 +3675,7 @@
     }
    },
    "Total Fleet Size": {
-    "name": "",
+    "name": "Current Fleet Size",
     "box": "rbox",
     "delim": null,
     "subheadings": {
@@ -3499,6 +3685,22 @@
      },
      "Paratransit": {
       "name": "Paratransit",
+      "delim": ":"
+     },
+     "Diesel Motor Bus": {
+      "name": "Diesel Motor Bus",
+      "delim": ":"
+     },
+     "Diesel/Gasoline Motor Bus": {
+      "name": "Diesel/Gasoline Motor Bus",
+      "delim": ":"
+     },
+     "CNG Motor Bus": {
+      "name": "CNG Motor Bus",
+      "delim": ":"
+     },
+     "Other Alternative Fuel Motor Bus": {
+      "name": "Other Alternative Fuel Motor Bus",
       "delim": ":"
      },
      "Motor Bus": {
@@ -3526,7 +3728,23 @@
       "delim": ":"
      },
      "Paratransit Vehicles": {
-      "name": "Paratransit",
+      "name": "Paratransit Vehicle",
+      "delim": ":"
+     },
+     "Gasoline Paratransit Vehicles": {
+      "name": "Gasoline Paratransit Vehicle",
+      "delim": ":"
+     },
+     "Diesel/Gasoline Paratransit Vehicles": {
+      "name": "Diesel/Gasoline Paratransit Vehicle",
+      "delim": ":"
+     },
+     "CNG Paratransit Vehicles": {
+      "name": "CNG Paratransit Vehicle",
+      "delim": ":"
+     },
+     "Other Alternative Fuel Paratransit": {
+      "name": "Other Alternative Fuel Paratransit",
       "delim": ":"
      },
      "Systemwide": {
@@ -3536,16 +3754,12 @@
     }
    },
    "Fare Information": {
-    "name": "",
+    "name": "Current Fare Information",
     "box": "rbox",
     "delim": null,
     "subheadings": {
      "Fixed Route Base": {
       "name": "Fixed Route Base",
-      "delim": ":"
-     },
-     "Fixed Route Avg": {
-      "name": "Fixed Route Average",
       "delim": ":"
      },
      "Last Base Fare Increase": {
@@ -3559,20 +3773,24 @@
     }
    },
    "Employees": {
-    "name": "",
+    "name": "Current Employees",
     "box": "rbox",
     "delim": null,
     "subheadings": {
-     "Paratransit Full/Part Time": {
-      "name": "Paratransit",
+     "Agency Full-Time": {
+      "name": "Agency Full-Time",
       "delim": " "
      },
-     "Fixed Route Full/Part Time": {
-      "name": "Fixed Route",
+     "Contractor Full-Time": {
+      "name": "Contractor Full-Time",
+      "delim": " "
+     },
+     "Contractor Part-Time": {
+      "name": "Contractor Part-Time",
       "delim": " "
      },
      "Systemwide Full/Part Time": {
-      "name": "System-wide",
+      "name": "System-Wide",
       "delim": " "
      }
     }
@@ -3597,6 +3815,10 @@
    "All Start": 38,
    "All End": 111,
    "Pages Per Agency": 2,
+   "except": [
+	   "SEPTA",
+	   "Community Transportation"
+   ],
    "Format Changed?": false,
    "rbox_present": false,
    "Has Distributional Factors": true,
@@ -3694,7 +3916,7 @@
     }
    },
    "Total Fleet Size": {
-    "name": "",
+    "name": "Current Fleet Size",
     "box": "rbox",
     "delim": null,
     "subheadings": {
@@ -3704,6 +3926,22 @@
      },
      "Paratransit": {
       "name": "Paratransit",
+      "delim": ":"
+     },
+     "Diesel Motor Bus": {
+      "name": "Diesel Motor Bus",
+      "delim": ":"
+     },
+     "Diesel/Gasoline Motor Bus": {
+      "name": "Diesel/Gasoline Motor Bus",
+      "delim": ":"
+     },
+     "CNG Motor Bus": {
+      "name": "CNG Motor Bus",
+      "delim": ":"
+     },
+     "Other Alternative Fuel Motor Bus": {
+      "name": "Other Alternative Fuel Motor Bus",
       "delim": ":"
      },
      "Motor Bus": {
@@ -3731,7 +3969,23 @@
       "delim": ":"
      },
      "Paratransit Vehicles": {
-      "name": "Paratransit",
+      "name": "Paratransit Vehicle",
+      "delim": ":"
+     },
+     "Gasoline Paratransit Vehicles": {
+      "name": "Gasoline Paratransit Vehicle",
+      "delim": ":"
+     },
+     "Diesel/Gasoline Paratransit Vehicles": {
+      "name": "Diesel/Gasoline Paratransit Vehicle",
+      "delim": ":"
+     },
+     "CNG Paratransit Vehicles": {
+      "name": "CNG Paratransit Vehicle",
+      "delim": ":"
+     },
+     "Other Alternative Fuel Paratransit": {
+      "name": "Other Alternative Fuel Paratransit",
       "delim": ":"
      },
      "Systemwide": {
@@ -3741,16 +3995,12 @@
     }
    },
    "Fare Information": {
-    "name": "",
+    "name": "Current Fare Information",
     "box": "rbox",
     "delim": null,
     "subheadings": {
      "Fixed Route Base": {
       "name": "Fixed Route Base",
-      "delim": ":"
-     },
-     "Fixed Route Avg": {
-      "name": "Fixed Route Average",
       "delim": ":"
      },
      "Last Base Fare Increase": {
@@ -3764,20 +4014,24 @@
     }
    },
    "Employees": {
-    "name": "",
+    "name": "Current Employees",
     "box": "rbox",
     "delim": null,
     "subheadings": {
-     "Paratransit Full/Part Time": {
-      "name": "Paratransit",
+     "Agency Full-Time": {
+      "name": "Agency Full-Time",
       "delim": " "
      },
-     "Fixed Route Full/Part Time": {
-      "name": "Fixed Route",
+     "Contractor Full-Time": {
+      "name": "Contractor Full-Time",
+      "delim": " "
+     },
+     "Contractor Part-Time": {
+      "name": "Contractor Part-Time",
       "delim": " "
      },
      "Systemwide Full/Part Time": {
-      "name": "System-wide",
+      "name": "System-Wide",
       "delim": " "
      }
     }

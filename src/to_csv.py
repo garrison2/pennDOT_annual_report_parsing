@@ -45,8 +45,6 @@ def main():
 
         if year not in parsed: continue
         for agency in parsed[year]:
-#            if "COLTS" in agency:
-#                print(year, agency, parsed[year][agency])
             for category in parsed[year][agency]:
                 CSVs[category] = CSVs.get(category, make_years_list())
                 if agency not in (c[0] for c in CSVs[category]):
@@ -56,12 +54,6 @@ def main():
                 for i in range(len(CSVs[category])):
                     if CSVs[category][i][0] == agency:
                         CSVs[category][i][y - YEAR_START + 1] = parsed[year][agency][category]
-                        if category == 'Fixed Route Avg' and 'COLTS' in agency:
-#                            print('here')
-#$                            print(parsed[year][agency][category])
-#$                            print(parsed[year][agency])
-                            print(CSVs[category][i])
-
                         break
     return CSVs
 
