@@ -2134,7 +2134,7 @@
    },
    "except": [
     64,
-	"SEPTA"
+    "SEPTA"
    ],
    "Format Changed?": false,
    "Has Distributional Factors": true,
@@ -2256,7 +2256,7 @@
       "name": "Hybrid.*?Electric .*? Bus",
       "delim": ":"
      },
-     "Electric Bus": { 
+     "Electric Bus": {
       "name": "Electric .*? Bus",
       "delim": ":"
      },
@@ -2385,6 +2385,9 @@
    "Format Changed?": false,
    "Has Distributional Factors": true,
    "Consolidated Agencies": "",
+   "silent": [
+    "Total Fleet Size"
+   ],
    "boxes": {
     "lbox": [
      137,
@@ -2629,6 +2632,9 @@
    "Format Changed?": false,
    "Has Distributional Factors": true,
    "Consolidated Agencies": "",
+   "silent": [
+    "Total Fleet Size"
+   ],
    "boxes": {
     "lbox": [
      137,
@@ -2669,7 +2675,7 @@
     "delim": "all"
    },
    "Service Area Statistics": {
-    "name": "",
+    "name": "Service Area Statistics",
     "box": "lbox",
     "delim": null,
     "subheadings": {
@@ -2684,7 +2690,7 @@
     }
    },
    "Act 44 Fixed Route Distribution Factors": {
-    "name": "",
+    "name": "Act 44 Fixed Route Distribution Factors",
     "box": "lbox",
     "delim": null,
     "subheadings": {
@@ -2707,7 +2713,7 @@
     }
    },
    "Act 44 Operating Assistance": {
-    "name": "",
+    "name": "Act 44 Operating Assistance",
     "box": "lbox",
     "delim": null,
     "subheadings": {
@@ -2847,12 +2853,12 @@
     }
    },
    "Operating Expense": {
-    "name": "",
+    "name": "Operating Expense",
     "box": "lchart",
     "delim": "mixed"
    },
    "Operating Funds": {
-    "name": "",
+    "name": "Operating Funds",
     "box": "rchart",
     "delim": "mixed"
    }
@@ -2873,6 +2879,9 @@
    "Format Changed?": false,
    "Has Distributional Factors": true,
    "Consolidated Agencies": "",
+   "silent": [
+    "Total Fleet Size"
+   ],
    "boxes": {
     "lbox": [
      137,
@@ -2913,7 +2922,7 @@
     "delim": "all"
    },
    "Service Area Statistics": {
-    "name": "",
+    "name": "Service Area Statistics",
     "box": "lbox",
     "delim": null,
     "subheadings": {
@@ -2928,7 +2937,7 @@
     }
    },
    "Act 44 Fixed Route Distribution Factors": {
-    "name": "",
+    "name": "Act 44 Fixed Route Distribution Factors",
     "box": "lbox",
     "delim": null,
     "subheadings": {
@@ -2951,7 +2960,7 @@
     }
    },
    "Act 44 Operating Assistance": {
-    "name": "",
+    "name": "Act 44 Operating Assistance",
     "box": "lbox",
     "delim": null,
     "subheadings": {
@@ -3091,12 +3100,12 @@
     }
    },
    "Operating Expense": {
-    "name": "",
+    "name": "Operating Expense",
     "box": "lchart",
     "delim": "mixed"
    },
    "Operating Funds": {
-    "name": "",
+    "name": "Operating Funds",
     "box": "rchart",
     "delim": "mixed"
    }
@@ -3116,6 +3125,9 @@
    ],
    "Format Changed?": false,
    "Has Distributional Factors": true,
+   "silent": [
+    "Total Fleet Size"
+   ],
    "Consolidated Agencies": "",
    "boxes": {
     "lbox": [
@@ -3157,7 +3169,7 @@
     "delim": "all"
    },
    "Service Area Statistics": {
-    "name": "",
+    "name": "Service Area Statistics",
     "box": "lbox",
     "delim": null,
     "subheadings": {
@@ -3172,7 +3184,7 @@
     }
    },
    "Act 44 Fixed Route Distribution Factors": {
-    "name": "",
+    "name": "Act 44 Fixed Route Distribution Factors",
     "box": "lbox",
     "delim": null,
     "subheadings": {
@@ -3195,7 +3207,7 @@
     }
    },
    "Act 44 Operating Assistance": {
-    "name": "",
+    "name": "Act 44 Operating Assistance",
     "box": "lbox",
     "delim": null,
     "subheadings": {
@@ -3230,7 +3242,7 @@
       "name": "CNG Motor Bus",
       "delim": ":"
      },
-     "Hybrid Electric Motor Bus": { 
+     "Hybrid Electric Motor Bus": {
       "name": "Hybrid.*?Electric .*? Bus",
       "delim": ":"
      },
@@ -3335,12 +3347,12 @@
     }
    },
    "Operating Expense": {
-    "name": "",
+    "name": "Operating Expense",
     "box": "lchart",
     "delim": "mixed"
    },
    "Operating Funds": {
-    "name": "",
+    "name": "Operating Funds",
     "box": "rchart",
     "delim": "mixed"
    }
@@ -3357,262 +3369,19 @@
    "except": [
     "SEPTA",
     "Community Transportation",
-	"PRT"
+    "PRT"
    ],
    "Format Changed?": true,
    "rbox_present": false,
    "Has Distributional Factors": true,
    "Consolidated Agencies": "",
-   "method": {
-	   "text_scrape": ["lbox"]
-   },
-   "boxes": {
-    "lbox": [
-     297,
-     109,
-     606,
-     783
-    ],
-    "rbox": [
-     0,
-     0,
-     1,
-     1
-    ],
-    "tbox": [
-     200,
-     0,
-     548,
-     71
-    ],
-    "lchart": [
-     700,
-     90,
-     950,
-     120
-    ],
-    "rchart": [
-     1000,
-     90,
-     1200,
-     120
-    ]
-   }
-  },
-  "categories": {
-   "Name": {
-    "name": null,
-    "box": "tbox",
-    "delim": "all"
-   },
-   "Service Area Statistics": {
-    "name": "",
-    "box": "lbox",
-    "delim": null,
-    "subheadings": {
-     "Square Miles": {
-      "name": "Square Miles",
-      "delim": ":"
-     },
-     "Population": {
-      "name": "Population",
-      "delim": ":"
-     }
-    }
-   },
-   "Act 44 Fixed Route Distribution Factors": {
-    "name": "",
-    "box": "lbox",
-    "delim": null,
-    "subheadings": {
-     "Total Passengers": {
-      "name": "Total Passengers",
-      "delim": ":"
-     },
-     "Senior Passengers": {
-      "name": "Senior Passengers",
-      "delim": ":"
-     },
-     "Revenue Vehicle Miles": {
-      "name": "Revenue Vehicle Miles",
-      "delim": ":"
-     },
-     "Revenue Vehicle Hours": {
-      "name": "Revenue Vehicle Hours",
-      "delim": ":"
-     }
-    }
-   },
-   "Act 44 Operating Assistance": {
-    "name": "",
-    "box": "lbox",
-    "delim": null,
-    "subheadings": {
-     "Section 1513 Allocation": {
-      "name": "Section 1513 Allocation",
-      "delim": null
-     },
-     "Required Local Match": {
-      "name": "Required Local Match",
-      "delim": null
-     }
-    }
-   },
-   "Total Fleet Size": {
-    "name": "Current Fleet Size",
-    "box": "lbox",
-    "delim": null,
-    "subheadings": {
-     "Paratransit": {
-      "name": "Paratransit",
-      "delim": ":"
-     },
-     "Diesel Motor Bus": {
-      "name": "Diesel Motor Bus",
-      "delim": ":"
-     },
-     "Diesel/Gasoline Motor Bus": {
-      "name": "Diesel/Gasoline Motor Bus",
-      "delim": ":"
-     },
-     "CNG Motor Bus": {
-      "name": "CNG Motor Bus",
-      "delim": ":"
-     },
-     "Hybrid Electric Motor Bus": {
-      "name": "Hybrid.*?Electric .*? Bus",
-      "delim": ":"
-     },
-     "Electric Bus": { 
-      "name": "Electric .*? Bus",
-      "delim": ":"
-     },
-     "Other Alternative Fuel Motor Bus": {
-      "name": "Other Alternative Fuel Motor Bus",
-      "delim": ":"
-     },
-     "Motor Bus": {
-      "name": "Motor Bus",
-      "delim": ":"
-     },
-     "Commuter Rail Cars": {
-      "name": "Commuter Rail Cars",
-      "delim": ":"
-     },
-     "Heavy Rail Cars": {
-      "name": "Heavy Rail Cars",
-      "delim": ":"
-     },
-     "Street Car Rail/Light Rail": {
-      "name": "Street Car Rail/Light Rail",
-      "delim": ":"
-     },
-     "Trolley Bus": {
-      "name": "Trolley Bus",
-      "delim": ":"
-     },
-     "Inclined Plane Cars": {
-      "name": "Inclined Plane Cars",
-      "delim": ":"
-     },
-     "Paratransit Vehicles": {
-      "name": "Paratransit",
-      "delim": ":"
-     },
-     "Gasoline Paratransit Vehicles": {
-      "name": "Gasoline Paratransit",
-      "delim": ":"
-     },
-     "Diesel/Gasoline Paratransit Vehicles": {
-      "name": "Diesel/Gasoline Paratransit",
-      "delim": ":"
-     },
-     "CNG Paratransit Vehicles": {
-      "name": "CNG Paratransit Vehicle",
-      "delim": ":"
-     },
-     "Other Alternative Fuel Paratransit": {
-      "name": "Other Alternative Fuel Paratransit",
-      "delim": ":"
-     },
-     "Systemwide": {
-      "name": "System-wide",
-      "delim": ":"
-     }
-    }
-   },
-   "Fare Information": {
-    "name": "Current Fare Information",
-    "box": "lbox",
-    "delim": null,
-    "subheadings": {
-     "Fixed Route Base": {
-      "name": "Fixed Route Base",
-      "delim": ":"
-     },
-     "Last Base Fare Increase": {
-      "name": "Last Base Fare Increase",
-      "delim": ":"
-     },
-     "Systemwide Increase": {
-      "name": "System-wide Increase",
-      "delim": ":"
-     }
-    }
-   },
-   "Employees": {
-    "name": "Current Employees",
-    "box": "lbox",
-    "delim": null,
-    "subheadings": {
-     "Agency Full-Time": {
-      "name": "Agency Full-Time",
-      "delim": " "
-     },
-     "Contractor Full-Time": {
-      "name": "Contractor Full-Time",
-      "delim": " "
-     },
-     "Contractor Part-Time": {
-      "name": "Contractor Part-Time",
-      "delim": " "
-     },
-     "Systemwide Full/Part Time": {
-      "name": "System-Wide",
-      "delim": " "
-     }
-    }
-   },
-   "Operating Expense": {
-    "name": "",
-    "box": "lchart",
-    "delim": "mixed"
-   },
-   "Operating Funds": {
-    "name": "",
-    "box": "rchart",
-    "delim": "mixed"
-   }
-  }
- },
- "2022-23": {
-  "meta": {
-   "Urban Systems (Start Page)": "",
-   "Rural Systems (Start Page)": "",
-   "Shared Ride (Start Page)": "",
-   "All Start": 27,
-   "All End": 100,
-   "Pages Per Agency": 2,
-   "except": [
-    "SEPTA",
-    "Community Transportation"
+   "silent": [
+    "Total Fleet Size"
    ],
-   "Format Changed?": false,
-   "rbox_present": false,
-   "Has Distributional Factors": true,
-   "Consolidated Agencies": "",
    "method": {
-	   "text_scrape": ["lbox"]
+    "text_scrape": [
+     "lbox"
+    ]
    },
    "boxes": {
     "lbox": [
@@ -3654,7 +3423,7 @@
     "delim": "all"
    },
    "Service Area Statistics": {
-    "name": "",
+    "name": "Service Area Statistics",
     "box": "lbox",
     "delim": null,
     "subheadings": {
@@ -3669,7 +3438,7 @@
     }
    },
    "Act 44 Fixed Route Distribution Factors": {
-    "name": "",
+    "name": "Act 44 Fixed Route Distribution Factors",
     "box": "lbox",
     "delim": null,
     "subheadings": {
@@ -3692,255 +3461,7 @@
     }
    },
    "Act 44 Operating Assistance": {
-    "name": "",
-    "box": "lbox",
-    "delim": null,
-    "subheadings": {
-     "Section 1513 Allocation": {
-      "name": "Section 1513 Allocation",
-      "delim": null
-     },
-     "Required Local Match": {
-      "name": "Required Local Match",
-      "delim": null
-     }
-    }
-   },
-   "Total Fleet Size": {
-    "name": "Current Fleet Size",
-    "box": "lbox",
-    "delim": null,
-    "subheadings": {
-     "Paratransit": {
-      "name": "Paratransit",
-      "delim": ":"
-     },
-     "Diesel Motor Bus": {
-      "name": "Diesel Motor Bus",
-      "delim": ":"
-     },
-     "Diesel/Gasoline Motor Bus": {
-      "name": "Diesel/Gasoline Motor Bus",
-      "delim": ":"
-     },
-     "CNG Motor Bus": {
-      "name": "CNG Motor Bus",
-      "delim": ":"
-     },
-     "Hybrid Electric Motor Bus": {
-      "name": "Hybrid.*?Electric .*? Bus",
-      "delim": ":"
-     },
-     "Electric Bus": { 
-      "name": "Electric .*? Bus",
-      "delim": ":"
-     },
-     "Other Alternative Fuel Motor Bus": {
-      "name": "Other Alternative Fuel Motor Bus",
-      "delim": ":"
-     },
-     "Motor Bus": {
-      "name": "Motor Bus",
-      "delim": ":"
-     },
-     "Commuter Rail Cars": {
-      "name": "Commuter Rail Cars",
-      "delim": ":"
-     },
-     "Heavy Rail Cars": {
-      "name": "Heavy Rail Cars",
-      "delim": ":"
-     },
-     "Street Car Rail/Light Rail": {
-      "name": "Street Car Rail/Light Rail",
-      "delim": ":"
-     },
-     "Trolley Bus": {
-      "name": "Trolley Bus",
-      "delim": ":"
-     },
-     "Inclined Plane Cars": {
-      "name": "Inclined Plane Cars",
-      "delim": ":"
-     },
-     "Paratransit Vehicles": {
-      "name": "Paratransit",
-      "delim": ":"
-     },
-     "Gasoline Paratransit Vehicles": {
-      "name": "Gasoline Paratransit",
-      "delim": ":"
-     },
-     "Diesel/Gasoline Paratransit Vehicles": {
-      "name": "Diesel/Gasoline Paratransit",
-      "delim": ":"
-     },
-     "CNG Paratransit Vehicles": {
-      "name": "CNG Paratransit Vehicle",
-      "delim": ":"
-     },
-     "Other Alternative Fuel Paratransit": {
-      "name": "Other Alternative Fuel Paratransit",
-      "delim": ":"
-     },
-     "Systemwide": {
-      "name": "System-wide",
-      "delim": ":"
-     }
-    }
-   },
-   "Fare Information": {
-    "name": "Current Fare Information",
-    "box": "lbox",
-    "delim": null,
-    "subheadings": {
-     "Fixed Route Base": {
-      "name": "Fixed Route Base",
-      "delim": ":"
-     },
-     "Last Base Fare Increase": {
-      "name": "Last Base Fare Increase",
-      "delim": ":"
-     },
-     "Systemwide Increase": {
-      "name": "System-wide Increase",
-      "delim": ":"
-     }
-    }
-   },
-   "Employees": {
-    "name": "Current Employees",
-    "box": "lbox",
-    "delim": null,
-    "subheadings": {
-     "Agency Full-Time": {
-      "name": "Agency Full-Time",
-      "delim": " "
-     },
-     "Contractor Full-Time": {
-      "name": "Contractor Full-Time",
-      "delim": " "
-     },
-     "Contractor Part-Time": {
-      "name": "Contractor Part-Time",
-      "delim": " "
-     },
-     "Systemwide Full/Part Time": {
-      "name": "System-Wide",
-      "delim": " "
-     }
-    }
-   },
-   "Operating Expense": {
-    "name": "",
-    "box": "lchart",
-    "delim": "mixed"
-   },
-   "Operating Funds": {
-    "name": "",
-    "box": "rchart",
-    "delim": "mixed"
-   }
-  }
- },
- "2023-24": {
-  "meta": {
-   "Urban Systems (Start Page)": "",
-   "Rural Systems (Start Page)": "",
-   "Shared Ride (Start Page)": "",
-   "All Start": 38,
-   "All End": 111,
-   "Pages Per Agency": 2,
-   "except": [
-    "SEPTA",
-    "Community Transportation"
-   ],
-   "Format Changed?": false,
-   "rbox_present": false,
-   "Has Distributional Factors": true,
-   "Consolidated Agencies": "",
-   "method": {
-	   "text_scrape": ["lbox"]
-   },
-   "boxes": {
-    "lbox": [
-     297,
-     109,
-     606,
-     783
-    ],
-    "rbox": [
-     0,
-     0,
-     1,
-     1
-    ],
-    "tbox": [
-     200,
-     0,
-     548,
-     71
-    ],
-    "lchart": [
-     700,
-     90,
-     950,
-     120
-    ],
-    "rchart": [
-     1000,
-     90,
-     1200,
-     120
-    ]
-   }
-  },
-  "categories": {
-   "Name": {
-    "name": null,
-    "box": "tbox",
-    "delim": "all"
-   },
-   "Service Area Statistics": {
-    "name": "",
-    "box": "lbox",
-    "delim": null,
-    "subheadings": {
-     "Square Miles": {
-      "name": "Square Miles",
-      "delim": ":"
-     },
-     "Population": {
-      "name": "Population",
-      "delim": ":"
-     }
-    }
-   },
-   "Act 44 Fixed Route Distribution Factors": {
-    "name": "",
-    "box": "lbox",
-    "delim": null,
-    "subheadings": {
-     "Total Passengers": {
-      "name": "Total Passengers",
-      "delim": ":"
-     },
-     "Senior Passengers": {
-      "name": "Senior Passengers",
-      "delim": ":"
-     },
-     "Revenue Vehicle Miles": {
-      "name": "Revenue Vehicle Miles",
-      "delim": ":"
-     },
-     "Revenue Vehicle Hours": {
-      "name": "Revenue Vehicle Hours",
-      "delim": ":"
-     }
-    }
-   },
-   "Act 44 Operating Assistance": {
-    "name": "",
+    "name": "Act 44 Operating Assistance",
     "box": "lbox",
     "delim": null,
     "subheadings": {
@@ -4080,12 +3601,518 @@
     }
    },
    "Operating Expense": {
-    "name": "",
+    "name": "Operating Expense",
     "box": "lchart",
     "delim": "mixed"
    },
    "Operating Funds": {
-    "name": "",
+    "name": "Operating Funds",
+    "box": "rchart",
+    "delim": "mixed"
+   }
+  }
+ },
+ "2022-23": {
+  "meta": {
+   "Urban Systems (Start Page)": "",
+   "Rural Systems (Start Page)": "",
+   "Shared Ride (Start Page)": "",
+   "All Start": 27,
+   "All End": 100,
+   "Pages Per Agency": 1,
+   "except": [
+    "SEPTA",
+    "Community Transportation"
+   ],
+   "Format Changed?": false,
+   "rbox_present": false,
+   "Has Distributional Factors": true,
+   "Consolidated Agencies": "",
+   "silent": [
+    "Total Fleet Size"
+   ],
+   "method": {
+    "text_scrape": [
+     "lbox"
+    ]
+   },
+   "boxes": {
+    "lbox": [
+     297,
+     109,
+     606,
+     783
+    ],
+    "rbox": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "tbox": [
+     200,
+     0,
+     548,
+     71
+    ],
+    "lchart": [
+     700,
+     90,
+     950,
+     120
+    ],
+    "rchart": [
+     1000,
+     90,
+     1200,
+     120
+    ]
+   }
+  },
+  "categories": {
+   "Name": {
+    "name": null,
+    "box": "tbox",
+    "delim": "all"
+   },
+   "Service Area Statistics": {
+    "name": "Service Area Statistics",
+    "box": "lbox",
+    "delim": null,
+    "subheadings": {
+     "Square Miles": {
+      "name": "Square Miles",
+      "delim": ":"
+     },
+     "Population": {
+      "name": "Population",
+      "delim": ":"
+     }
+    }
+   },
+   "Act 44 Fixed Route Distribution Factors": {
+    "name": "Act 44 Fixed Route Distribution Factors",
+    "box": "lbox",
+    "delim": null,
+    "subheadings": {
+     "Total Passengers": {
+      "name": "Total Passengers",
+      "delim": ":"
+     },
+     "Senior Passengers": {
+      "name": "Senior Passengers",
+      "delim": ":"
+     },
+     "Revenue Vehicle Miles": {
+      "name": "Revenue Vehicle Miles",
+      "delim": ":"
+     },
+     "Revenue Vehicle Hours": {
+      "name": "Revenue Vehicle Hours",
+      "delim": ":"
+     }
+    }
+   },
+   "Act 44 Operating Assistance": {
+    "name": "Act 44 Operating Assistance",
+    "box": "lbox",
+    "delim": null,
+    "subheadings": {
+     "Section 1513 Allocation": {
+      "name": "Section 1513 Allocation",
+      "delim": null
+     },
+     "Required Local Match": {
+      "name": "Required Local Match",
+      "delim": null
+     }
+    }
+   },
+   "Total Fleet Size": {
+    "name": "Current Fleet Size",
+    "box": "lbox",
+    "delim": null,
+    "subheadings": {
+     "Paratransit": {
+      "name": "Paratransit",
+      "delim": ":"
+     },
+     "Diesel Motor Bus": {
+      "name": "Diesel Motor Bus",
+      "delim": ":"
+     },
+     "Diesel/Gasoline Motor Bus": {
+      "name": "Diesel/Gasoline Motor Bus",
+      "delim": ":"
+     },
+     "CNG Motor Bus": {
+      "name": "CNG Motor Bus",
+      "delim": ":"
+     },
+     "Hybrid Electric Motor Bus": {
+      "name": "Hybrid.*?Electric .*? Bus",
+      "delim": ":"
+     },
+     "Electric Bus": {
+      "name": "Electric .*? Bus",
+      "delim": ":"
+     },
+     "Other Alternative Fuel Motor Bus": {
+      "name": "Other Alternative Fuel Motor Bus",
+      "delim": ":"
+     },
+     "Motor Bus": {
+      "name": "Motor Bus",
+      "delim": ":"
+     },
+     "Commuter Rail Cars": {
+      "name": "Commuter Rail Cars",
+      "delim": ":"
+     },
+     "Heavy Rail Cars": {
+      "name": "Heavy Rail Cars",
+      "delim": ":"
+     },
+     "Street Car Rail/Light Rail": {
+      "name": "Street Car Rail/Light Rail",
+      "delim": ":"
+     },
+     "Trolley Bus": {
+      "name": "Trolley Bus",
+      "delim": ":"
+     },
+     "Inclined Plane Cars": {
+      "name": "Inclined Plane Cars",
+      "delim": ":"
+     },
+     "Paratransit Vehicles": {
+      "name": "Paratransit",
+      "delim": ":"
+     },
+     "Gasoline Paratransit Vehicles": {
+      "name": "Gasoline Paratransit",
+      "delim": ":"
+     },
+     "Diesel/Gasoline Paratransit Vehicles": {
+      "name": "Diesel/Gasoline Paratransit",
+      "delim": ":"
+     },
+     "CNG Paratransit Vehicles": {
+      "name": "CNG Paratransit Vehicle",
+      "delim": ":"
+     },
+     "Other Alternative Fuel Paratransit": {
+      "name": "Other Alternative Fuel Paratransit",
+      "delim": ":"
+     },
+     "Systemwide": {
+      "name": "System-wide",
+      "delim": ":"
+     }
+    }
+   },
+   "Fare Information": {
+    "name": "Current Fare Information",
+    "box": "lbox",
+    "delim": null,
+    "subheadings": {
+     "Fixed Route Base": {
+      "name": "Fixed Route Base",
+      "delim": ":"
+     },
+     "Last Base Fare Increase": {
+      "name": "Last Base Fare Increase",
+      "delim": ":"
+     },
+     "Systemwide Increase": {
+      "name": "System-wide Increase",
+      "delim": ":"
+     }
+    }
+   },
+   "Employees": {
+    "name": "Current Employees",
+    "box": "lbox",
+    "delim": null,
+    "subheadings": {
+     "Agency Full-Time": {
+      "name": "Agency Full-Time",
+      "delim": " "
+     },
+     "Contractor Full-Time": {
+      "name": "Contractor Full-Time",
+      "delim": " "
+     },
+     "Contractor Part-Time": {
+      "name": "Contractor Part-Time",
+      "delim": " "
+     },
+     "Systemwide Full/Part Time": {
+      "name": "System-Wide",
+      "delim": " "
+     }
+    }
+   },
+   "Operating Expense": {
+    "name": "Operating Expense",
+    "box": "lchart",
+    "delim": "mixed"
+   },
+   "Operating Funds": {
+    "name": "Operating Funds",
+    "box": "rchart",
+    "delim": "mixed"
+   }
+  }
+ },
+ "2023-24": {
+  "meta": {
+   "Urban Systems (Start Page)": "",
+   "Rural Systems (Start Page)": "",
+   "Shared Ride (Start Page)": "",
+   "All Start": 38,
+   "All End": 111,
+   "Pages Per Agency": 1,
+   "except": [
+    "SEPTA",
+    "Community Transportation"
+   ],
+   "Format Changed?": false,
+   "rbox_present": false,
+   "Has Distributional Factors": true,
+   "Consolidated Agencies": "",
+   "silent": [
+    "Total Fleet Size"
+   ],
+   "method": {
+    "text_scrape": [
+     "lbox"
+    ]
+   },
+   "boxes": {
+    "lbox": [
+     297,
+     109,
+     606,
+     783
+    ],
+    "rbox": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "tbox": [
+     200,
+     0,
+     548,
+     71
+    ],
+    "lchart": [
+     700,
+     90,
+     950,
+     120
+    ],
+    "rchart": [
+     1000,
+     90,
+     1200,
+     120
+    ]
+   }
+  },
+  "categories": {
+   "Name": {
+    "name": null,
+    "box": "tbox",
+    "delim": "all"
+   },
+   "Service Area Statistics": {
+    "name": "Service Area Statistics",
+    "box": "lbox",
+    "delim": null,
+    "subheadings": {
+     "Square Miles": {
+      "name": "Square Miles",
+      "delim": ":"
+     },
+     "Population": {
+      "name": "Population",
+      "delim": ":"
+     }
+    }
+   },
+   "Act 44 Fixed Route Distribution Factors": {
+    "name": "Act 44 Fixed Route Distribution Factors",
+    "box": "lbox",
+    "delim": null,
+    "subheadings": {
+     "Total Passengers": {
+      "name": "Total Passengers",
+      "delim": ":"
+     },
+     "Senior Passengers": {
+      "name": "Senior Passengers",
+      "delim": ":"
+     },
+     "Revenue Vehicle Miles": {
+      "name": "Revenue Vehicle Miles",
+      "delim": ":"
+     },
+     "Revenue Vehicle Hours": {
+      "name": "Revenue Vehicle Hours",
+      "delim": ":"
+     }
+    }
+   },
+   "Act 44 Operating Assistance": {
+    "name": "Act 44 Operating Assistance",
+    "box": "lbox",
+    "delim": null,
+    "subheadings": {
+     "Section 1513 Allocation": {
+      "name": "Section 1513 Allocation",
+      "delim": null
+     },
+     "Required Local Match": {
+      "name": "Required Local Match",
+      "delim": null
+     }
+    }
+   },
+   "Total Fleet Size": {
+    "name": "Current Fleet Size",
+    "box": "lbox",
+    "delim": null,
+    "subheadings": {
+     "Paratransit": {
+      "name": "Paratransit",
+      "delim": ":"
+     },
+     "Diesel Motor Bus": {
+      "name": "Diesel Motor Bus",
+      "delim": ":"
+     },
+     "Diesel/Gasoline Motor Bus": {
+      "name": "Diesel/Gasoline Motor Bus",
+      "delim": ":"
+     },
+     "CNG Motor Bus": {
+      "name": "CNG Motor Bus",
+      "delim": ":"
+     },
+     "Hybrid Electric Motor Bus": {
+      "name": "Hybrid.*?Electric .*? Bus",
+      "delim": ":"
+     },
+     "Electric Bus": {
+      "name": "Electric .*? Bus",
+      "delim": ":"
+     },
+     "Other Alternative Fuel Motor Bus": {
+      "name": "Other Alternative Fuel Motor Bus",
+      "delim": ":"
+     },
+     "Motor Bus": {
+      "name": "Motor Bus",
+      "delim": ":"
+     },
+     "Commuter Rail Cars": {
+      "name": "Commuter Rail Cars",
+      "delim": ":"
+     },
+     "Heavy Rail Cars": {
+      "name": "Heavy Rail Cars",
+      "delim": ":"
+     },
+     "Street Car Rail/Light Rail": {
+      "name": "Street Car Rail/Light Rail",
+      "delim": ":"
+     },
+     "Trolley Bus": {
+      "name": "Trolley Bus",
+      "delim": ":"
+     },
+     "Inclined Plane Cars": {
+      "name": "Inclined Plane Cars",
+      "delim": ":"
+     },
+     "Paratransit Vehicles": {
+      "name": "Paratransit",
+      "delim": ":"
+     },
+     "Gasoline Paratransit Vehicles": {
+      "name": "Gasoline Paratransit",
+      "delim": ":"
+     },
+     "Diesel/Gasoline Paratransit Vehicles": {
+      "name": "Diesel/Gasoline Paratransit",
+      "delim": ":"
+     },
+     "CNG Paratransit Vehicles": {
+      "name": "CNG Paratransit Vehicle",
+      "delim": ":"
+     },
+     "Other Alternative Fuel Paratransit": {
+      "name": "Other Alternative Fuel Paratransit",
+      "delim": ":"
+     },
+     "Systemwide": {
+      "name": "System-wide",
+      "delim": ":"
+     }
+    }
+   },
+   "Fare Information": {
+    "name": "Current Fare Information",
+    "box": "lbox",
+    "delim": null,
+    "subheadings": {
+     "Fixed Route Base": {
+      "name": "Fixed Route Base",
+      "delim": ":"
+     },
+     "Last Base Fare Increase": {
+      "name": "Last Base Fare Increase",
+      "delim": ":"
+     },
+     "Systemwide Increase": {
+      "name": "System-wide Increase",
+      "delim": ":"
+     }
+    }
+   },
+   "Employees": {
+    "name": "Current Employees",
+    "box": "lbox",
+    "delim": null,
+    "subheadings": {
+     "Agency Full-Time": {
+      "name": "Agency Full-Time",
+      "delim": " "
+     },
+     "Contractor Full-Time": {
+      "name": "Contractor Full-Time",
+      "delim": " "
+     },
+     "Contractor Part-Time": {
+      "name": "Contractor Part-Time",
+      "delim": " "
+     },
+     "Systemwide Full/Part Time": {
+      "name": "System-Wide",
+      "delim": " "
+     }
+    }
+   },
+   "Operating Expense": {
+    "name": "Operating Expense",
+    "box": "lchart",
+    "delim": "mixed"
+   },
+   "Operating Funds": {
+    "name": "Operating Funds",
     "box": "rchart",
     "delim": "mixed"
    }

@@ -260,7 +260,6 @@ def main(start = None):
                     continue
 
                 box_text = get_box_text(page, meta)
-#                print(box_text)
 
                 ts_boxes = meta.get('method', dict()).get('text_scrape')
                 if ts_boxes is None: ts_boxes = ['lbox', 'rbox']
