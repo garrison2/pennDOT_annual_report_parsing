@@ -616,7 +616,7 @@
    "Urban Systems (Start Page)": 26,
    "Rural Systems (Start Page)": 120,
    "Shared Ride (Start Page)": 178,
-   "Pages Per Agency": 4,
+   "Pages Per Agency": 2,
    "except": [
     26
    ],
@@ -821,7 +821,7 @@
    "Urban Systems (Start Page)": 28,
    "Rural Systems (Start Page)": 122,
    "Shared Ride (Start Page)": 180,
-   "Pages Per Agency": 4,
+   "Pages Per Agency": 2,
    "except": [
     28
    ],
@@ -1029,7 +1029,7 @@
    "Urban Systems (Start Page)": 60,
    "Rural Systems (Start Page)": 154,
    "Shared Ride (Start Page)": 204,
-   "Pages Per Agency": 4,
+   "Pages Per Agency": 2,
    "except": [
     60
    ],
@@ -1237,7 +1237,7 @@
    "Urban Systems (Start Page)": 38,
    "Rural Systems (Start Page)": 132,
    "Shared Ride (Start Page)": 190,
-   "Pages Per Agency": 4,
+   "Pages Per Agency": 2,
    "except": [
     38
    ],
@@ -1445,7 +1445,7 @@
    "Urban Systems (Start Page)": 62,
    "Rural Systems (Start Page)": 144,
    "Shared Ride (Start Page)": 194,
-   "Pages Per Agency": 4,
+   "Pages Per Agency": 2,
    "PPA_exception": {
     "70": 2,
     "108": 2,
@@ -1661,7 +1661,7 @@
    "Urban Systems (Start Page)": 70,
    "Rural Systems (Start Page)": 156,
    "Shared Ride (Start Page)": 206,
-   "Pages Per Agency": 4,
+   "Pages Per Agency": 2,
    "PPA_exception": {
     "78": 2,
     "116": 2,
@@ -1878,7 +1878,7 @@
    "Urban Systems (Start Page)": 74,
    "Rural Systems (Start Page)": 154,
    "Shared Ride (Start Page)": 204,
-   "Pages Per Agency": 4,
+   "Pages Per Agency": 2,
    "PPA_exception": {
     "82": 2,
     "120": 2,
@@ -2124,7 +2124,7 @@
    "Urban Systems (Start Page)": 64,
    "Rural Systems (Start Page)": 148,
    "Shared Ride (Start Page)": 190,
-   "Pages Per Agency": 4,
+   "Pages Per Agency": 2,
    "PPA_exception": {
     "72": 2,
     "110": 2,
@@ -2133,7 +2133,8 @@
     "152": 2
    },
    "except": [
-    64
+    64,
+	"SEPTA"
    ],
    "Format Changed?": false,
    "Has Distributional Factors": true,
@@ -2235,10 +2236,6 @@
     "box": "rbox",
     "delim": null,
     "subheadings": {
-     "Fixed Route": {
-      "name": "Fixed Route",
-      "delim": ":"
-     },
      "Paratransit": {
       "name": "Paratransit",
       "delim": ":"
@@ -2253,6 +2250,14 @@
      },
      "CNG Motor Bus": {
       "name": "CNG Motor Bus",
+      "delim": ":"
+     },
+     "Hybrid Electric Motor Bus": {
+      "name": "Hybrid.*?Electric .*? Bus",
+      "delim": ":"
+     },
+     "Electric Bus": { 
+      "name": "Electric .*? Bus",
       "delim": ":"
      },
      "Other Alternative Fuel Motor Bus": {
@@ -2284,15 +2289,15 @@
       "delim": ":"
      },
      "Paratransit Vehicles": {
-      "name": "Paratransit Vehicle",
+      "name": "Paratransit",
       "delim": ":"
      },
      "Gasoline Paratransit Vehicles": {
-      "name": "Gasoline Paratransit Vehicle",
+      "name": "Gasoline Paratransit",
       "delim": ":"
      },
      "Diesel/Gasoline Paratransit Vehicles": {
-      "name": "Diesel/Gasoline Paratransit Vehicle",
+      "name": "Diesel/Gasoline Paratransit",
       "delim": ":"
      },
      "CNG Paratransit Vehicles": {
@@ -2370,12 +2375,12 @@
    "Shared Ride (Start Page)": "",
    "All Start": 46,
    "All End": 201,
-   "Pages Per Agency": 4,
+   "Pages Per Agency": 2,
    "except": [
-	   46,
-	   54,
-	   66,
-	   "Community Transportation"
+    46,
+    54,
+    66,
+    "Community Transportation"
    ],
    "Format Changed?": false,
    "Has Distributional Factors": true,
@@ -2477,10 +2482,6 @@
     "box": "rbox",
     "delim": null,
     "subheadings": {
-     "Fixed Route": {
-      "name": "Fixed Route",
-      "delim": ":"
-     },
      "Paratransit": {
       "name": "Paratransit",
       "delim": ":"
@@ -2495,6 +2496,14 @@
      },
      "CNG Motor Bus": {
       "name": "CNG Motor Bus",
+      "delim": ":"
+     },
+     "Hybrid Electric Motor Bus": {
+      "name": "Hybrid.*?Electric .*? Bus",
+      "delim": ":"
+     },
+     "Electric Bus": {
+      "name": "Electric .*? Bus",
       "delim": ":"
      },
      "Other Alternative Fuel Motor Bus": {
@@ -2526,15 +2535,15 @@
       "delim": ":"
      },
      "Paratransit Vehicles": {
-      "name": "Paratransit Vehicle",
+      "name": "Paratransit",
       "delim": ":"
      },
      "Gasoline Paratransit Vehicles": {
-      "name": "Gasoline Paratransit Vehicle",
+      "name": "Gasoline Paratransit",
       "delim": ":"
      },
      "Diesel/Gasoline Paratransit Vehicles": {
-      "name": "Diesel/Gasoline Paratransit Vehicle",
+      "name": "Diesel/Gasoline Paratransit",
       "delim": ":"
      },
      "CNG Paratransit Vehicles": {
@@ -2612,10 +2621,10 @@
    "Shared Ride (Start Page)": "",
    "All Start": 36,
    "All End": 191,
-   "Pages Per Agency": 4,
+   "Pages Per Agency": 2,
    "except": [
-	   "SEPTA",
-	   "Community Transportation"
+    "SEPTA",
+    "Community Transportation"
    ],
    "Format Changed?": false,
    "Has Distributional Factors": true,
@@ -2717,10 +2726,6 @@
     "box": "rbox",
     "delim": null,
     "subheadings": {
-     "Fixed Route": {
-      "name": "Fixed Route",
-      "delim": ":"
-     },
      "Paratransit": {
       "name": "Paratransit",
       "delim": ":"
@@ -2735,6 +2740,14 @@
      },
      "CNG Motor Bus": {
       "name": "CNG Motor Bus",
+      "delim": ":"
+     },
+     "Hybrid Electric Motor Bus": {
+      "name": "Hybrid.*?Electric .*? Bus",
+      "delim": ":"
+     },
+     "Electric Bus": {
+      "name": "Electric .*? Bus",
       "delim": ":"
      },
      "Other Alternative Fuel Motor Bus": {
@@ -2766,15 +2779,15 @@
       "delim": ":"
      },
      "Paratransit Vehicles": {
-      "name": "Paratransit Vehicle",
+      "name": "Paratransit",
       "delim": ":"
      },
      "Gasoline Paratransit Vehicles": {
-      "name": "Gasoline Paratransit Vehicle",
+      "name": "Gasoline Paratransit",
       "delim": ":"
      },
      "Diesel/Gasoline Paratransit Vehicles": {
-      "name": "Diesel/Gasoline Paratransit Vehicle",
+      "name": "Diesel/Gasoline Paratransit",
       "delim": ":"
      },
      "CNG Paratransit Vehicles": {
@@ -2852,12 +2865,12 @@
    "Shared Ride (Start Page)": "",
    "All Start": 44,
    "All End": 199,
-   "Pages Per Agency": 4,
+   "Pages Per Agency": 2,
    "except": [
-	   "SEPTA",
-	   "Community Transportation"
+    "SEPTA",
+    "Community Transportation"
    ],
- "Format Changed?": false,
+   "Format Changed?": false,
    "Has Distributional Factors": true,
    "Consolidated Agencies": "",
    "boxes": {
@@ -2957,10 +2970,6 @@
     "box": "rbox",
     "delim": null,
     "subheadings": {
-     "Fixed Route": {
-      "name": "Fixed Route",
-      "delim": ":"
-     },
      "Paratransit": {
       "name": "Paratransit",
       "delim": ":"
@@ -2975,6 +2984,14 @@
      },
      "CNG Motor Bus": {
       "name": "CNG Motor Bus",
+      "delim": ":"
+     },
+     "Hybrid Electric Motor Bus": {
+      "name": "Hybrid.*?Electric .*? Bus",
+      "delim": ":"
+     },
+     "Electric Bus": {
+      "name": "Electric .*? Bus",
       "delim": ":"
      },
      "Other Alternative Fuel Motor Bus": {
@@ -3006,15 +3023,15 @@
       "delim": ":"
      },
      "Paratransit Vehicles": {
-      "name": "Paratransit Vehicle",
+      "name": "Paratransit",
       "delim": ":"
      },
      "Gasoline Paratransit Vehicles": {
-      "name": "Gasoline Paratransit Vehicle",
+      "name": "Gasoline Paratransit",
       "delim": ":"
      },
      "Diesel/Gasoline Paratransit Vehicles": {
-      "name": "Diesel/Gasoline Paratransit Vehicle",
+      "name": "Diesel/Gasoline Paratransit",
       "delim": ":"
      },
      "CNG Paratransit Vehicles": {
@@ -3092,12 +3109,12 @@
    "Shared Ride (Start Page)": "",
    "All Start": 46,
    "All End": 201,
-   "Pages Per Agency": 4,
+   "Pages Per Agency": 2,
    "except": [
-	   "SEPTA",
-	   "Community Transportation"
+    "SEPTA",
+    "Community Transportation"
    ],
- "Format Changed?": false,
+   "Format Changed?": false,
    "Has Distributional Factors": true,
    "Consolidated Agencies": "",
    "boxes": {
@@ -3122,7 +3139,7 @@
     "lchart": [
      110,
      496,
-     806,
+     306,
      546
     ],
     "rchart": [
@@ -3197,10 +3214,6 @@
     "box": "rbox",
     "delim": null,
     "subheadings": {
-     "Fixed Route": {
-      "name": "Fixed Route",
-      "delim": ":"
-     },
      "Paratransit": {
       "name": "Paratransit",
       "delim": ":"
@@ -3215,6 +3228,14 @@
      },
      "CNG Motor Bus": {
       "name": "CNG Motor Bus",
+      "delim": ":"
+     },
+     "Hybrid Electric Motor Bus": { 
+      "name": "Hybrid.*?Electric .*? Bus",
+      "delim": ":"
+     },
+     "Electric Bus": {
+      "name": "Electric .*? Bus",
       "delim": ":"
      },
      "Other Alternative Fuel Motor Bus": {
@@ -3246,15 +3267,15 @@
       "delim": ":"
      },
      "Paratransit Vehicles": {
-      "name": "Paratransit Vehicle",
+      "name": "Paratransit",
       "delim": ":"
      },
      "Gasoline Paratransit Vehicles": {
-      "name": "Gasoline Paratransit Vehicle",
+      "name": "Gasoline Paratransit",
       "delim": ":"
      },
      "Diesel/Gasoline Paratransit Vehicles": {
-      "name": "Diesel/Gasoline Paratransit Vehicle",
+      "name": "Diesel/Gasoline Paratransit",
       "delim": ":"
      },
      "CNG Paratransit Vehicles": {
@@ -3332,15 +3353,19 @@
    "Shared Ride (Start Page)": "",
    "All Start": 26,
    "All End": 99,
-   "Pages Per Agency": 2,
+   "Pages Per Agency": 1,
    "except": [
-	   "SEPTA",
-	   "Community Transportation"
+    "SEPTA",
+    "Community Transportation",
+	"PRT"
    ],
    "Format Changed?": true,
    "rbox_present": false,
    "Has Distributional Factors": true,
    "Consolidated Agencies": "",
+   "method": {
+	   "text_scrape": ["lbox"]
+   },
    "boxes": {
     "lbox": [
      297,
@@ -3435,13 +3460,9 @@
    },
    "Total Fleet Size": {
     "name": "Current Fleet Size",
-    "box": "rbox",
+    "box": "lbox",
     "delim": null,
     "subheadings": {
-     "Fixed Route": {
-      "name": "Fixed Route",
-      "delim": ":"
-     },
      "Paratransit": {
       "name": "Paratransit",
       "delim": ":"
@@ -3456,6 +3477,14 @@
      },
      "CNG Motor Bus": {
       "name": "CNG Motor Bus",
+      "delim": ":"
+     },
+     "Hybrid Electric Motor Bus": {
+      "name": "Hybrid.*?Electric .*? Bus",
+      "delim": ":"
+     },
+     "Electric Bus": { 
+      "name": "Electric .*? Bus",
       "delim": ":"
      },
      "Other Alternative Fuel Motor Bus": {
@@ -3487,15 +3516,15 @@
       "delim": ":"
      },
      "Paratransit Vehicles": {
-      "name": "Paratransit Vehicle",
+      "name": "Paratransit",
       "delim": ":"
      },
      "Gasoline Paratransit Vehicles": {
-      "name": "Gasoline Paratransit Vehicle",
+      "name": "Gasoline Paratransit",
       "delim": ":"
      },
      "Diesel/Gasoline Paratransit Vehicles": {
-      "name": "Diesel/Gasoline Paratransit Vehicle",
+      "name": "Diesel/Gasoline Paratransit",
       "delim": ":"
      },
      "CNG Paratransit Vehicles": {
@@ -3514,7 +3543,7 @@
    },
    "Fare Information": {
     "name": "Current Fare Information",
-    "box": "rbox",
+    "box": "lbox",
     "delim": null,
     "subheadings": {
      "Fixed Route Base": {
@@ -3533,7 +3562,7 @@
    },
    "Employees": {
     "name": "Current Employees",
-    "box": "rbox",
+    "box": "lbox",
     "delim": null,
     "subheadings": {
      "Agency Full-Time": {
@@ -3575,13 +3604,16 @@
    "All End": 100,
    "Pages Per Agency": 2,
    "except": [
-	   "SEPTA",
-	   "Community Transportation"
+    "SEPTA",
+    "Community Transportation"
    ],
    "Format Changed?": false,
    "rbox_present": false,
    "Has Distributional Factors": true,
    "Consolidated Agencies": "",
+   "method": {
+	   "text_scrape": ["lbox"]
+   },
    "boxes": {
     "lbox": [
      297,
@@ -3676,13 +3708,9 @@
    },
    "Total Fleet Size": {
     "name": "Current Fleet Size",
-    "box": "rbox",
+    "box": "lbox",
     "delim": null,
     "subheadings": {
-     "Fixed Route": {
-      "name": "Fixed Route",
-      "delim": ":"
-     },
      "Paratransit": {
       "name": "Paratransit",
       "delim": ":"
@@ -3697,6 +3725,14 @@
      },
      "CNG Motor Bus": {
       "name": "CNG Motor Bus",
+      "delim": ":"
+     },
+     "Hybrid Electric Motor Bus": {
+      "name": "Hybrid.*?Electric .*? Bus",
+      "delim": ":"
+     },
+     "Electric Bus": { 
+      "name": "Electric .*? Bus",
       "delim": ":"
      },
      "Other Alternative Fuel Motor Bus": {
@@ -3728,15 +3764,15 @@
       "delim": ":"
      },
      "Paratransit Vehicles": {
-      "name": "Paratransit Vehicle",
+      "name": "Paratransit",
       "delim": ":"
      },
      "Gasoline Paratransit Vehicles": {
-      "name": "Gasoline Paratransit Vehicle",
+      "name": "Gasoline Paratransit",
       "delim": ":"
      },
      "Diesel/Gasoline Paratransit Vehicles": {
-      "name": "Diesel/Gasoline Paratransit Vehicle",
+      "name": "Diesel/Gasoline Paratransit",
       "delim": ":"
      },
      "CNG Paratransit Vehicles": {
@@ -3755,7 +3791,7 @@
    },
    "Fare Information": {
     "name": "Current Fare Information",
-    "box": "rbox",
+    "box": "lbox",
     "delim": null,
     "subheadings": {
      "Fixed Route Base": {
@@ -3774,7 +3810,7 @@
    },
    "Employees": {
     "name": "Current Employees",
-    "box": "rbox",
+    "box": "lbox",
     "delim": null,
     "subheadings": {
      "Agency Full-Time": {
@@ -3816,13 +3852,16 @@
    "All End": 111,
    "Pages Per Agency": 2,
    "except": [
-	   "SEPTA",
-	   "Community Transportation"
+    "SEPTA",
+    "Community Transportation"
    ],
    "Format Changed?": false,
    "rbox_present": false,
    "Has Distributional Factors": true,
    "Consolidated Agencies": "",
+   "method": {
+	   "text_scrape": ["lbox"]
+   },
    "boxes": {
     "lbox": [
      297,
@@ -3917,13 +3956,9 @@
    },
    "Total Fleet Size": {
     "name": "Current Fleet Size",
-    "box": "rbox",
+    "box": "lbox",
     "delim": null,
     "subheadings": {
-     "Fixed Route": {
-      "name": "Fixed Route",
-      "delim": ":"
-     },
      "Paratransit": {
       "name": "Paratransit",
       "delim": ":"
@@ -3938,6 +3973,14 @@
      },
      "CNG Motor Bus": {
       "name": "CNG Motor Bus",
+      "delim": ":"
+     },
+     "Hybrid Electric Motor Bus": {
+      "name": "Hybrid.*?Electric .*? Bus",
+      "delim": ":"
+     },
+     "Electric Bus": {
+      "name": "Electric .*? Bus",
       "delim": ":"
      },
      "Other Alternative Fuel Motor Bus": {
@@ -3969,15 +4012,15 @@
       "delim": ":"
      },
      "Paratransit Vehicles": {
-      "name": "Paratransit Vehicle",
+      "name": "Paratransit",
       "delim": ":"
      },
      "Gasoline Paratransit Vehicles": {
-      "name": "Gasoline Paratransit Vehicle",
+      "name": "Gasoline Paratransit",
       "delim": ":"
      },
      "Diesel/Gasoline Paratransit Vehicles": {
-      "name": "Diesel/Gasoline Paratransit Vehicle",
+      "name": "Diesel/Gasoline Paratransit",
       "delim": ":"
      },
      "CNG Paratransit Vehicles": {
@@ -3996,7 +4039,7 @@
    },
    "Fare Information": {
     "name": "Current Fare Information",
-    "box": "rbox",
+    "box": "lbox",
     "delim": null,
     "subheadings": {
      "Fixed Route Base": {
@@ -4015,7 +4058,7 @@
    },
    "Employees": {
     "name": "Current Employees",
-    "box": "rbox",
+    "box": "lbox",
     "delim": null,
     "subheadings": {
      "Agency Full-Time": {
