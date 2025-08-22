@@ -223,7 +223,7 @@ def match_lrbox(cbase, text, start, end, silent = False):
 
     return vals
 
-def main(start = None):
+def main(start = None, end = None):
     format_dict = get_format_dict()
     if os.path.exists(PARSED_JSON):
         with open(PARSED_JSON, 'r') as file: results = json.load(file)
@@ -233,7 +233,7 @@ def main(start = None):
     csvs = dict()
 
     start = start if start else int(YEAR_START)
-    end = int(YEAR_END) + 1
+    end = end if end else int(YEAR_END) + 1
 
     for y in range(start, end):
         year = str(y) + "-" + str(y + 1)[-2:]
@@ -267,10 +267,17 @@ def main(start = None):
                 try:
                     index = get_lrbox_index(box_text, ts_boxes, categories)
                 except TextNotFoundError as e:
-                    print(get_agency_range(meta))
-                    tmp = fix_offset(i, offset, pdf, meta, categories)
-                    offset, page, box_text, index = tmp
-                    write_to_file(format_dict, TMP_JSON)
+                    print(f'Error page: {i}')
+                    continue
+
+
+#                try:
+#                    index = get_lrbox_index(box_text, ts_boxes, categories)
+#                except TextNotFoundError as e:
+#                    print(get_agency_range(meta))
+#                    tmp = fix_offset(i, offset, pdf, meta, categories)
+#                    offset, page, box_text, index = tmp
+#                    write_to_file(format_dict, TMP_JSON)
 
                 name = None
                 vals = dict()
@@ -305,7 +312,9 @@ def main(start = None):
                 write_to_file(results, PARSED_JSON)
 
 if __name__ == '__main__':
-    start = None
-    if len(sys.argv) == 3 and sys.argv[1] == 'year':
+    start, end = None, None
+    if len(sys.argv) >= 3 and sys.argv[1] == 'year':
         start = int(sys.argv[2])
-    main(start)
+        if len(sys.argv) == 4:
+            end = int(sys.argv[3])
+    main(start, end)

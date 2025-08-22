@@ -4,8 +4,12 @@
    "Urban Systems (Start Page)": 16,
    "Rural Systems (Start Page)": 66,
    "Shared Ride (Start Page)": 98,
-   "Pages Per Agency": 2,
-   "Format Changed?": false,
+   "Pages Per Agency": 2, "except":
+   [
+	   "Community Transportation",
+	   "Shared Ride"
+   ],
+  "Format Changed?": false,
    "Has Distributional Factors": false,
    "Consolidated Agencies": "",
    "boxes": {
@@ -207,8 +211,11 @@
    "Rural Systems (Start Page)": 72,
    "Shared Ride (Start Page)": 102,
    "Pages Per Agency": 2,
-   "except": [
-    22
+   "except":
+   [
+	   22,
+	   "Community Transportation",
+	   "Shared Ride"
    ],
    "Format Changed?": true,
    "Has Distributional Factors": false,
@@ -412,8 +419,11 @@
    "Rural Systems (Start Page)": 73,
    "Shared Ride (Start Page)": 103,
    "Pages Per Agency": 2,
-   "except": [
-    23
+   "except":
+   [
+	   23,
+	   "Community Transportation",
+	   "Shared Ride"
    ],
    "Format Changed?": false,
    "Has Distributional Factors": false,
@@ -618,7 +628,9 @@
    "Shared Ride (Start Page)": 178,
    "Pages Per Agency": 2,
    "except": [
-    26
+ 	   "Community Transportation",
+	   "Shared Ride",
+	   26
    ],
    "Format Changed?": false,
    "Has Distributional Factors": false,
@@ -823,7 +835,9 @@
    "Shared Ride (Start Page)": 180,
    "Pages Per Agency": 2,
    "except": [
-    28
+    28,
+   "Community Transportation",
+   "Shared Ride"
    ],
    "Format Changed?": true,
    "Has Distributional Factors": false,
@@ -1028,10 +1042,11 @@
   "meta": {
    "Urban Systems (Start Page)": 60,
    "Rural Systems (Start Page)": 154,
-   "Shared Ride (Start Page)": 204,
+   "Shared Ride (Start Page)": 212,
    "Pages Per Agency": 2,
    "except": [
-    60
+    60,
+	63
    ],
    "Format Changed?": false,
    "Has Distributional Factors": false,
