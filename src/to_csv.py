@@ -118,10 +118,9 @@ def combine(data):
             freq_dict[term] = freq_dict.get(term, set()) | {agency}
         agency_terms[agency] = split
 
-
     seen = set()
-    if os.path.exists('joined.json'):
-        with open('joined.json', 'r') as file:
+    if os.path.exists(JOINED_JSON):
+        with open(JOINED_JSON, 'r') as file:
             joined = json.load(file)
             for agency in joined:
                 seen.add(agency)
@@ -185,6 +184,7 @@ def combine(data):
             json.dump(joined, file, indent=1)
 
     shuffled = dict()
+    print(agency_years)
     for agency in joined:
         most_recent = max(joined[agency], key=lambda a:max(agency_years[a]))
         shuffled[most_recent] = joined[agency]
