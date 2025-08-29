@@ -1,12 +1,12 @@
 {
- "POTTSTOWN AREA RAPID TRANSIT (PART)": [
+ "Pottstown Area Rapid Transit (PART)": [
   "PART (Pottstown Area Rapid Transit)",
   "POTTSTOWN AREA RAPID TRANSIT (PART)",
   "Pottstown Area Rapid Transit (PART)",
   "Pottstown, Borough of",
   "Pottstown Urban Transit"
  ],
- "ALTOONA METRO TRANSIT (AMTRAN)": [
+ "Altoona Metro Transit (AMTRAN)": [
   "AMTRAN (Altoona Metro Transit)",
   "Altoona Metro Transit (AMTRAN)",
   "ALTOONA METRO TRANSIT (AMTRAN)"
@@ -20,7 +20,7 @@
  "Washington, City of": [
   "Washington, City of"
  ],
- "BUTLER TRANSIT AUTHORITY (BTA)": [
+ "Butler Transit Authority (BTA)": [
   "BTA (Butler Transit Authority)",
   "BUTLER TRANSIT AUTHORITY (BTA)",
   "Butler Transit Authority (BTA)"
@@ -34,90 +34,86 @@
   "CCCT (Carbon County Community Transit)",
   "Carbon County Community Transit (CCCT)"
  ],
- "HAZLETON PUBLIC TRANSIT (HPT)": [
+ "Hazleton Public Transit (HPT)": [
   "HAZLETON PUBLIC TRANSIT (HPT)",
   "HPT (Hazleton Public Transit)",
   "Hazleton Public Transit (HPT)"
  ],
- "BOROUGH OF MOUNT CARMEL (LATS)": [
+ "Borough of Mount Carmel (LATS)": [
   "Mount Carmel, Borough of",
   "Mount Carmel, Borough of (BMC)",
   "Borough of Mount Carmel (LATS)",
   "BMC (Mount Carmel, Borough of)",
   "BOROUGH OF MOUNT CARMEL (LATS)"
  ],
- "SCHUYLKILL TRANSPORTATION SYSTEM (STS)": [
+ "Schuylkill Transportation System (STS)": [
   "SCHUYLKILL TRANSPORTATION SYSTEM (STS)",
   "STS (Schuylkill Transportation System)",
   "Schuylkill Transportation System (STS)"
  ],
- "WASHINGTON COUNTY TRANSPORTATION AUTHORITY (FREEDOM TRANSIT)": [
+ "Washington County Transportation Authority (Freedom Transit)": [
   "WCTA (Washington County Transportation Authority)",
   "WASHINGTON COUNTY TRANSPORTATION AUTHORITY (FREEDOM TRANSIT)",
   "Washington County Transportation Authority (WCTA)",
   "WASHINGTON COUNTY TRANSPORTATION AUTHORITY (WCTA)",
   "Washington County Transportation Authority"
  ],
- "CAMBRIA COUNTY TRANSIT AUTHORITY (CAMTRAN)": [
+ "Cambria County Transit Authority (CAMTRAN)": [
   "CamTran (Cambria County Transit Authority)",
   "Cambria County Transit Authority (CamTran)",
   "CamTran (Cambria County Transit Authority*)",
   "CAMBRIA COUNTY TRANSIT AUTHORITY (CAMTRAN)"
  ],
- "Central Pennsylvania Transportation Authority (CPTA)": [
-  "Central Pennsylvania Transportation Authority (CPTA)",
-  "CPTA (Central Pennsylvania Transportation Authority)"
- ],
- "ENDLESS MOUNTAINS REGIONAL TRANSPORTATION AUTHORITY (BeST TRANSIT)": [
+ "Endless Mountains Regional Transportation Authority (BeST Transit)": [
   "Endless Mountains Transportation Authority (EMTA)",
   "ENDLESS MOUNTAINS REGIONAL TRANSPORTATION AUTHORITY (BeST TRANSIT)",
   "ENDLESS MOUNTAINS REGIONAL TRANSPORTATION AUTHORITY ( BeST TRANSIT)",
   "EMTA (Endless Mountains Transportation Authority)"
  ],
- "ERIE METROPOLITAN TRANSIT AUTHORITY (EMTA)": [
+ "Erie Metropolitan Transit Authority (EMTA)": [
   "ERIE METROPOLITAN TRANSIT AUTHORITY (EMTA)",
   "Erie Metropolitan Transit Authority (EMTA)",
   "EMTA (Erie Metropolitan Transit Authority)"
  ],
- "FAYETTE AREA COORDINATED TRANSPORTATION (FACT)": [
+ "Fayette Area Coordinated Transportation (FACT)": [
   "Fayette Area Coordinated Transportation (FACT)",
   "FAYETTE AREA COORDINATED TRANSPORTATION (FACT)",
   "FACT (Fayette Area Coordinated Transportation)"
  ],
- "INDIANA COUNTY TRANSIT AUTHORITY (INDIGO)": [
+ "Indiana County Transit Authority (INDIGO)": [
   "Indiana County Transit Authority (IndiGO)",
   "Indigo (Indiana County Transit Authority)",
   "IndiGO (Indiana County Transit Authority)",
   "INDIANA COUNTY TRANSIT AUTHORITY (INDIGO)"
  ],
- "LUZERNE COUNTY TRANSPORTATION AUTHORITY (LCTA)": [
+ "Luzerne County Transportation Authority (LCTA)": [
   "LUZERNE COUNTY TRANSPORTATION AUTHORITY (LCTA)",
   "Luzerne County Transportation Authority (LCTA)",
   "LCTA (Luzerne County Transportation Authority)"
  ],
- "MONROE COUNTY TRANSPORTATION AUTHORITY (MCTA)": [
+ "Monroe County Transportation Authority (MCTA)": [
   "Monroe County Transportation Authority (MCTA)",
   "MONROE COUNTY TRANSPORTATION AUTHORITY (MCTA)",
   "MCTA (Monroe County Transportation Authority)"
  ],
- "RIVER VALLEY TRANSIT AUTHORITY (RVTA)": [
+ "River Valley Transit Authority (RVTA)": [
   "RIVER VALLEY TRANSIT AUTHORITY (RVTA)"
  ],
- "RRTA (Red Rose Transit Authority)": [
+ "Red Rose Transit Authority (RRTA)": [
   "RRTA (Red Rose Transit Authority)"
  ],
- "SOUTH CENTRAL TRANSIT AUTHORITY (SCTA)": [
+ "South Central Transit Authority (SCTA)": [
   "South Central Transit Authority (SCTA)",
   "SOUTH CENTRAL TRANSIT AUTHORITY (SCTA)",
   "SCTA (South Central Transit Authority)"
  ],
- "SEPTA (Southeastern Pennsylvania Transportation Authority)": [
+ "Southeastern Pennsylvania Transportation Authority (SEPTA)": [
   "SEPTA (Southeastern Pennsylvania Transportation Authority)"
  ],
- "SVSS (Shenango Valley Shuttle Service)": [
+ "Shenango Valley Shuttle Service (SVSS)": [
   "SVSS (Shenango Valley Shuttle Service)"
  ],
- "TRANSIT AUTHORITY OF WARREN COUNTY (TAWC)": [
+ "Transit Authority of Warren County (TAWC)": [
   "Warren County, Transit Authority of",
   "TRANSIT AUTHORITY OF WARREN COUNTY (TAWC)",
   "Warren County, Transit Authority of (TAWC)",
@@ -125,10 +121,10 @@
   "Transit Authority of Warren County (TAWC)",
   "Warren County Transit Authority"
  ],
- "VCTO (Venango County Transportation Office)": [
+ "Venango County Transportation Office (VCTO)": [
   "VCTO (Venango County Transportation Office)"
  ],
- "WESTMORELAND COUNTY TRANSIT AUTHORITY (WCTA)": [
+ "Westmoreland County Transit Authority (WCTA)": [
   "WCTA (Westmoreland County Transit Authority*)",
   "Westmoreland County Transit Authority (WCTA)",
   "WESTMORELAND COUNTY TRANSIT AUTHORITY (WCTA)",
@@ -139,92 +135,90 @@
   "Williamsport River Valley Transit (RVT)",
   "Williamsport RVT (River Valley Transit)"
  ],
- "YATA (Central Pennsylvania Transportation Authority)": [
+ "Susquehanna Regional Transportation Authority (SRTA/rabbittransit)": [
   "YATA (York Adams Transportation Authority*)",
   "YATA (York Adams County Transportation Authority*)",
-  "YATA (Central Pennsylvania Transportation Authority)"
- ],
- "YCTA (York County Transportation Authority*)": [
+  "YATA (Central Pennsylvania Transportation Authority)",
   "YCTA (York County Transportation Authority*)",
-  "YCTA (York County Transportation Authority)"
+  "YCTA (York County Transportation Authority)",
+  "Central Pennsylvania Transportation Authority (CPTA)",
+  "CPTA (Central Pennsylvania Transportation Authority)",
+  "SUSQUEHANNA REGIONAL TRANSPORTATION AUTHORITY (SRTA) D.B.A. rabbittransit",
+  "SUSQUEHANNA REGIONAL TRANSPORTATION AUTHORITY (SRTA) D.B.A. RABBITTRANSIT"
  ],
- "BARTA (Berks Area Regional Transportation Authority)": [
+ "Berks Area Regional Transportation Authority (BARTA)": [
   "BARTA (Berks Area Regional Transportation Authority)",
   "BARTA (Berks Area Reading Transportation Authority)"
  ],
- "COUNTY OF LEBANON TRANSIT AUTHORITY (COLT/LT)": [
+ "County of Lebanon Transit Authority (COLT/LT)": [
   "COUNTY OF LEBANON TRANSIT AUTHORITY (COLT/LT)",
   "COLT/LT (County of Lebanon Transit Authority)",
   "County of Lebanon Transit Authority (COLT/LT)",
   "COLT (County of Lebanon Transit Authority)"
  ],
- "COUNTY OF LACKAWANNA TRANSIT SYSTEM (COLTS)": [
+ "County of Lackawanna Transit System (COLTS)": [
   "COUNTY OF LACKAWANNA TRANSIT SYSTEM (COLTS)",
   "County of Lackawanna Transit System (COLTS)",
   "COLTS (County of Lackawanna Transit System)"
  ],
- "LEHIGH AND NORTHAMPTON TRANSPORTATION AUTHORITY (LANTA)": [
+ "Lehigh and Northampton Transportation Authority (LANTA)": [
   "LEHIGH AND NORTHAMPTON TRANSPORTATION AUTHORITY (LANTA)",
   "LANta (Lehigh and Northampton Transportation Authority)",
   "Lehigh and Northampton Transportation Authority (LANTA)",
   "LANTA (Lehigh and Northampton Transportation Authority)"
  ],
- "MID MON VALLEY TRANSIT AUTHORITY (MMVTA)": [
+ "Mid Mon Valley Transit Authority (MMVTA)": [
   "Mid Mon Valley Transit Authority (MMVTA)",
   "MMVTA (Mid Mon Valley Transit Authority)",
   "MID MON VALLEY TRANSIT AUTHORITY (MMVTA)"
  ],
- "NEW CASTLE AREA TRANSIT AUTHORITY (NCATA)": [
+ "New Castle Area Transit Authority (NCATA)": [
   "NEW CASTLE AREA TRANSIT AUTHORITY (NCATA)",
   "New Castle Area Transit Authority (NCATA)",
   "NCATA (New Castle Area Transit Authority)"
  ],
- "PITTSBURGH REGIONAL TRANSIT (PRT)": [
+ "Pittsburgh Regional Transit (PRT)": [
   "Port Authority of Allegheny County (PAAC)",
   "PAAC (Port Authority of Allegheny County)",
   "PITTSBURGH REGIONAL TRANSIT (PRT)",
   "PITTSBURGH REGIONAL TRANSIT"
  ],
- "BEAVER COUNTY TRANSIT AUTHORITY (BCTA)": [
+ "Beaver County Transit Authority (BCTA)": [
   "BEAVER COUNTY TRANSIT AUTHORITY (BCTA)",
   "Beaver County Transit Authority (BCTA)",
   "BCTA (Beaver County Transit Authority*)",
   "BCTA (Beaver County Transit Authority)"
  ],
- "AREA TRANSPORTATION AUTHORITY OF NORTH CENTRAL PA (": [
+ "Area Transportation Authority of North Central PA (ATA)": [
   "ATA (Area Transportation Authority of North Central PA)",
   "Area Transportation Authority of North Central PA (ATA)",
   "AREA TRANSPORTATION AUTHORITY OF NORTH CENTRAL PA (ATA)",
   "AREA TRANSPORTATION AUTHORITY OF NORTH CENTRAL PA ("
  ],
- "MERCER COUNTY REGIONAL COUNCIL OF GOVERNMENTS (MCRCOG-SVSS/MCCT)": [
+ "Mercer County Regional Council of Governments (MCRCOG-SVSS/MCCT)": [
   "Mercer County Regional Council of Governments (MCRCOG)",
   "MERCER COUNTY REGIONAL COUNCIL OF GOVERNMENTS (MCRCOG-SVSS/MCCT)",
   "MCRCOG (Mercer County Regional Council of Governments)"
  ],
- "SUSQUEHANNA REGIONAL TRANSPORTATION AUTHORITY (SRTA) D.B.A. RABBITTRANSIT": [
-  "SUSQUEHANNA REGIONAL TRANSPORTATION AUTHORITY (SRTA) D.B.A. rabbittransit",
-  "SUSQUEHANNA REGIONAL TRANSPORTATION AUTHORITY (SRTA) D.B.A. RABBITTRANSIT"
- ],
- "DuFAST (DuBois, Falls Creek, Sandy Township Joint Transp. Authority)": [
+ "DuBois, Falls Creek, Sandy Township Joint Transp. Authority (DuFAST)": [
   "DuFAST (DuBois, Falls Creek, Sandy Township Joint Transportation Authority)",
   "DuFAST (DuBois, Falls Creek, Sandy Township Joint Transp. Authority)",
   "DuFAST (DuBois, Falls Creek, Sandy Township Joint Transit Authority)",
   "DuFAST (DuBois, Falls Creek , Sandy Township Joint Transportation Authority)"
  ],
- "MID COUNTY TRANSIT AUTHORITY D.B.A. TOWN AND COUNTR TRANSIT (TACT)": [
+ "Mid County Transit Authority/Town and Country Transit (TACT)": [
   "MID COUNTY TRANSIT AUTHORITY D.B.A. TOWN AND COUNTR TRANSIT (TACT)",
   "Mid County Transit Authority (TACT)",
   "MID COUNTY TRANSIT AUTHORITY (TACT)",
   "Mid County Transit Authority",
   "Mid-County Transit"
  ],
- "CENTRE AREA TRANSPORTATION AUTHORITY (CATA)": [
+ "Centre Area Transportation Authority (CATA)": [
   "Centre Area Transportation Authority (CATA)",
   "CENTRE AREA TRANSPORTATION AUTHORITY (CATA)",
   "CATA (Centre Area Transportation Authority)"
  ],
- "CRAWFORD AREA TRANSPORTATION AUTHORITY (CATA)": [
+ "Crawford Area Transportation Authority (CATA)": [
   "CRAWFORD AREA TRANSPORTATION AUTHORITY (CATA)",
   "Crawford Area Transportation Authority (CATA)",
   "CATA (Crawford Area Transportation Authority)"
