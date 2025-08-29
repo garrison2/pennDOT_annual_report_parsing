@@ -60,13 +60,13 @@ def write_to_csv(CSVs):
 
         i = None
         for index in range(len(category_list)):
-            if category_list[index] == category:
+            if category in category_list[index]:
                 i = index
         if i is None:
             i = i_bottom
             i_bottom -= 1
 
-        basename = f'{format_index(i)}-{category.replace("/", "_")}.csv'
+        basename = f'{format_index(i)}-{category_list[i].replace("/", "_")}.csv'
         path = os.path.join(CSV_DIR, basename)
         with open(path, 'w') as file:
             writer = csv.writer(file)
@@ -81,11 +81,13 @@ def make_csvs(data, joined):
     else:
         replace_alias = lambda a: a
 
+    agencies = sorted({ agency for year in data for agency in data[year].keys()})
     for y in range(YEAR_START, YEAR_END + 1):
         year = str(y) + "-" + str(y + 1)[-2:]
 
         if year not in data: continue
-        for agency in data[year]:
+        for agency in agencies:
+            if agency not in data[year]: continue
             canon_name = replace_alias(agency)
             for category in data[year][agency]:
                 CSVs[category] = CSVs.get(category, make_years_list())
@@ -180,7 +182,7 @@ def combine(data):
                 seen.add(agency)
                 break
 
-        with open('joined.json', 'w') as file:
+        with open(JOINED_JSON, 'w') as file:
             json.dump(joined, file, indent=1)
 
     shuffled = dict()
@@ -189,7 +191,7 @@ def combine(data):
         most_recent = max(joined[agency], key=lambda a:max(agency_years[a]))
         shuffled[most_recent] = joined[agency]
 
-    with open('joined.json', 'w') as file:
+    with open(JOINED_JSON, 'w') as file:
         json.dump(shuffled, file, indent=1)
 
     return shuffled
@@ -204,9 +206,13 @@ if __name__ == '__main__':
     with open(PARSED_JSON, 'r') as file:
         data = json.load(file)
 
-    joined = None
     if parsed_args.combine and not parsed_args.no_interact:
         joined = combine(data)
+    elif os.path.exists(JOINED_JSON):
+        with open(JOINED_JSON, 'r') as file:
+            joined = json.load(file)
+    else:
+        joined = None
 
     if not parsed_args.no_save:
         CSVs = make_csvs(data, joined)
